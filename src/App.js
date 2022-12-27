@@ -10,6 +10,7 @@ import SignUpProfessor from './paginas/SignUp_Professor';
 import SignInProfessor from './paginas/SignIn_Professor';
 import Tutorial from './paginas/Tutorial';
 import Homepage from './paginas/Homepage';
+import Location from './components/teste/location'
 //import { BrowserRouter , Routes , Route } from 'react-router-dom';
 //import Tracker from './paginas/TrackerSofia';
 
@@ -19,7 +20,7 @@ function App() {
   return (
     <div className="App">
 
-      <SignUpProfessor/>
+      <Location/>
 
     </div>
   );
