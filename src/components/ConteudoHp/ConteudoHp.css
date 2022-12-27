@@ -1,0 +1,57 @@
+.conteudohomepage{
+    text-align: center;
+}
+
+h1{
+    color: #4D7542;
+    margin-bottom: 1.4em;
+}
+
+p{
+    text-align: left;
+    color: #342f2f;
+    margin-bottom: 1.4em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.espacoultimafrase{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.div2img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.img{
+    max-width: 220px;
+   /* position: absolute;*/
+    margin: auto;
+    text-align: center;
+   /* z-index: 3; */
+}
+
+.fundoverde{
+    z-index: 1.5;
+}
+
+.img2{
+    max-width: 203px;
+    /* position: absolute;*/
+    margin: auto;
+    text-align: center;
+   /* z-index: 3;   */ 
+}
+
+.img3{
+    max-width:278px;
+    /*position: absolute;*/
+    margin: auto;
+    text-align: center;
+   /* z-index: 3;*/
+}

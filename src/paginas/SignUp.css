@@ -1,0 +1,19 @@
+.textalign{
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 2em;
+}
+
+.titulo{
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.espacofim{
+    margin-bottom: 7em;
+}
+.espacoinic{
+    margin-top: 2em;
+
+}

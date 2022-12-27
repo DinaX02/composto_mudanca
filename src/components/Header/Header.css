@@ -1,0 +1,53 @@
+.Headerfundo{
+    background: #4D7542;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    color: white;
+}
+
+.h1first{
+    color:white;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.btnHeader{
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.espacoh3{
+    padding-top: 1.3em;
+}
+
+.layerHeader{
+ /*background-image: url('./layer_header.svg');  antigoo*/
+  /*background-image: url('./layered_Header_new.svg');*/
+  background-image: url('./layered_Header_newagain.svg');
+} 
+
+.spacer{
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btnHomePage{
+    padding: 0.5rem 1rem;
+    color: #4D7542;
+    background: #BEE1B2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.espacobtns{
+margin-left: 0.8em;
+}
