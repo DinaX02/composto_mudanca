@@ -24,6 +24,7 @@ const ConteudoHp = () => {
 
         <div className="div2img">
           <img className="img" src={img1}/>
+          
         </div>
 
       </section>

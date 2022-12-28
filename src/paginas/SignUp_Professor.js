@@ -50,7 +50,6 @@ const SignUpProfessor = () => {
           Regista-te como Professor
         </button>
       </div>
-      <Footer />
     </div>
   );
 };

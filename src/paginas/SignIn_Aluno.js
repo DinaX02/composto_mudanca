@@ -25,7 +25,6 @@ const SignInAluno = () => {
           Sign In
         </button>
       </div>
-      <Footer/>
     </div>
   );
 };

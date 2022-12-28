@@ -51,7 +51,7 @@ const SignUpAluno = () => {
           Regista-te como Aluno
         </button>
       </div>
-      <Footer />
+
     </div>
   );
 };

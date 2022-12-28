@@ -25,7 +25,6 @@ const SignInProfessor = () => {
           Sign In
         </button>
       </div>
-      <Footer/>
     </div>
   );
 };

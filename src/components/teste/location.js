@@ -11,6 +11,7 @@ const Location = ()=> {
     const [lat, setLat] = useState(24.45677614934833);
 
     return(
+
         <div>
         <h1>Location</h1>
         <Map mapboxAccessToken="pk.eyJ1Ijoic2J2b2ciLCJhIjoiY2xjNnN5Z2VvMHduODN2dzM3ZjQzejBvZyJ9.p41n5ixPmhFNht_ygizI1Q"
@@ -31,7 +32,7 @@ const Location = ()=> {
 
         <Marker
 
-            Longitude={lng}
+            Longitude = {lng}
             Latitude = {lat}
         />
 
@@ -40,6 +41,7 @@ const Location = ()=> {
         </Map>
 
         </div>
+
     )
 }
 
