@@ -1,8 +1,9 @@
 import './App.css';
-//import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 //import Header from './components/Header/Header';
 //import ConteudoHp from './components/ConteudoHp/ConteudoHp';
 //import Footer from './components/Footer/Footer';
+import About from './paginas/About';
 import SignUp from './paginas/SignUp';
 import SignUpAluno from './paginas/SignUp_Aluno';
 import SignInAluno from './paginas/SignIn_Aluno';
@@ -11,6 +12,8 @@ import SignInProfessor from './paginas/SignIn_Professor';
 import Tutorial from './paginas/Tutorial';
 import Homepage from './paginas/Homepage';
 import Location from './components/teste/location'
+import Service from './paginas/Service';
+
 //import { BrowserRouter , Routes , Route } from 'react-router-dom';
 //import Tracker from './paginas/TrackerSofia';
 
@@ -19,8 +22,8 @@ import Location from './components/teste/location'
 function App() {
   return (
     <div className="App">
-
-      <SignInAluno/>
+<Navbar/>
+      <Tutorial/>
 
     </div>
   );

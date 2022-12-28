@@ -98,4 +98,39 @@ input[type=text], select{
     margin-bottom: 0;
   }
 
+  .h3about{
+    text-align: center;
+    margin-bottom: 2em;
+    color: #4D7542;
+  }
   
+.espacofooterabout{
+  margin-bottom: 5em;
+}
+
+.h1about{
+  margin-top: 3em;
+}
+
+.paragrafowidth{
+  width: 90%;
+}
+
+.textoclean{
+  text-align: justify !important;
+}
+
+.containerrrdiv{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: center !important;
+margin: auto;
+
+}
+
+.criadores{
+  margin-bottom: 3em;
+}
