@@ -21,6 +21,8 @@ export default function Tutorial(){
   }
 
   return (
+    <div>
+ <Navbar/>
     <div className="divtutorial">
         <h1 className="titulotutorial">Como Depositar os teus resíduos</h1>
 
@@ -49,7 +51,7 @@ export default function Tutorial(){
             </div>
 
     </div>
-
+    </div>
   );
 };
 

@@ -13,8 +13,7 @@ import Tutorial from './paginas/Tutorial';
 import Homepage from './paginas/Homepage';
 import Location from './components/teste/location'
 import Service from './paginas/Service';
-
-//import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import Tracker from './paginas/TrackerSofia';
 
 
@@ -22,8 +21,24 @@ import Service from './paginas/Service';
 function App() {
   return (
     <div className="App">
-<Navbar/>
-      <Tutorial/>
+
+      <Router>
+
+        <Routes>
+
+          <Route path='/' element={ <Homepage/>}/>
+          <Route path='/about' element={ <About/>}/>
+          <Route path='/service' element={ <Service/>}/>
+          <Route path='/signup' element={ <SignUp/>}/>
+          <Route path='/signupprofessor' element={<SignUpProfessor/>}/>
+          <Route path='/signupaluno' element={<SignUpAluno/>}/>
+          <Route path='/signinaluno' element={<SignInAluno/>}/>
+          <Route path='/signinprofessor' element={<SignInProfessor/>}/>
+          
+        </Routes>
+
+      </Router>
+     
 
     </div>
   );

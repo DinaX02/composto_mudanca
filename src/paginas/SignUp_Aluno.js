@@ -12,8 +12,7 @@ const SignUpAluno = () => {
       <p className="textaligninputs corbranca">
         Já tens conta?
         <strong>
-          <a className="corbranca" href="/">
-            {" "}
+          <a className="corbranca" href="/signinaluno">
             Inicie sessão aqui
           </a>
         </strong>
