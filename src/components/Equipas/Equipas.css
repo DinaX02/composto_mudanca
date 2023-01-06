@@ -1,0 +1,24 @@
+.CompEquipas{
+    text-align: center;
+    background-color: #bee1b2;
+}
+#equipa1, #equipa2, #equipa3{
+width: 10em;
+height:10em;
+margin-right:1em;
+margin-bottom: 1.5em;
+}
+
+#equipa1{
+background-color: lightpink;
+}
+
+#equipa2{
+background-color: lightgreen;
+
+}
+
+#equipa3{
+background-color: lightblue;
+
+}
