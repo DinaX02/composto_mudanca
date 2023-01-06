@@ -1,0 +1,126 @@
+*{
+    
+    background-color:#3d5e34;
+    overflow-x: hidden;
+}
+
+.MenuComp{
+  background-color: transparent;
+  padding:0;
+  background-image: url("layered-wav.svg");
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  background-size: cover;
+}
+button .avatar{
+  margin:0;
+ 
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 100px;
+    margin:1em;
+    height: 100px;
+    background-color: white;
+}
+
+#settings{
+  background-color: transparent;
+  margin-right:1em;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.flex-parent-element {
+  background-color: transparent;
+
+  justify-content: center;
+    display: flex;
+    margin:auto;
+    width: 15em;
+  }
+  
+
+#navbary{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: transparent;}
+
+#diretamente{
+  background-color: transparent;
+  color:white;
+  font-weight: 300;
+  margin-top:1.5em;
+  margin-bottom: 1.5em;
+  display: block;
+align-content: center;
+text-align: center;
+}
+
+  .flex-child-element {
+    background-color: transparent;
+
+   align-content: center;
+    border: 2px solid transparent;
+    padding: 0.2em;
+  }
+
+  #settings div{
+    background-color: transparent;
+
+  }
+  
+ p{
+    color: white;
+ } 
+  .flex-child-element:first-child {
+    background-color: transparent;
+
+    margin-right: 0px;
+  }
+
+#Tracker, #Turnos, #Equipas, #Perfil {
+  width:5em;
+  height:5em;
+  margin:0.1em;
+}
+
+
+div.flex-parent-element div{
+  background-color: transparent;
+}
+
+img{
+    background-color: white;
+    padding:0.6em;
+    border-radius:20px;
+    width: 6em;
+}
+
+
+#settings button{
+  display: block;
+  color:white;
+  padding:0;
+  width: 1.5em;
+  height: 0.1em;
+  margin:0.2em;
+}
+
+
+  button{
+    border-color:transparent;
+    background-color: white;
+    border-radius: 20px;
+    margin:4px;
+  }
+
+  button img{
+    width: 4em;
+    padding:0;
+    margin:0;
+  }
