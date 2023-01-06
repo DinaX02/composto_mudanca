@@ -10,7 +10,7 @@ const Footer = () => {
 
             <p className="txtFooter">
               Projeto Final - Tecnologias Avançadas Client-Side : Dinis Antunes
-              102802 e Sofia Bermudez nmec
+              102802 e Sofia Bermudez 103242
             </p>
 
 

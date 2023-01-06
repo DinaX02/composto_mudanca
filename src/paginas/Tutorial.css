@@ -119,3 +119,21 @@ margin: 0 auto;
 
 }
 }
+
+.voltartutorial{
+  background-color: #BEE1B2;
+  border-radius: 43px;
+  padding-left: 30px ;
+  color:#4D7542;
+  font-weight: bold;
+  padding-right: 30px;
+  margin-top:1em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: none !important;
+}
+
+.btnvoltarfundo{
+  background: #4D7542;
+}

@@ -1,0 +1,149 @@
+.voltar{
+    background-color: #4D7542;
+    border-radius: 43px;
+    padding: 1em;
+    margin-top: 3em;
+    color:white;
+    font-weight: bold;  
+    margin-left: 1em;
+    border: none !important;
+}
+.reduzirespacoppp{
+margin-top: -2em;
+}
+.trackeralinharcentro{
+    text-align: center;
+}
+
+.titulostracker{
+    margin-top: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.imgtrackerresponsive{
+    width: 232px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+ 
+.divimgtrackerxd{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.h7headertracker{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+#description{
+    margin-top:1em;
+    border-color: white;
+    width:60%;
+    background-color: white;
+    color: #4D7542;
+
+}
+.hiperlitracker{
+    text-decoration: none;
+    color: #4D7542;
+    font-weight: 800;
+}
+
+.brevedescricaotracker{
+    margin-top: 1em;
+    font-size: 19px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.frasesobretutorialTracker{
+text-align: center !important;
+}
+
+.espacosubmeter{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btnSubmeterTrackerrr{
+    padding: 0.5rem 1rem;
+    color: white;
+    background: #4D7542;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+
+/*
+
+
+#Currentlocation{
+    font-weight: 500;
+}
+
+p{
+    font-size:1em;
+    color:#4D7542;
+    text-align: center;
+    align-content: center;
+    margin:auto;
+   
+}
+
+
+select{
+    background-color: white;
+    color:#4D7542;
+    font-weight:400;
+
+
+}
+
+label[for=description]
+{
+   margin-bottom:2em;
+}
+
+h7{
+    color:#4D7542;
+    background-color: transparent;
+}
+label {
+    color:#4D7542;
+    background-color: transparent;
+}
+
+
+
+
+img{
+    background-color: transparent;
+}
+
+input{
+    background-color: white;
+    padding: 0.5em;
+    margin:0.5em;
+    border-radius:10px;
+    color:#4D7542;
+    border-color:#bee1b2;
+
+}
+
+
+
+button#Tracker, button#Equipas , button#Turnos, button#Perfil{
+    padding: 0;
+}
+*/
