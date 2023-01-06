@@ -7,8 +7,8 @@ const Header = () => {
       <h1 className="h1first">Composto de Mudança</h1>
       <h3 className="espacoh3">Começe como...</h3>
 
-      <button className="btnHeader btnHomePage" type="button">Professor</button>
-      <button className="btnHeader btnHomePage espacobtns" type="button">Aluno</button>
+      <a href="/signupprofessor"><button className="btnHeader btnHomePage" type="button">Professor</button></a>
+      <a href="/signupaluno"><button className="btnHeader btnHomePage espacobtns" type="button">Aluno</button></a>
 
       </div>
       <div className="spacer layerHeader"></div>

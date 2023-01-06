@@ -12,8 +12,7 @@ const SignUpAluno = () => {
       <p className="textaligninputs corbranca">
         Já tens conta?
         <strong>
-          <a className="corbranca" href="/">
-            {" "}
+          <a className="corbranca" href="/signinaluno">
             Inicie sessão aqui
           </a>
         </strong>
@@ -47,9 +46,9 @@ const SignUpAluno = () => {
         <button className="btnHsignup btnsignup localizacaobtn" type="button">Escolha a sua localização</button>
       </div>
       <div className="textaligninputs">
-        <button className="btnHsignup btnsignup" type="button">
+        <a href="/tracker"><button className="btnHsignup btnsignup" type="button">
           Regista-te como Aluno
-        </button>
+        </button></a>
       </div>
 
     </div>

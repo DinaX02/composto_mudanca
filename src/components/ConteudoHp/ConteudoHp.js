@@ -10,7 +10,7 @@ const ConteudoHp = () => {
     <div className="conteudohomepage">
       <section>
         <h1>O que é compostagem?</h1>
-        <p>
+        <p className="p">
           Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
           eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
           esse suscipit maxime dolores? Placeat, maxime quas labore facere
@@ -30,7 +30,7 @@ const ConteudoHp = () => {
       </section>
       <section>
         <h1>Benefícios da compostagem</h1>
-        <p>
+        <p className="p">
           Fuga repudiandae rerum laborum odit repellendus possimus, aut omnis
           velit, tempora pariatur ullam quo fugiat unde cumque neque dolorem
           quod corporis nam, perferendis dolores blanditiis! Soluta officia quam
@@ -45,7 +45,7 @@ const ConteudoHp = () => {
         <h1>
           O que é a Compostagem Comunitária
         </h1>
-        <p>
+        <p className="p">
           Ad sit eos omnis accusantium quasi perspiciatis inventore aliquam.
           Quisquam, rerum expedita? Et, recusandae aliquam. Ratione dicta error,
           vitae soluta iste consectetur itaque voluptatem fugit ipsam cum,
