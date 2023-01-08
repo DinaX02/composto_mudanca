@@ -52,19 +52,21 @@ const SignUpProfessor = () => {
           name="lastname"
           placeholder="Apelido..."
         />
+<p></p>
 
-        <input type="email"
+        <input  type="email"
                id="email"
                name="email"
                placeholder="Introduza o seu e-mail..."
                value={email}
                onChange={(e)=>setEmail(e.target.value)}
         />
+<p></p>
 
         <input
           type="password"
-          id="passwordAluno"
-          name="passwordAluno"
+
+          name="passwordProf"
           placeholder="Introduza a sua palavra-passe..."
           value={password}
           onChange={(e)=>setPassword(e.target.value)}

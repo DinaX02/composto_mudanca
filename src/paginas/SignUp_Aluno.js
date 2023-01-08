@@ -32,7 +32,10 @@ const SignUpAluno = () => {
           placeholder="Apelido..."
         />
 
-        <input type="text" id="email" name="email" placeholder="Email..." />
+        <input type="text"
+               id="email"
+               name="email"
+               placeholder="Email..." />
 
         <input
           type="text"

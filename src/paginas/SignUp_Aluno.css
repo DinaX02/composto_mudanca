@@ -47,7 +47,7 @@ background: #4D7542;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
 }
-input[type=text], select{
+input[type=text], input[type=password], input[type=email] select{
     width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -57,9 +57,20 @@ input[type=text], select{
     box-sizing: border-box;
   }
 
+input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
   @media only screen and (max-width: 600px){
-    input[type=text], select{
-        width: 80%;
+    input[type=text], input[type=password],input[type=email], select{
+        width: 90%;
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
@@ -70,7 +81,7 @@ input[type=text], select{
   }
 
   @media only screen and (max-width: 320px){
-    input[type=text], select{
+    input[type=text],input[type=email],input[type=password] select{
         width: 90%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -80,6 +91,8 @@ input[type=text], select{
         box-sizing: border-box;
       } 
   }
+
+
 
   .divESp {
     /*border-radius: 5px;*/
