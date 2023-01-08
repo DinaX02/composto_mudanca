@@ -1,6 +1,6 @@
 import React from "react";
 import "./Atividade.css";
-import { BigHead } from '@bigheads/core'
+
 
 
 
@@ -77,7 +77,7 @@ const Atividade = () => {
         </div>
         <p className="log"> João colocou bananas no 31/12 Às 13:43</p></div>
     </div>
-    <button>Regista a tua mais recente atividade</button>
+    <a href="/tracker"><button>Regista a tua mais recente atividade</button></a>
     </div>
   );
 };

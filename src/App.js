@@ -1,5 +1,3 @@
-import AuthDetails from "./components/auth/AuthDetails";
-
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 //import Header from './components/Header/Header';
@@ -15,14 +13,16 @@ import Tutorial from './paginas/Tutorial';
 import Homepage from './paginas/Homepage';
 import Location from './components/teste/location'
 import Service from './paginas/Service';
+import Feed from './paginas/Feed';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Tracker from './paginas/Tracker';
+import Mapp from './paginas/Testemap';
 import localizacao from "./paginas/localizacao.json";
-import ReactMapGl from 'react-map-gl';
-import Signin from "./components/auth/Signin";
-import Signup from "./components/auth/Signup";
+import ReactMapGL from 'react-map-gl'; 
+import 'mapbox-gl/dist/mapbox-gl.css';
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
+
 
 function App() {
   return (
@@ -42,11 +42,12 @@ function App() {
           <Route path='/signinprofessor' element={<SignInProfessor/>}/>
           <Route path='/tracker' element={<Tracker/>}/>
           <Route path='/tutorial' element={<Tutorial/>}/>
-
+          <Route path='/feed' element={<Feed/>}/>
+          <Route path='/location' element = {<Mapp/>}/>
         </Routes>
 
       </Router>
-
+     
 
     </div>
   );

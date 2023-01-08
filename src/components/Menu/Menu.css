@@ -1,18 +1,22 @@
-*{
+/*{
     
     background-color:#3d5e34;
     overflow-x: hidden;
 }
+*/
 
 .MenuComp{
   background-color: transparent;
   padding:0;
+  background-color:#3d5e34;
+  overflow-x: hidden;
   background-image: url("layered-wav.svg");
   background-repeat: no-repeat;
   
   background-position: center;
   background-size: cover;
 }
+
 button .avatar{
   margin:0;
  
@@ -48,7 +52,9 @@ button .avatar{
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: transparent;}
+background-color: transparent;
+
+}
 
 #diretamente{
   background-color: transparent;
@@ -94,7 +100,7 @@ div.flex-parent-element div{
   background-color: transparent;
 }
 
-img{
+.imgMenu{
     background-color: white;
     padding:0.6em;
     border-radius:20px;

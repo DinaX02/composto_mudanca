@@ -46,7 +46,7 @@ const SignUpAluno = () => {
         <button className="btnHsignup btnsignup localizacaobtn" type="button">Escolha a sua localização</button>
       </div>
       <div className="textaligninputs">
-        <a href="/tracker"><button className="btnHsignup btnsignup" type="button">
+        <a href="/feed"><button className="btnHsignup btnsignup" type="button">
           Regista-te como Aluno
         </button></a>
       </div>
