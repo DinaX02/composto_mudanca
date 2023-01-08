@@ -1,0 +1,20 @@
+[{
+    "location":"Escola Secundária José Estêvão, Avenida 25 de Abril, 3811-901 Aveiro, Portugal",
+    "cidade":"Aveiro",
+    "nomeEscola":"escola secundária José Estêvão",
+    "coordinates":[40.6381253900000,-8.6478564530000]
+   },
+   {
+    "location":"Escola Secundária Doutor António Granjo, Rua de Fernão Lopes, 5400-244 Chaves, Portugal",
+    "cidade":"Chaves",
+    "nomeEscola":"escola secundária Doutor António Granjo",
+    "coordinates":[41.744749657864155,-7.483052613762696]
+   },
+   {
+    "location":"Escola Secundária de Peniche, Avenida 25 de Abril, 2520-324 Peniche, Portugal",
+    "cidade":"Peniche",
+    "nomeEscola":"escola secundária Peniche",
+    "coordinates":[39.36375,-9.378778]
+   }
+
+]

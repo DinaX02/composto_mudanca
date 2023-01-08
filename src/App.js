@@ -16,6 +16,7 @@ import Service from './paginas/Service';
 import Feed from './paginas/Feed';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Tracker from './paginas/Tracker';
+import Mapp from './paginas/Testemap';
 import localizacao from "./paginas/localizacao.json";
 import ReactMapGL from 'react-map-gl'; 
 import 'mapbox-gl/dist/mapbox-gl.css';
@@ -42,7 +43,7 @@ function App() {
           <Route path='/tracker' element={<Tracker/>}/>
           <Route path='/tutorial' element={<Tutorial/>}/>
           <Route path='/feed' element={<Feed/>}/>
-          <Route path='/location' element = {<Location/>}/>
+          <Route path='/location' element = {<Mapp/>}/>
         </Routes>
 
       </Router>
