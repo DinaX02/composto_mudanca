@@ -17,16 +17,14 @@ const About = () => {
     <h1 className="h3about h1about">Porquê criar este projeto?</h1>
         <div className="paragrafowidth containerrrdiv">
        
-        <p className="espacofooterabout textoclean"> Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse suscipit maxime dolores? Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          ess.
-         .</p>
+        <p className="espacofooterabout textoclean"> Este projeto nasceu de um concurso de medidas sustentáveis organizado pelo projeto Mobi Green da Generation Earth no ano de 2020.
+            Os projetos vencedores foram alunos de secundário da cidade de Chaves que desenvolveram um projeto de compostagem comunitária em duas escolas secundárias da António Granjo e Fernão de Magalhães.
+
+            Compostagem Comunitária é um processo que envolve muitos stakeholders e por isso pode implicar vários factores para que corra bem.
+
+
+         </p>
+
      
         </div>
 

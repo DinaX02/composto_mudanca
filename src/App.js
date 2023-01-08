@@ -1,3 +1,5 @@
+import AuthDetails from "./components/auth/AuthDetails";
+
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 //import Header from './components/Header/Header';
@@ -16,10 +18,11 @@ import Service from './paginas/Service';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Tracker from './paginas/Tracker';
 import localizacao from "./paginas/localizacao.json";
-
+import ReactMapGl from 'react-map-gl';
+import Signin from "./components/auth/Signin";
+import Signup from "./components/auth/Signup";
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
-
 
 function App() {
   return (
@@ -43,7 +46,7 @@ function App() {
         </Routes>
 
       </Router>
-     
+
 
     </div>
   );

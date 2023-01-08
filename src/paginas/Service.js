@@ -1,3 +1,4 @@
+
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
@@ -17,20 +18,7 @@ const Service = () => {
     </div>
         <div className="paragrafowidth containerrrdiv">
         
-        <p className="espacofooterabout  textoclean"> Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse suscipit maxime dolores? Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          ess.
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          ess.</p>
+        <p className="espacofooterabout  textoclean"> Oferecemos uma aplicação para monitorizar e rastrear a utilização do teu compostor comunitário. Para além disso, esta aplicação visa apoiar comunidades escolares ou pedagógicas que queiram introduzir a compostagem como parte da sua educação ambiental. Com features como gestão de turnos,  gestão de equipas, um Tracker único de compostagem, secção de aprendizagem e ainda componentes de gamificação. </p>
         </div>
         </div>
         <div>

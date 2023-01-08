@@ -11,15 +11,7 @@ const ConteudoHp = () => {
       <section>
         <h1>O que é compostagem?</h1>
         <p className="p">
-          Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse suscipit maxime dolores? Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse Placeat, maxime quas labore facere
-          molestias nam Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          ess.
+          Compostagem é o processo de biodegradação natural da matéria orgânica. Em outros termos, é a reciclagem dos resíduos orgânicos. O produto final deste processo é o adubo orgânico e o biofertilizante, sendo que este pode ser coletado e utilizado antes mesmo de concluída a compostagem.
         </p>
 
         <div className="div2img">
@@ -31,10 +23,9 @@ const ConteudoHp = () => {
       <section>
         <h1>Benefícios da compostagem</h1>
         <p className="p">
-          Fuga repudiandae rerum laborum odit repellendus possimus, aut omnis
-          velit, tempora pariatur ullam quo fugiat unde cumque neque dolorem
-          quod corporis nam, perferendis dolores blanditiis! Soluta officia quam
-          ex enim?
+          A compostagem é a forma de desviar os resíduos orgânicos dos aterros sanitários e lixões, onde a  degradação ocorre de forma anaeróbia. Quando estes resíduos, que correspondem a cerca de 50% dos resíduos sólidos urbanos, são degradados sem a presença de oxigênio e misturados com outros resíduos e com rejeitos, são liberados gases do efeito estufa, como o gás metano.
+
+          Aproximadamente 90% das emissões de gás metano são reduzidas quando os resíduos orgânicos são compostados em vez de serem encaminhados para o aterro sanitário ou lixão. Assim, a compostagem é uma importante ferramenta de combate às mudanças climáticas.
         </p>
 
         <div className="div2img">
@@ -46,10 +37,7 @@ const ConteudoHp = () => {
           O que é a Compostagem Comunitária
         </h1>
         <p className="p">
-          Ad sit eos omnis accusantium quasi perspiciatis inventore aliquam.
-          Quisquam, rerum expedita? Et, recusandae aliquam. Ratione dicta error,
-          vitae soluta iste consectetur itaque voluptatem fugit ipsam cum,
-          accusantium illum quod.
+          A compostagem comunitária é aquela feita por pequenas comunidades, as quais se organizam coletivamente e compartilham a responsabilidade pelos processos envolvidos na realização da compostagem e seus ganhos, desde a coleta dos resíduos até a distribuição e uso do húmus produzido.
         </p>
 
         <div className="div2img">

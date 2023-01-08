@@ -1,8 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "./SignUp_Aluno.css";
+
+
 const SignUpProfessor = () => {
+    const [viewport, setViewport] = useState({
+        latitude:41.744749657864155,
+        longitude:-7.483052613762696,
+        zoom:10,
+        width: '100vw',
+        height: '100vh'
+    })
   return (
     <div className="fundosign">
       <Navbar />
@@ -40,10 +49,11 @@ const SignUpProfessor = () => {
           placeholder="Password..."
         />
         <div className="divescolhacid">
-        <label className="escolahcidade" for="country"><strong>Escolha Cidade</strong></label>
+        <label className="escolahcidade" ><strong>Escolha Cidade</strong></label>
         </div>
         <button className="btnHsignup btnsignup localizacaobtn" type="button">Escolha a sua localização</button>
       </div>
+
       <div className="textaligninputs">
         <button className="btnHsignup btnsignup" type="button">
           Regista-te como Professor
