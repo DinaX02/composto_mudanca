@@ -7,7 +7,7 @@ const Tracker = () => {
     <div>
       <Navbar />
       <div>
-        <button className="voltar"> Voltar</button>
+        <a href="/feed"><button className="voltar"> Voltar</button></a>
       </div>
       <div className="trackeralinharcentro">
         <h1 className="titulostracker">Tracker</h1>
@@ -29,7 +29,7 @@ const Tracker = () => {
           </p>
           <br></br>
           <br></br>
-          <p className="reduzirespacoppp"> Não é a tua localização?<a className="hiperlitracker" href="/"> Muda aqui</a></p>
+          <p className="reduzirespacoppp"> Não é a tua localização?<a className="hiperlitracker" href="/location"> Muda aqui</a></p>
           <br></br>
           <br></br>
           <div className="brevedescricaotracker">

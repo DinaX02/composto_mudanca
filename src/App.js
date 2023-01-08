@@ -13,10 +13,12 @@ import Tutorial from './paginas/Tutorial';
 import Homepage from './paginas/Homepage';
 import Location from './components/teste/location'
 import Service from './paginas/Service';
+import Feed from './paginas/Feed';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Tracker from './paginas/Tracker';
 import localizacao from "./paginas/localizacao.json";
-
+import ReactMapGL from 'react-map-gl'; 
+import 'mapbox-gl/dist/mapbox-gl.css';
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
@@ -39,7 +41,8 @@ function App() {
           <Route path='/signinprofessor' element={<SignInProfessor/>}/>
           <Route path='/tracker' element={<Tracker/>}/>
           <Route path='/tutorial' element={<Tutorial/>}/>
-
+          <Route path='/feed' element={<Feed/>}/>
+          <Route path='/location' element = {<Location/>}/>
         </Routes>
 
       </Router>
