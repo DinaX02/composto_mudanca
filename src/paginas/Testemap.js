@@ -1,75 +1,104 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import mapboxgl, { Marker } from 'mapbox-gl'
-import localizacaoteste from './localizacaoteste.json'
+import React from "react";
+import ReactDOM from "react-dom";
+import mapboxgl, { Marker } from "mapbox-gl";
+import localizacaoteste from "./localizacaoteste.json";
+import './Tutorial.css'
+import Navbar from "../components/Navbar/Navbar";
 
 const localizacaoEscolas = localizacaoteste;
 
 console.log(localizacaoteste[0].coordinates);
+console.log(localizacaoteste[1].coordinates);
+console.log(localizacaoteste[2].coordinates);
 
-mapboxgl.accessToken='pk.eyJ1IjoiZGluaXMyNyIsImEiOiJjbGNtOWs4eWsyMDBqM3ZxdXI3ZHkzN3dyIn0.D_BcBthJi3bM0l6nHGPNRw'
+mapboxgl.accessToken =
+  "pk.eyJ1IjoiZGluaXMyNyIsImEiOiJjbGNtOWs4eWsyMDBqM3ZxdXI3ZHkzN3dyIn0.D_BcBthJi3bM0l6nHGPNRw";
 
-const data = [{
-    "location":"Escola Secundária José Estêvão, Avenida 25 de Abril, 3811-901 Aveiro, Portugal",
-    "cidade":"Aveiro",
-    "nomeEscola":"escola secundária José Estêvão",
-    "coordinates":[40.6381253900000,-8.6478564530000]
-   },
-   {
-    "location":"Escola Secundária Doutor António Granjo, Rua de Fernão Lopes, 5400-244 Chaves, Portugal",
-    "cidade":"Chaves",
-    "nomeEscola":"escola secundária Doutor António Granjo",
-    "coordinates":[41.744749657864155,-7.483052613762696]
-   },
-   {
-"location":"Escola Secundária de Peniche, Avenida 25 de Abril, 2520-324 Peniche, Portugal",
-    "cidade":"Peniche",
-    "nomeEscola":"escola secundária Peniche",
-    "coordinates":[39.36375,-9.378778]
-   }
+class Mapp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      lng: -8.1353519,
+      lat: 39.6621648,
+      zoom: 5,
+    };
+  }
 
-]
+  componentDidMount() {
+    const map = new mapboxgl.Map({
+      container: this.mapContainer,
+      style: "mapbox://styles/mapbox/streets-v11", //default
+      center: [this.state.lng, this.state.lat],
+      zoom: this.state.zoom,
+    });
 
-class Mapp extends React.Component{
+    var marker1 = new mapboxgl.Marker().setLngLat([...localizacaoteste[0].coordinates])
+    .setPopup(new mapboxgl.Popup().setHTML(`<h4> ${localizacaoteste[0].cidade}<br><br>${localizacaoteste[0].location}</h4><button class="corbrancamapbtn">Escolha em baixo<button/>`))
+    .addTo(map);
 
-    constructor(props){
-        super(props);
-        this.state = {
-            lng:-8.1353519,
-            lat:39.6621648,
-            zoom:6
-        }
-    }
+    console.log(marker1)
 
-    componentDidMount(){
-        const map = new mapboxgl.Map({
-            container: this.mapContainer,
-            style: 'mapbox://styles/mapbox/streets-v11', //default
-            center: [this.state.lng, this.state.lat],
-            zoom: this.state.zoom
-        })
+    var marker2 = new mapboxgl.Marker().setLngLat([...localizacaoteste[1].coordinates])
+    .setPopup(new mapboxgl.Popup().setHTML(`<h4> ${localizacaoteste[1].cidade}<br><br>${localizacaoteste[1].location}</h4><button class="corbrancamapbtn">Escolha em baixo<button/>`))
+    .addTo(map);
 
-        data.forEach((location)=>{
-            console.log(location);
-            var marker = new mapboxgl.Marker()
-                .setLngLat([40.6381253900000,-8.6478564530000])
-                .addTo(map);
-            console.log(marker);
-            
-        })
- 
-    }
+    console.log(marker2)
 
+    var marker3 = new mapboxgl.Marker().setLngLat([...localizacaoteste[2].coordinates])
+    .setPopup(new mapboxgl.Popup().setHTML(`<h4> ${localizacaoteste[2].cidade}<br><br>${localizacaoteste[2].location}</h4><button class="corbrancamapbtn">Escolha em baixo<button/>`))
+    .addTo(map);
 
-    render(){
-        return(
-            <div>
-                <div ref={el => this.mapContainer= el}style={{width:'100%',height:'100vh'}}>
+    console.log(marker3)
 
-                </div>
-            </div>
-        )
-    }
+    //  console.log(marker);
+
+    // ...localizacaoteste[0].coordinates - cordenadas aveiro
+    //...localizacaoteste[1].coordinates  -cordenadas chaves
+    // ...localizacaoteste[2].coordinates - cordenadas peniche
+  }
+
+  render() {
+    return (
+      <div className="fundoloc">
+        <Navbar/>
+
+    
+
+        <br></br>
+        <div className="espacotoploc">
+            <div className=" btnvoltarlocationMAPAAA">
+        <a href='/tracker'><button className="voltartutorial">Voltar</button></a>
+        </div>
+          <h1 className="corloc">Selecione a sua localização</h1>
+        </div>
+
+        <div className="enquadarcentromapa"
+          ref={(el) => (this.mapContainer = el)}
+          style={{ width: "60%", height: "80vh" }}
+        ></div>
+ <div className="espacotopmapa">
+          <label className="escolahcidade">
+            <strong>Escolha Cidade</strong>
+          </label>
+          <br></br>
+          <select id="cidade" name="cidade" placeholder="Escolha cidade">
+            <option value="aveiro">Aveiro</option>
+            <option value="chaves">Chaves</option>
+            <option value="peniche">Peniche</option>
+          </select>
+        </div>
+
+        <div className="fundoverdeeeeeeemapa">
+          <a href="/tracker">
+            <button className="btnsubmterMAPAAA" type="button">
+              Submeter
+            </button>
+          </a>
+        </div>
+
+      </div>
+    );
+  }
 }
 
 export default Mapp;

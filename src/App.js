@@ -20,8 +20,8 @@ import Mapp from './paginas/Testemap';
 import localizacao from "./paginas/localizacao.json";
 import ReactMapGL from 'react-map-gl'; 
 import 'mapbox-gl/dist/mapbox-gl.css';
-const localizacaoEscolas = localizacao;
-console.log(localizacaoEscolas.Aveiro);
+//const localizacaoEscolas = localizacao;
+//console.log(localizacaoEscolas.Aveiro);
 
 
 function App() {

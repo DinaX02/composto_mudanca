@@ -25,7 +25,7 @@ export default function Tutorial(){
  <Navbar/>
 <div className='btnvoltarfundo'>
     <a href='/tracker'><button className="voltartutorial">Voltar</button></a>
-    </div>
+    </div> 
     <div className="divtutorial">
         <h1 className="titulotutorial">Como Depositar os teus resíduos</h1>
 
