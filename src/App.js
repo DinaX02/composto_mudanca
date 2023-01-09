@@ -18,6 +18,8 @@ import Mapp from './paginas/Testemap';
 import localizacao from "./paginas/localizacao.json";
 import ReactMapGL from 'react-map-gl'; 
 import 'mapbox-gl/dist/mapbox-gl.css';
+//const localizacaoEscolas = localizacao;
+//console.log(localizacaoEscolas.Aveiro);
 import AuthDetails from "./components/auth/AuthDetails";
 import SignIn_Professor from "./paginas/SignIn_Professor";
 import SignUp_Professor from "./paginas/SignUp_Professor";
@@ -33,14 +35,15 @@ function App() {
       <Router>
 
         <Routes>
+
           <Route path='/' element={ <Homepage/>}/>
           <Route path='/about' element={ <About/>}/>
           <Route path='/service' element={ <Service/>}/>
           <Route path='/signup' element={ <SignUp/>}/>
-          <Route path='/signupprofessor' element={<SignUp_Professor/>}/>
+          <Route path='/signupprofessor' element={<SignUpProfessor/>}/>
           <Route path='/signupaluno' element={<SignUpAluno/>}/>
           <Route path='/signinaluno' element={<SignInAluno/>}/>
-          <Route path='/signinprofessor' element={<SignIn_Professor/>}/>
+          <Route path='/signinprofessor' element={<SignInProfessor/>}/>
           <Route path='/tracker' element={<Tracker/>}/>
           <Route path='/tutorial' element={<Tutorial/>}/>
           <Route path='/feed' element={<Feed/>}/>
