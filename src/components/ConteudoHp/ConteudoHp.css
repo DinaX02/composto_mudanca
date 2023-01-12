@@ -55,3 +55,17 @@ h1{
     text-align: center;
    /* z-index: 3;*/
 }
+
+.sectionajuste{
+    margin: auto;
+    width: 80%;
+}
+
+@media  (max-width: 600px) {
+    .sectionajuste{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+
