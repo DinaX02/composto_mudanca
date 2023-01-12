@@ -21,6 +21,9 @@ margin-top: -2em;
     margin-bottom: 1em;
 }
 
+.ptracker{
+color: rgb(30, 29, 29);
+}
 .imgtrackerresponsive{
     width: 232px;
     margin-top: 3em;
@@ -84,7 +87,29 @@ text-align: center !important;
     margin-bottom: 3em;
 }
 
+.divapresentacaodados{
+    margin: auto;
+    background: white;
+    width: 60%;
+    border-radius: 20px;
+    height:190px
+}
 
+.encontatitulotarcker{
+    text-align: left;
+    margin-left: 1em;
+    padding-top: 1em;
+    color: #4D7542;
+}
+
+.cabetudonalinha{
+    display: flex;
+}
+
+.semcordados1{
+    color: black !important;
+    font-weight: 400;
+}
 /*
 
 

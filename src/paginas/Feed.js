@@ -6,9 +6,11 @@ import Turnos from "../components/Turnos/Turnos";
 
 
 const Feed = () => {
+
+
   return (
     <div>
-
+      
         <Menu/>
         <Atividade/>
         <Equipas/>
