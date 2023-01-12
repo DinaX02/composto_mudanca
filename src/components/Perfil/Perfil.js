@@ -6,7 +6,7 @@ import Grid from "../GithubGrid/grid";
 
 const Perfil = ()=> {
     return(
-    <div>
+    <div className='CompPerfil'>
        
     <a href='/feed'><button className="voltar">Voltar</button></a>
     <div id="Avatar" >
@@ -14,10 +14,13 @@ const Perfil = ()=> {
             <img  src={`https://avatars.dicebear.com/api/big-smile/9.svg`} className='Perfil'></img>
         </button>
         <h2>João</h2>
+        <label className='labels'>  Coordenador  </label>
+        <label className='labelequipa'>Equipa 2</label>
+
 
     </div> 
     <br></br>
-        <p>Atividade Recente</p>
+        <h5 className='titles'>Atividade Recente</h5>
     <div className='post'>
     <p>Equipa [nome da equipa]</p>
     <div className='flexy'>
