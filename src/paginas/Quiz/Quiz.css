@@ -1,0 +1,210 @@
+.HeaderfundoLearnMORE{
+    background: #4D7542;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    color: white;
+}
+
+.h1first{
+    color:white;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+.btnHeader{
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.espacoh3{
+    padding-top: 1.3em;
+}
+
+.layerHeader{
+ /*background-image: url('./layer_header.svg');  antigoo*/
+  /*background-image: url('./layered_Header_new.svg');*/
+  background-image: url('./layered_Header_newagain.svg');
+} 
+
+.spacer{
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btnHomePage{
+    padding: 0.5rem 1rem;
+    color: #4D7542;
+    background: #BEE1B2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px; 
+
+}
+
+.espacobtns{
+margin-left: 0.8em;
+}
+
+.quiz1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background: #4D7542;
+    border-radius: 25px;
+    width:40%;
+    height: 40vh;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+
+.flip-card {
+  margin: 1em;
+  width:40%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  .flip-card-inner {
+    width:40%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    width:40%;
+    height: 40vh;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    display: flex;
+    background-color: #4D7542;
+    color: white;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #4D7542;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  @media  (max-width: 751px) {
+    .alinhar3quiz{
+      flex-wrap: wrap !important;
+    }
+    .espaçolateRAISentrecarts{
+      margin-right: 0;
+    }
+
+    .espaçolateRAISentrecarts{
+      margin-right: 0em;
+    }
+}
+
+.alinhar3quiz{
+  margin-top: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  background: #BEE1B2;
+  width: 100%;
+}
+
+  .espaçolateRAISentrecarts{
+    margin-right: 1.5em;
+  }
+
+  .fundolearmore{
+    background: #BEE1B2;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .btnselecionarquizes{
+  padding: 0.5rem 1rem;
+    color: #4D7542;
+    background: #BEE1B2;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;}
+
+
+.imgquiz2{
+  background-image: url('img_quiz1-8.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imgquiz1{
+  background-image: url('img_quiz_2-8.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imgquiz3{
+  background-image: url('img_quiz_3-8.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.titulosbrancoscartas{
+    color: white;
+    margin-top: 0.3em;
+}

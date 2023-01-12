@@ -78,6 +78,7 @@ const Atividade = () => {
         <p className="log"> João colocou bananas no 31/12 Às 13:43</p></div>
     </div>
     <a href="/tracker"><button>Regista a tua mais recente atividade</button></a>
+    <a href="/learnmore"><button>LearMore</button></a>
     </div>
   );
 };

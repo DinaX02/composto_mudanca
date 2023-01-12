@@ -55,9 +55,13 @@ class Mapp extends React.Component {
     // ...localizacaoteste[0].coordinates - cordenadas aveiro
     //...localizacaoteste[1].coordinates  -cordenadas chaves
     // ...localizacaoteste[2].coordinates - cordenadas peniche
+ 
   }
 
+
   render() {
+
+
     return (
       <div className="fundoloc">
         <Navbar/>
