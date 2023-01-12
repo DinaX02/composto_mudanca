@@ -25,7 +25,7 @@ const Menu = () => {
 
             </div>
             <div>
-                <img id='LearnMore' className="mt-2 imgMenu" src={require('./icons8-repository-96.png')} alt='Learn more Button'/>
+                <a href='/learnmore'><img id='LearnMore' className="mt-2 imgMenu" src={require('./icons8-repository-96.png')} alt='Learn more Button'/></a>
             </div>
         </div>
 
