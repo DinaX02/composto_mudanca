@@ -4,9 +4,24 @@ import Navbar from "../components/Navbar/Navbar";
 import "./SignUp_Aluno.css";
 
 const SignUpAluno = () => {
+
+    const [email,setEmail] =useState('');
+    const [password,setPassword] =useState('');
+    const signUp = (e)=>{
+        e.preventDefault();
+        createUserWithEmailAndPassword(auth, email, password).then((userCredential)=>{
+            console.log(userCredential);
+        })
+            .catch((error) => {
+                console.log(error);
+            });
+    }
+
+
   return (
     <div className="fundosign">
       <Navbar />
+        <form onSubmit={signUp}>
       <h1 className="tituloprincipal">Sign Up</h1>
 
       <p className="textaligninputs corbranca">
@@ -32,28 +47,32 @@ const SignUpAluno = () => {
           placeholder="Apelido..."
         />
 
-        <input type="text"
-               id="email"
-               name="email"
-               placeholder="Email..." />
+        <input type="email" id="email" name="email" placeholder="Email..."  value={email}
+               onChange={(e)=>setEmail(e.target.value)}/>
 
         <input
-          type="text"
+          type="password"
           id="passwordAluno"
           name="passwordAluno"
           placeholder="Password..."
+          value={password}
+          onChange={(e)=>setPassword(e.target.value)}
         />
         <div className="divescolhacid">
-        <label className="escolahcidade" for="country"><strong>Escolha Cidade</strong></label>
+        <label className="escolahcidade" ><strong>Escolha Cidade</strong></label>
         </div>
-        <button className="btnHsignup btnsignup localizacaobtn" type="button">Escolha a sua localização</button>
+        <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
       </div>
       <div className="textaligninputs">
-        <a href="/feed"><button className="btnHsignup btnsignup" type="button">
+        <button className="btnHsignup btnsignup" type="submit">
           Regista-te como Aluno
-        </button></a>
-      </div>
+        </button>
 
+          <button className="btnHsignup btnsignup" type={"text"}>
+              <a href="/feed"> Entrar no feed</a>
+          </button>
+      </div>
+        </form>
     </div>
   );
 };

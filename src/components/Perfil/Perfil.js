@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import logo from '../Navbar/logo_composto_mudanca-8.png'
 import './Perfil.css'
+import Grid from "../GithubGrid/grid";
 //TODO: GITHUB CONTRIBUTION GRAPH
 
 const Perfil = ()=> {
     return(
     <div>
        
-    <button className="voltar">Voltar</button>
+    <a href='/feed'><button className="voltar">Voltar</button></a>
     <div id="Avatar" >
         <button>
             <img  src={`https://avatars.dicebear.com/api/big-smile/9.svg`} className='Perfil'></img>
@@ -43,6 +44,8 @@ const Perfil = ()=> {
     <p>João colocou bananas no 31/12 Às 13:43</p>
     </div>
     </div>
+
+    <Grid/>
 </div>
     )
 }

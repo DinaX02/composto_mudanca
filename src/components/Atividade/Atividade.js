@@ -40,6 +40,9 @@ console.log(avatar3);
 const Atividade = () => {
   return (
     <div className="CompAtividade">
+      <br/>
+        <br/>
+
         <h5>
             Atividade Recente
         </h5>

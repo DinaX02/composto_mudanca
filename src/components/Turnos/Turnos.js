@@ -3,7 +3,7 @@ import "./Turnos.css";
 
 const Turnos = () => {
   return (
-    <div classNameName="CompTurnos">
+    <div className="CompTurnos">
 
         <h2 id='tituloturnos'>Turnos</h2>
         <div id='setasTurnos'>

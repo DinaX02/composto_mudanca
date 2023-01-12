@@ -2,20 +2,30 @@ import React from "react";
 import "./Menu.css";
 import OverlaySettings from "../Overlay/OverlaySettings";
 const Menu = () => {
+
+    function mostrarEsconder() {
+
+        return(<OverlaySettings/>
+          )
+
+    }
+
+
+
   return (
     <div className='MenuComp'>
     <div id='navbary'>
     <div className='avatar imgMenu'>
         <a href='/perfil'> <img src='https://avatars.dicebear.com/api/big-smile/9.svg'/> </a>
     </div>
-    <div id='settings' onClick={<OverlaySettings/>}>
+    <div id='settings'>
     <button ></button>
     
     <button ></button>
     <button></button>
     </div></div>
-    <div className='settings'>
-        
+    <div onClick={mostrarEsconder} className='settings'>
+   //TODO: FLIP BUTTONS
     </div>
     <div className='flex-parent-element'>
         <div className='flex-child-element magenta'>
@@ -42,7 +52,7 @@ const Menu = () => {
    
     </div>
      <p id='diretamente'>Ir diretamente ao feed</p>
-
+<br/>
      </div>
   );
 };

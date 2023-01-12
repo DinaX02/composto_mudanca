@@ -6,14 +6,13 @@
 */
 
 .MenuComp{
-  background-color: transparent;
   padding:0;
-  background-color:#3d5e34;
+  background-color:#bee1b2;
   overflow-x: hidden;
   background-image: url("layered-wav.svg");
   background-repeat: no-repeat;
-  
-  background-position: center;
+  height:50vh;
+  background-position: top;
   background-size: cover;
 }
 

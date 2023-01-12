@@ -74,18 +74,18 @@ const SignUpProfessor = () => {
         <div className="divescolhacid">
         <label className="escolahcidade" ><strong>Escolha Cidade</strong></label>
         </div>
-          <button className="btnHsignup btnsignup localizacaobtn" type="button">Escolha a sua localização</button>
+          <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
           <div className="textaligninputs">
               <button className="btnHsignup btnsignup" type={"submit"}>
-                  Regista-te como Professor
+                 Regista-te como Professor
               </button>
 
           </div>
-          <a href="/feed">
+
               <button className="btnHsignup btnsignup" type={"text"}>
-                  Próximo
+                  <a href="/feed"> Entrar no feed</a>
               </button>
-          </a>
+
       </div>
 
 </form>
