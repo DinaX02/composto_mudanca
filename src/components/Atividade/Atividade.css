@@ -26,12 +26,11 @@ h5{
 
 }
 
-p.equipalabel{
-    color: #3d5e34;
-}
+
 
 p.log{
-    color:#342f2f;
+    align-content: left;
+    color: green;
 }
 
 button{
@@ -56,7 +55,7 @@ button{
 
 
 .post{
-    border-radius: 1em;
+    border-radius: 1em; 
     margin: 2em 2em 2em 2em;
     background-color:  white; 
 }

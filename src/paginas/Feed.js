@@ -3,8 +3,9 @@ import Menu from "../components/Menu/Menu";
 import Atividade from "../components/Atividade/Atividade";
 import Equipas from "../components/Equipas/Equipas";
 import Turnos from "../components/Turnos/Turnos";
+import { useState } from "react";
 
-const Feed = () => {
+const Feed = ({dataBreveD,dataSelected}) => {
 
 
     let avatar1 = `https://avatars.dicebear.com/api/big-smile/1.svg`;
