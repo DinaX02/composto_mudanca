@@ -10,20 +10,13 @@ const SignUp = () => {
         <Navbar/>
         <Header/>
         <section>
-        <h1 className="titulo espacoinic">Professor Faz:</h1>
+        <h1 className="titulo espacoinic">Como Professor:</h1>
         <p className="textalign espacofim">
-          Perferendis, eum. Necessitatibus cum illo, quos iste, pariatur ipsa
-          eveniet beatae quisquam ullam aut dolore doloremque odit minus fuga
-          esse suscipit maxime dolores? Placeat, maxime quas labore facere
-          molestias nam.
-          
+          Como Professor gere as tuas equipas, atribui turnos, papéis aos alunos e acede a recursos de aprendizagem sobre  a compostagem.
         </p>
-        <h1 className="titulo">Aluno Faz:</h1>
+        <h1 className="titulo">Como Aluno:</h1>
         <p className="textalign espacofim">
-          Fuga repudiandae rerum laborum odit repellendus possimus, aut omnis
-          velit, tempora pariatur ullam quo fugiat unde cumque neque dolorem
-          quod corporis nam, perferendis dolores blanditiis! Soluta officia quam
-          ex enim?
+          Participa na tua equipa de compostagem, coordenando equipas, realizando funções e ainda utilizar o Tracker para o teu compostor.
         </p>
         </section>
         <Footer/>
