@@ -18,23 +18,23 @@ import Mapp from './paginas/Testemap';
 import localizacao from "./paginas/localizacao.json";
 import ReactMapGL from 'react-map-gl'; 
 import 'mapbox-gl/dist/mapbox-gl.css';
-import AuthDetails from "./components/auth/AuthDetails";
-import SignIn_Professor from "./paginas/SignIn_Professor";
-import Perfil from "./components/Perfil/Perfil";
-import SignUp_Professor from "./paginas/SignUp_Professor";
-import OverlaySettings from "./components/Overlay/OverlaySettings";
-
 import LearnMore from './paginas/Quiz/LearMore';
 import Quiz1 from './paginas/Quiz/Quiz1';
 import Quiz2 from './paginas/Quiz/Quiz2';
 import Quiz3 from './paginas/Quiz/Quiz3';
 //const localizacaoEscolas = localizacao;
 //console.log(localizacaoEscolas.Aveiro);
+import AuthDetails from "./components/auth/AuthDetails";
+import SignIn_Professor from "./paginas/SignIn_Professor";
+import SignUp_Professor from "./paginas/SignUp_Professor";
+const localizacaoEscolas = localizacao;
+console.log(localizacaoEscolas.Aveiro);
 
 
 function App() {
   return (
     <div className="App">
+
       <Router>
 
         <Routes>
