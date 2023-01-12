@@ -1,6 +1,6 @@
 import React from "react";
 import "./Atividade.css";
-
+import Tracker from "../../paginas/Tracker";
 
 
 
@@ -38,6 +38,8 @@ console.log(avatar3);
 
 }
 const Atividade = () => {
+
+    console.log(Tracker.selectedTracker)
   return (
     <div className="CompAtividade">
         <h5>
@@ -54,7 +56,7 @@ const Atividade = () => {
         <div className='divimagem'>
         <img src={avatar1} className='profile'/>
         </div>
-        <p >João colocou bananas no 31/12 Às 13:43</p>
+        <p >{Tracker.selectedTracker}</p>
         </div>
     </div>
 

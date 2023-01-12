@@ -110,8 +110,9 @@ console.log('State:',this.state);
         <div className="fundoverdeeeeeeemapa">
           
             <button onClick={this.handleSubmitMapa} className="btnsubmterMAPAAA" type="button">
-              Submeter
+              Confirmar dados
             </button>
+            <a href="/tracker"><button className="btnsubmterMAPAAA">Submeter</button></a>
         
         </div>
 
