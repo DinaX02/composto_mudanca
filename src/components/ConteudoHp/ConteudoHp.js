@@ -8,7 +8,7 @@ const ConteudoHp = () => {
   
   return (
     <div className="conteudohomepage">
-      <section>
+      <section className="sectionajuste">
         <h1>O que é compostagem?</h1>
         <p className="p">
           Compostagem é o processo de biodegradação natural da matéria orgânica. Em outros termos, é a reciclagem dos resíduos orgânicos. O produto final deste processo é o adubo orgânico e o biofertilizante, sendo que este pode ser coletado e utilizado antes mesmo de concluída a compostagem.
@@ -20,7 +20,7 @@ const ConteudoHp = () => {
         </div>
 
       </section>
-      <section>
+      <section className="sectionajuste">
         <h1>Benefícios da compostagem</h1>
         <p className="p">
           A compostagem é a forma de desviar os resíduos orgânicos dos aterros sanitários e lixões, onde a  degradação ocorre de forma anaeróbia. Quando estes resíduos, que correspondem a cerca de 50% dos resíduos sólidos urbanos, são degradados sem a presença de oxigênio e misturados com outros resíduos e com rejeitos, são liberados gases do efeito estufa, como o gás metano.
@@ -32,7 +32,7 @@ const ConteudoHp = () => {
         <img className="img2" src={img2}/>
         </div>
       </section>
-      <section>
+      <section className="sectionajuste">
         <h1>
           O que é a Compostagem Comunitária
         </h1>
