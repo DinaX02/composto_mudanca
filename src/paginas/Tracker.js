@@ -2,32 +2,33 @@ import React, { useState } from "react";
 import "./Tracker.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
 
-const Tracker = () => {
+const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected}) => {
 
   //console.log(Mapp.getValueCidade)
 
-  const [dataSelected, setDataSelected] = useState(null);
-  const [dataBreveD, setDataBreveD] = useState(null);
+  //const [dataSelected, setDataSelected] = useState(null);
+  //const [dataBreveD, setDataBreveD] = useState(null);
   const [dataForaSitio, setDataForaSitio] = useState(null);
   const [print, setPrint] = useState(false);
 
-  function getDataSelected(val2){
-    setDataSelected(val2.target.value);
-    setPrint(false);
-    console.log(dataSelected);
-    console.log(print);
-  }
+  //function getDataSelected(val2){
+    //setDataSelected(val2.target.value);
+    //setPrint(false);
+    //console.log(dataSelected);
+    //console.log(print);
+  //}
 
 
 
-  function getDataBrevedescricao(val1){
-    setDataBreveD(val1.target.value);
-    setPrint(false);
-    console.log(dataBreveD);
-    console.log(print);
-  }
+  //function getDataBrevedescricao(val1){
+    //setDataBreveD(val1.target.value);
+    //setPrint(false);
+   // console.log(dataBreveD);
+   // console.log(print);
+  //}
 
 
   function getDataForaSitio(val) {
@@ -80,7 +81,7 @@ const Tracker = () => {
             <label for="residuos">Escolhe o tipo de resíduos</label>
           </div>
           <br></br>
-          <select name="residuos" id="residuos"  onChange={getDataSelected}>
+          <select name="residuos" id="residuos"  onChange={(e) => setDataSelected(e.target.value)}>
             <option value="select">Seleciona uma opção</option>
             <option value="Restos de fruta e legumes crus">Restos de fruta e legumes crus</option>
             <option value="Borras de café e chá">Borras de café e chá</option>
@@ -104,7 +105,8 @@ const Tracker = () => {
             id="description"
             name="description"
             type="text"
-            onChange={getDataBrevedescricao}
+            value={dataBreveD}
+            onChange={(e) => setDataBreveD(e.target.value)}
           />
 
           <br></br>
@@ -150,9 +152,12 @@ const Tracker = () => {
             Apresentar dados
           </button>
 
-          <a href="/feed"><button className="espacosubmeter btnSubmeterTrackerrr">
+          <Link to={
+            "/atividade"
+          }><button className="espacosubmeter btnSubmeterTrackerrr">
             Submeter dados
-          </button></a>
+          </button></Link>
+
         </div>
       </div>
       <Footer />

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Atividade.css";
 import Tracker from "../../paginas/Tracker";
+import { useState } from "react";
 
 
 
@@ -32,14 +33,14 @@ avatar1 = `https://avatars.dicebear.com/api/big-smile/${seed1}.svg`;
 avatar2 = `https://avatars.dicebear.com/api/big-smile/${seed2}.svg`;
 avatar3 = `https://avatars.dicebear.com/api/big-smile/${seed3}.svg`;
 
-console.log(avatar1);
-console.log(avatar2);
-console.log(avatar3);
+//console.log(avatar1);
+//console.log(avatar2);
+//console.log(avatar3);
 
 }
-const Atividade = () => {
+const Atividade = ({dataBreveD,dataSelected}) => {
+    console.log(dataBreveD);  
 
-    console.log(Tracker.selectedTracker)
   return (
     <div className="CompAtividade">
         <h5>
@@ -56,7 +57,7 @@ const Atividade = () => {
         <div className='divimagem'>
         <img src={avatar1} className='profile'/>
         </div>
-        <p >{Tracker.selectedTracker}</p>
+        <p ></p>
         </div>
     </div>
 
@@ -67,8 +68,15 @@ const Atividade = () => {
         <div className='divimagem'>
         <img src={avatar2} className='profile'/>
         </div>
-        <p className="log">João colocou bananas no 31/12 Às 13:43</p>
+        <div>
         </div>
+        <p className="log">Resíduos Selecionados: {dataSelected}</p>
+        <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
+        <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
+        </div>
+       
+        
+      
     </div>
 
     <div className='post'>
@@ -80,7 +88,7 @@ const Atividade = () => {
         <p className="log"> João colocou bananas no 31/12 Às 13:43</p></div>
     </div>
     <a href="/tracker"><button>Regista a tua mais recente atividade</button></a>
-    <a href="/learnmore"><button>LearMore</button></a>
+    <a href="/learnmore"><button>LearnMore</button></a>
     </div>
   );
 };

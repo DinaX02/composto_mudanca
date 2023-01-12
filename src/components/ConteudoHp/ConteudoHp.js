@@ -9,7 +9,7 @@ const ConteudoHp = () => {
   return (
     <div className="conteudohomepage">
       <section className="sectionajuste">
-        <h1>O que é compostagem?</h1>
+        <h1 className="espaaacoemcimahp">O que é compostagem?</h1>
         <p className="p">
           Compostagem é o processo de biodegradação natural da matéria orgânica. Em outros termos, é a reciclagem dos resíduos orgânicos. O produto final deste processo é o adubo orgânico e o biofertilizante, sendo que este pode ser coletado e utilizado antes mesmo de concluída a compostagem.
         </p>
