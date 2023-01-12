@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import "./Tracker.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import Mapp from "./Testemap";
+
 const Tracker = () => {
+
+  //console.log(Mapp.getValueCidade)
 
   const [dataSelected, setDataSelected] = useState(null);
   const [dataBreveD, setDataBreveD] = useState(null);
@@ -58,7 +62,7 @@ const Tracker = () => {
         </div>
         <div className="trackeralinharcentro">
           <p id="LocationText" className="ptracker">
-            Location:<span id="Currentlocation"> Surprise </span>{" "}
+            Location:<span id="Currentlocation"></span>{" "}
           </p>
           <br></br>
           <br></br>
@@ -146,9 +150,9 @@ const Tracker = () => {
             Apresentar dados
           </button>
 
-          <button className="espacosubmeter btnSubmeterTrackerrr">
+          <a href="/feed"><button className="espacosubmeter btnSubmeterTrackerrr">
             Submeter dados
-          </button>
+          </button></a>
         </div>
       </div>
       <Footer />

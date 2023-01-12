@@ -38,11 +38,10 @@ console.log(avatar3);
 
 }
 const Atividade = () => {
+
+    console.log(Tracker.selectedTracker)
   return (
     <div className="CompAtividade">
-      <br/>
-        <br/>
-
         <h5>
             Atividade Recente
         </h5>
@@ -57,7 +56,7 @@ const Atividade = () => {
         <div className='divimagem'>
         <img src={avatar1} className='profile'/>
         </div>
-        <p className='log'>João colocou bananas no 31/12 Às 13:43</p>
+        <p >{Tracker.selectedTracker}</p>
         </div>
     </div>
 
