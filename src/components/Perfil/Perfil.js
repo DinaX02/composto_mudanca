@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from '../Navbar/logo_composto_mudanca-8.png'
 import './Perfil.css'
+//TODO: GITHUB CONTRIBUTION GRAPH
 
 const Perfil = ()=> {
     return(

@@ -64,7 +64,7 @@ class Mapp extends React.Component{
     render(){
         return(
             <div>
-                <div ref={el => this.mapContainer= el}style={{width:'100%',height:'100vh'}}>
+                <div ref={el => this.mapContainer= el} style={{width:'100%',height:'100vh'}}>
 
                 </div>
             </div>

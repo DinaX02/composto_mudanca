@@ -1,14 +1,14 @@
 import React from "react";
 import "./Menu.css";
-
+import OverlaySettings from "../Overlay/OverlaySettings";
 const Menu = () => {
   return (
     <div className='MenuComp'>
     <div id='navbary'>
-    <div className='avatar'>
-        <button><img className="imgMenu" src='https://avatars.dicebear.com/api/big-smile/9.svg'/></button>
+    <div className='avatar imgMenu'>
+        <a href='/perfil'> <img src='https://avatars.dicebear.com/api/big-smile/9.svg'/> </a>
     </div>
-    <div id='settings'>
+    <div id='settings' onClick={<OverlaySettings/>}>
     <button ></button>
     
     <button ></button>
@@ -19,29 +19,23 @@ const Menu = () => {
     </div>
     <div className='flex-parent-element'>
         <div className='flex-child-element magenta'>
-            <div>
-                <button id='Tracker'> 
-                <img className="imgMenu" src={require('./Compostor_Tracker_Copy.png')} alt='compostericon'/>
-                </button>
+            <div id='Tracker'>
+
+                <a href='/tracker'><img className="imgMenu" src={require('./Compostor_Tracker_Copy.png')} alt='compostericon'/></a>
+
             </div>
             <div>
-                <button id='Perfil'>
-                <img className="imgMenu" src={require('./icons8-customer-96.png')} alt='perfil'/>
-                </button>
+                <img id='LearnMore' className="mt-2 imgMenu" src={require('./icons8-repository-96.png')} alt='Learn more Button'/>
             </div>
         </div>
 
         <div className="flex-child-element green">
             <div>
-                <button id='Equipas'>
-                <img className="imgMenu" src={require('./icons8-calendar-96.png')} alt='equipas'/>
-                </button>
-                
+                <img id='Equipas' className="imgMenu" src={require('./icons8-calendar-96.png')} alt='equipas'/>
+
             </div>
             <div>
-                <button id='Turnos'>
-                <img className="imgMenu" src={require('./icons8-community-96.png')} alt='turnos'/>
-                </button>
+                <img id='Turnos' className="imgMenu" src={require('./icons8-community-96.png')} alt='turnos'/>
             </div>
         </div>
     

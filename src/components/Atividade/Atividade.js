@@ -54,7 +54,7 @@ const Atividade = () => {
         <div className='divimagem'>
         <img src={avatar1} className='profile'/>
         </div>
-        <p >João colocou bananas no 31/12 Às 13:43</p>
+        <p className='log'>João colocou bananas no 31/12 Às 13:43</p>
         </div>
     </div>
 

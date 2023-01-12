@@ -21,6 +21,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import AuthDetails from "./components/auth/AuthDetails";
 import SignIn_Professor from "./paginas/SignIn_Professor";
 import SignUp_Professor from "./paginas/SignUp_Professor";
+import Perfil from "./components/Perfil/Perfil";
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
@@ -44,6 +45,7 @@ function App() {
           <Route path='/tutorial' element={<Tutorial/>}/>
           <Route path='/feed' element={<Feed/>}/>
           <Route path='/location' element = {<Mapp/>}/>
+          <Route path='/perfil' element={<Perfil/>}/>
         </Routes>
 
       </Router>
