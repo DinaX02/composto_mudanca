@@ -57,10 +57,25 @@ class Mapp extends React.Component {
     // ...localizacaoteste[2].coordinates - cordenadas peniche
  
   }
+state={
+  value:""
+};
 
+getValueCidade=(event)=>{
+  //console.log(event.target.value);
+  //console.log('cidade escolhida foi:',event.target.value);
+  this.setState({value: event.target.value});
+
+}
+
+handleSubmitMapa =()=>{
+  const valuecidade = this.state.value;
+  console.log(valuecidade)
+}
 
   render() {
 
+console.log('State:',this.state);
 
     return (
       <div className="fundoloc">
@@ -85,19 +100,19 @@ class Mapp extends React.Component {
             <strong>Escolha Cidade</strong>
           </label>
           <br></br>
-          <select id="cidade" name="cidade" placeholder="Escolha cidade">
-            <option value="aveiro">Aveiro</option>
-            <option value="chaves">Chaves</option>
-            <option value="peniche">Peniche</option>
+          <select id="cidade" name="cidade" placeholder="Escolha cidade" onChange={this.getValueCidade}>
+            <option value="Aveiro">Aveiro</option>
+            <option value="Chaves">Chaves</option>
+            <option value="Peniche">Peniche</option>
           </select>
         </div>
 
         <div className="fundoverdeeeeeeemapa">
-          <a href="/tracker">
-            <button className="btnsubmterMAPAAA" type="button">
+          
+            <button onClick={this.handleSubmitMapa} className="btnsubmterMAPAAA" type="button">
               Submeter
             </button>
-          </a>
+        
         </div>
 
       </div>
