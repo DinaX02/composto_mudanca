@@ -18,7 +18,7 @@ const Menu = () => {
 
     </div>
     <div onClick={mostrarEsconder} className='settings'>
-   //TODO: FLIP BUTTONS
+   //TODO:FLIPBUTTONS
     </div>
     <div className='flex-parent-element'>
         <div className='flex-child-element magenta'>
@@ -44,7 +44,7 @@ const Menu = () => {
     
    
     </div>
-     <p id='diretamente'>Ir diretamente ao feed</p>
+     <p id='diretamente'><a href='#go'> Ir diretamente ao feed</a></p>
 <br/>
      </div>
   );

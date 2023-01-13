@@ -51,11 +51,11 @@ const Feed = ({dataBreveD,dataSelected}) => {
     <div>
         <NavbarSignedIn/>
         <Menu/>
-        <div className="CompAtividade">
+        <div  className="CompAtividade">
             <br/>
             <br/>
 
-            <h5>
+            <h5 id='go'>
                 Atividade Recente
             </h5>
             <p id='recent'></p>
@@ -63,7 +63,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
             <button id='refresh' onClick={gerar()}><a onClick={()=>{window.location.reload(false)}}>Refresh</a> </button>
 
 
-            <div className='post'>
+            <div  className='post'>
                 <p className='equipalabel'>Equipa [nome da equipa]</p>
                 <div className='flexy'>
                     <div className='divimagem'>

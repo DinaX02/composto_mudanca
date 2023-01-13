@@ -20,6 +20,9 @@ button .avatar{
   margin:0;
  
 }
+p a{
+    color:white!important;
+}
 
 .avatar{
     border-radius: 50%;
