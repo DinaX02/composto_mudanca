@@ -17,6 +17,7 @@ h5{
    
     text-align: left;
     margin-left: 2em;
+    margin-left: 2em;
     margin-bottom: 0.8em;
     background-color:  white;
 }
@@ -26,11 +27,13 @@ h5{
 
 }
 
-
+p.equipalabel{
+    color: #3d5e34!important;
+}
 
 p.log{
     align-content: left;
-    color: green;
+    color: green!important;
 }
 
 button{
@@ -55,7 +58,7 @@ button{
 
 
 .post{
-    border-radius: 1em; 
+    border-radius: 1em!important;
     margin: 2em 2em 2em 2em;
     background-color:  white; 
 }

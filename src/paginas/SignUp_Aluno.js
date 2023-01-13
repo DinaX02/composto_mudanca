@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import {createUserWithEmailAndPassword} from "firebase/auth";
+import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
+import {Link} from "react-router-dom";
+import AuthDetails from "../components/auth/AuthDetails";
 
 const SignUpAluno = () => {
 
@@ -16,7 +20,11 @@ const SignUpAluno = () => {
                 console.log(error);
             });
     }
+    const [buttonText, setButtonText] = useState('Registra-te como aluno');
 
+    function handleClick() {
+        setButtonText('Registrado');
+    }
 
   return (
     <div className="fundosign">
@@ -59,18 +67,16 @@ const SignUpAluno = () => {
           onChange={(e)=>setPassword(e.target.value)}
         />
         <div className="divescolhacid">
-        <label className="escolahcidade" ><strong>Escolha Cidade</strong></label>
+        <label className="escolahcidade" >Escolha Cidade</label>
         </div>
         <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
       </div>
       <div className="textaligninputs">
-        <button className="btnHsignup btnsignup" type="submit">
-          Regista-te como Aluno
-        </button>
+          <Link to={'/create'}><button className="btnHsignup btnsignup" type="submit" onClick={handleClick}>
+         {buttonText}
+        </button></Link>
 
-          <button className="btnHsignup btnsignup" type={"text"}>
-              <a href="/feed"> Entrar no feed</a>
-          </button>
+
       </div>
         </form>
     </div>

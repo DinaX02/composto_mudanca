@@ -60,6 +60,9 @@ h1{
     margin: auto;
     width: 80%;
 }
+#login:hover{
+    color:white;
+}
 
 @media  (max-width: 600px) {
     .sectionajuste{

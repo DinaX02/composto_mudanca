@@ -27,8 +27,11 @@ import Quiz3 from "./paginas/Quiz/Quiz3";
 //console.log(localizacaoEscolas.Aveiro);
 import AuthDetails from "./components/auth/AuthDetails";
 import SignIn_Professor from "./paginas/SignIn_Professor";
+import Perfil from "./components/Perfil/Perfil";
 import SignUp_Professor from "./paginas/SignUp_Professor";
 import Atividade from "./components/Atividade/Atividade";
+import SignUpSumup from "./paginas/SignUpSumup";
+import Signin from "./components/auth/Signin";
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
@@ -38,6 +41,7 @@ function App() {
   const [dataSelected, setDataSelected] = useState("");
   return (
     <div className="App">
+
       <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -57,6 +61,18 @@ function App() {
           <Route path='/quiz1' element = {<Quiz1/>}/>
           <Route path='/quiz2' element = {<Quiz2/>}/>
           <Route path='/quiz3' element = {<Quiz3/>}/>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path='/create' element={<SignUpSumup/>}/>
+          <Route path="/signupprofessor" element={<SignUp_Professor />} />
+          <Route path="/signupaluno" element={<SignUpAluno />} />
+          <Route path="/signinaluno" element={<SignInAluno />} />
+          <Route path="/signinprofessor" element={<SignIn_Professor />} />
+          <Route path="/login" element={<SignIn_Professor/>}/>
+
+
           <Route
             path="/tracker"
             element={

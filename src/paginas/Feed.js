@@ -6,6 +6,8 @@ import Turnos from "../components/Turnos/Turnos";
 import { useState } from "react";
 
 const Feed = ({dataBreveD,dataSelected}) => {
+    //fazer um array com dados random para utilizar em random logs com spread operators;
+    //new randomlogs={nome:'Joana';resíduo:'Borras de Café';data:'11/11';horas:`${.getTime()}`}
 
 
     let avatar1 = `https://avatars.dicebear.com/api/big-smile/1.svg`;
@@ -65,6 +67,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
                         <img src={avatar1} className='profile'/>
                     </div>
                     <p className='log'>João colocou bananas no 31/12 Às 13:43</p>
+                    <p ></p>
                 </div>
             </div>
 
@@ -75,8 +78,15 @@ const Feed = ({dataBreveD,dataSelected}) => {
                     <div className='divimagem'>
                         <img src={avatar2} className='profile'/>
                     </div>
-                    <p className="log">João colocou bananas no 31/12 Às 13:43</p>
+                    <div>
+                    </div>
+                    <p className="log">Resíduos Selecionados: {dataSelected}</p>
+                    <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
+                    <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
                 </div>
+
+
+
             </div>
 
             <div className='post'>
@@ -88,8 +98,9 @@ const Feed = ({dataBreveD,dataSelected}) => {
                     <p className="log"> João colocou bananas no 31/12 Às 13:43</p></div>
             </div>
             <a href="/tracker"><button>Regista a tua mais recente atividade</button></a>
-            <a href="/learnmore"><button>LearMore</button></a>
+            <a href="/learnmore"><button>LearnMore</button></a>
         </div>
+
         <Equipas/>
         <Turnos/>
 

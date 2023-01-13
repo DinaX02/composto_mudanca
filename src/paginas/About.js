@@ -16,7 +16,11 @@ const About = () => {
     </div>
     <h1 className="h3about h1about">Porquê criar este projeto?</h1>
         <div className="paragrafowidth containerrrdiv">
-       
+       <img src={require('./dinis.png')} />
+            <img src={require('./sofia.jpg')} width='680vh'/>
+            <img src={require('./foto1.jpg')} width='680vh'/>
+            <img src={require('./foto2.jpg')} width='680vh'/>
+            
         <p className="espacofooterabout textoclean"> Este projeto nasceu de um concurso de medidas sustentáveis organizado pelo projeto Mobi Green da Generation Earth no ano de 2020.
             Os projetos vencedores foram alunos de secundário da cidade de Chaves que desenvolveram um projeto de compostagem comunitária em duas escolas secundárias da António Granjo e Fernão de Magalhães.
 

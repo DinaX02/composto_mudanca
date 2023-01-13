@@ -7,7 +7,7 @@ import img3 from '../ConteudoHp/comunity_img.png'
 const ConteudoHp = () => {
   
   return (
-    <div className="conteudohomepage">
+    <div className="conteudohomepage" >
       <section className="sectionajuste">
         <h1 className="espaaacoemcimahp">O que é compostagem?</h1>
         <p className="p">
@@ -46,8 +46,9 @@ const ConteudoHp = () => {
       </section>
       <section>
         <h1 className="espacoultimafrase">
-          Para usufruir da aplicação efetue login
+          Para usufruir da aplicação efetue <a id='login' href='./login'>login</a>
         </h1>
+
       </section>
     </div>
   );

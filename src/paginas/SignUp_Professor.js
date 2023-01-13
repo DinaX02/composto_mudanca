@@ -72,7 +72,7 @@ const SignUpProfessor = () => {
           onChange={(e)=>setPassword(e.target.value)}
         />
         <div className="divescolhacid">
-        <label className="escolahcidade" ><strong>Escolha Cidade</strong></label>
+        <label className="escolahcidade" >Escolha Cidade</label>
         </div>
           <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
           <div className="textaligninputs">
@@ -82,9 +82,7 @@ const SignUpProfessor = () => {
 
           </div>
 
-              <button className="btnHsignup btnsignup" type={"text"}>
-                  <a href="/feed"> Entrar no feed</a>
-              </button>
+
 
       </div>
 
