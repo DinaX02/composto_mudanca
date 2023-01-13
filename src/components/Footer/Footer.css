@@ -21,7 +21,7 @@ footer{
 
 .footerh2{
     position: relative;
-    margin-left: 0.8em;
+    margin-left: 2.8em;
     color: white;
     font-weight: 500;
     font-size: 22px;
@@ -32,7 +32,7 @@ footer{
 @media only screen and (max-width: 1500px) {
     .footerh2{
         position: relative;
-        margin-left: 0.8em;
+        margin-left: 2.8em;
         color: white;
         font-weight: 500;
         font-size: 22px;
@@ -41,7 +41,7 @@ footer{
   }
 
   .txtFooter{
-    margin-left: 1em;
+    margin-left: 4em;
     color: white;
     font-weight: 400;
     margin-right: 1em;

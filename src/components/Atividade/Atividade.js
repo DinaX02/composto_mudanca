@@ -43,6 +43,9 @@ const Atividade = ({dataBreveD,dataSelected}) => {
 
   return (
     <div className="CompAtividade">
+      <br/>
+        <br/>
+
         <h5>
             Atividade Recente
         </h5>
@@ -57,7 +60,7 @@ const Atividade = ({dataBreveD,dataSelected}) => {
         <div className='divimagem'>
         <img src={avatar1} className='profile'/>
         </div>
-        <p ></p>
+        <p >{Tracker.selectedTracker}</p>
         </div>
     </div>
 
@@ -74,9 +77,9 @@ const Atividade = ({dataBreveD,dataSelected}) => {
         <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
         <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
         </div>
-       
-        
-      
+
+
+
     </div>
 
     <div className='post'>

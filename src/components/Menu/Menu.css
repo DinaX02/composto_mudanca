@@ -6,14 +6,13 @@
 */
 
 .MenuComp{
-  background-color: transparent;
   padding:0;
-  background-color:#3d5e34;
+  background-color:#bee1b2;
   overflow-x: hidden;
   background-image: url("layered-wav.svg");
   background-repeat: no-repeat;
-  
-  background-position: center;
+  height:50vh;
+  background-position: top;
   background-size: cover;
 }
 
@@ -21,12 +20,14 @@ button .avatar{
   margin:0;
  
 }
+p a{
+    color:white!important;
+}
 
 .avatar{
     border-radius: 50%;
     width: 100px;
-    margin:1em;
-    height: 100px;
+    margin:2em;
     background-color: white;
 }
 
@@ -80,7 +81,7 @@ text-align: center;
 
   }
   
- p{
+ #diretamente{
     color: white;
  } 
   .flex-child-element:first-child {
@@ -89,10 +90,14 @@ text-align: center;
     margin-right: 0px;
   }
 
-#Tracker, #Turnos, #Equipas, #Perfil {
+#Tracker, #Turnos, #Equipas {
   width:5em;
   height:5em;
   margin:0.1em;
+}
+
+#LearnMore{
+    margin-top:0.3em;
 }
 
 
@@ -104,7 +109,7 @@ div.flex-parent-element div{
     background-color: white;
     padding:0.6em;
     border-radius:20px;
-    width: 6em;
+    width: 5em;
 }
 
 

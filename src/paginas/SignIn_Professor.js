@@ -46,10 +46,10 @@ const SignInProfessor = () => {
           <button className="btnHsignup btnsignup" type="submit">
           Sign In
           </button>
-          <a href="/feed">
-              <button className="btnHsignup btnsignup" type={"text"}>
+
+              <button className="btnHsignup btnsignup" type="text">
                   Entra no teu feed
-              </button>
+              </button> <a href="/feed">
           </a>
         </div>
     </form>

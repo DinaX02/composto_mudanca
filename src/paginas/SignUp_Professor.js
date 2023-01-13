@@ -5,6 +5,7 @@ import {createUserWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
 import AuthDetails from "../components/auth/AuthDetails";
+import {Link} from "react-router-dom";
 
 
 
@@ -22,7 +23,13 @@ const SignUpProfessor = () => {
             });
     }
 
-  return (
+    const [buttonText, setButtonText] = useState('Registra-te como Professor');
+
+    function handleClick() {
+        setButtonText('Registrado');
+    }
+
+    return (
     <div className="fundosign">
         <Navbar />
         <form onSubmit={signUp}>
@@ -52,38 +59,38 @@ const SignUpProfessor = () => {
           name="lastname"
           placeholder="Apelido..."
         />
+<p></p>
 
-        <input type="email"
+        <input  type="email"
                id="email"
                name="email"
                placeholder="Introduza o seu e-mail..."
                value={email}
                onChange={(e)=>setEmail(e.target.value)}
         />
+<p></p>
 
         <input
           type="password"
-          id="passwordAluno"
-          name="passwordAluno"
+
+          name="passwordProf"
           placeholder="Introduza a sua palavra-passe..."
           value={password}
           onChange={(e)=>setPassword(e.target.value)}
         />
         <div className="divescolhacid">
-        <label className="escolahcidade" ><strong>Escolha Cidade</strong></label>
+        <label className="escolahcidade" >Escolha Cidade</label>
         </div>
-          <button className="btnHsignup btnsignup localizacaobtn" type="button">Escolha a sua localização</button>
+          <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
           <div className="textaligninputs">
-              <button className="btnHsignup btnsignup" type={"submit"}>
-                  Regista-te como Professor
-              </button>
+              <Link to={'/create'}><button className="btnHsignup btnsignup" type="submit" onClick={handleClick}>
+                  {buttonText}
+              </button></Link>
 
           </div>
-          <a href="/feed">
-              <button className="btnHsignup btnsignup" type={"text"}>
-                  Próximo
-              </button>
-          </a>
+
+
+
       </div>
 
 </form>

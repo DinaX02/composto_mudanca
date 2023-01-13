@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <div>
     <div className="Headerfundo">
+      <img src='logo_composto_mudanca-8.png'/>
       <h1 className="h1first">Composto de Mudança</h1>
       <h3 className="espacoh3">Começe como...</h3>
 

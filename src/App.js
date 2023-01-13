@@ -27,13 +27,17 @@ import Quiz3 from "./paginas/Quiz/Quiz3";
 //console.log(localizacaoEscolas.Aveiro);
 import AuthDetails from "./components/auth/AuthDetails";
 import SignIn_Professor from "./paginas/SignIn_Professor";
+import Perfil from "./components/Perfil/Perfil";
 import SignUp_Professor from "./paginas/SignUp_Professor";
 import Atividade from "./components/Atividade/Atividade";
 import PaginaPerguntasQ1 from "./paginas/Quiz/PaginaPerguntasQ1";
 //const localizacaoEscolas = localizacao;
 //console.log(localizacaoEscolas.Aveiro);
 
-
+import SignUpSumup from "./paginas/SignUpSumup";
+import Signin from "./components/auth/Signin";
+const localizacaoEscolas = localizacao;
+console.log(localizacaoEscolas.Aveiro);
 
 function App() {
   const [username, setUsername] = useState("");

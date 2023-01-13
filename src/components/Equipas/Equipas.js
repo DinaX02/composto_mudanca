@@ -3,7 +3,7 @@ import "./Equipas.css";
 
 const Equipas = () => {
   return (
-    <div className="CompEquipas">
+    <div className="CompEquipas" id='GoToEquipas'>
         <br></br>
         <h5>
         Equipas

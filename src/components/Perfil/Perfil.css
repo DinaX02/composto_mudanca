@@ -7,38 +7,63 @@ margin:2em;
     text-align: center;
 }
 
-.Perfil{
-
-}
-.post{
-margin-left: 1em;
-margin-right:1em;
-}
-
-p{
-
-}
-
-button{
-
-}
-
-div{
-
-}
-
 .flexy{
-
+    text-align: center;
 }
-.divimagem{
+
+#graph{
+    padding: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.equipalabel{
+    opacity: 40%;
+    text-align: right;
+    font-weight: bold;
+    color:hotpink;
+    text-decoration-line: underline;
+    text-decoration-color: hotpink;
 
 }
 .post{
+    padding:1em;
+    border-radius: 10em;
 margin:1em 3em 1em 3em;
+    text-align: center;
 }
-.flexy{
 
+.titles{
+    text-align: center;
 }
-.divimagem{
+.labels{
+    color:#bee1b2;
+    background-color:white;
+    border-radius:20px;
+    margin-right: 0.5em;
+    padding: 0 1em 0.1em 1em;
+}
 
+.labelequipa{
+    padding: 0 1em 0.1em 1em;
+    color:hotpink;
+    background-color: hotpink;
+    border-radius:20px;
+}
+
+.CompPerfil{
+    background-color: #bee1b2;
+    height:100vh;
+}
+
+.labelequipa:hover{
+    color:white;
+}
+
+@media only screen and (min-width: 530px){
+    .post, select{
+        width:70vh;
+        margin: 1em auto 1em auto;
+        color:#3d5e34;
+    }
 }

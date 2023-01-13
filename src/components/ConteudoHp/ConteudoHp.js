@@ -7,9 +7,10 @@ import img3 from '../ConteudoHp/comunity_img.png'
 const ConteudoHp = () => {
   
   return (
-    <div className="conteudohomepage">
-      <section className="sectionajuste">
+    <div className="conteudohomepage" >
         <h1 className="espaaacoemcimahp">O que é compostagem?</h1>
+
+        <section className="sectionajuste">
         <p className="p">
           Compostagem é o processo de biodegradação natural da matéria orgânica. Em outros termos, é a reciclagem dos resíduos orgânicos. O produto final deste processo é o adubo orgânico e o biofertilizante, sendo que este pode ser coletado e utilizado antes mesmo de concluída a compostagem.
         </p>
@@ -20,8 +21,9 @@ const ConteudoHp = () => {
         </div>
 
       </section>
-      <section className="sectionajuste">
         <h1>Benefícios da compostagem</h1>
+
+        <section className="sectionajuste">
         <p className="p">
           A compostagem é a forma de desviar os resíduos orgânicos dos aterros sanitários e lixões, onde a  degradação ocorre de forma anaeróbia. Quando estes resíduos, que correspondem a cerca de 50% dos resíduos sólidos urbanos, são degradados sem a presença de oxigênio e misturados com outros resíduos e com rejeitos, são liberados gases do efeito estufa, como o gás metano.
 
@@ -31,11 +33,11 @@ const ConteudoHp = () => {
         <div className="div2img">
         <img className="img2" src={img2}/>
         </div>
-      </section>
+      </section><h1>
+        O que é a Compostagem Comunitária
+    </h1>
       <section className="sectionajuste">
-        <h1>
-          O que é a Compostagem Comunitária
-        </h1>
+
         <p className="p">
           A compostagem comunitária é aquela feita por pequenas comunidades, as quais se organizam coletivamente e compartilham a responsabilidade pelos processos envolvidos na realização da compostagem e seus ganhos, desde a coleta dos resíduos até a distribuição e uso do húmus produzido.
         </p>
@@ -46,8 +48,9 @@ const ConteudoHp = () => {
       </section>
       <section>
         <h1 className="espacoultimafrase">
-          Para usufruir da aplicação efetue login
+          Para usufruir da aplicação efetue <a id='login' href='./login'>login</a>
         </h1>
+
       </section>
     </div>
   );
