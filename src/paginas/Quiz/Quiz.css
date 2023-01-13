@@ -208,3 +208,342 @@ margin-left: 0.8em;
     color: white;
     margin-top: 0.3em;
 }
+
+.cartageralquiz{
+    top: 50%;
+    margin: auto;
+    height: 600px;
+    width: 550px;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.cartaquizzzzzzzz{
+  margin-bottom: 5em;
+}
+
+
+.quizzStart{
+  justify-self: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 318px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
+  }
+
+
+  #divstartquiz{
+    background: url(./imgbackgroundstartquiz-8.png) no-repeat center;
+  object-fit: cover;
+  background-size: cover;
+  }
+  .fundojezzzq1{
+    background: #BEE1B2 !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonStartQUIZ {
+    margin-left: 3em !important;
+    justify-self: center;
+    margin: auto;
+    padding: 18px 41px;
+    font-size: 14px;
+    border: none;
+    position: relative;
+    cursor:pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #4D7542;
+    border-radius: 0;
+    min-width: 200px;
+    color: #fff;
+    z-index: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 0.3em;
+}
+
+.DivquizzStartBotoes{
+  background-color: rgb(128, 193, 233,.8);
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  height: 150px;
+  margin: auto;
+  margin-top: 3vh;
+  text-align: left !important;
+}
+
+
+.espacotopBotao2quizz{
+  margin-top: 3em;
+
+}
+
+.btnstartq1div{
+  margin: auto;
+}
+
+.voltarquiz{
+  background-color:  #6d8465;
+  border-radius: 43px;
+  padding: 1em;
+  margin-top: 3em;
+  color:white;
+  font-weight: bold;  
+  margin-left: 2.4em;
+  border: none !important;
+}
+
+
+.question-card {
+  margin-top: 4em !important;
+  margin-bottom: 4em !important;
+  margin: auto;
+  width: 80%; 
+  height: auto;
+  background-color: #6d8465;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.question-text {
+  margin-top: 1em;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.largurali{
+  cursor: pointer;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 0.8em;
+}
+
+.final-results {
+  position: absolute;
+top: 0; bottom: 0;
+left: 0; right: 0;
+  margin: 0 auto;
+  height: 300px;
+  width: 50%; 
+  height: auto;
+  margin-top: 130px;
+  margin-bottom: 100px;
+
+
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.buttonQUizzzzzz {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
+
+.imgQuizz{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  border-radius: 16px;
+  width: 80%;
+  }
+  
+  .h1Quizzz{
+    text-align: center;
+font-size: 20px;
+  }
+
+  .headerquiz{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    padding: 1em;
+    width: 100%;
+    background: #4D7542;
+    color: white !important;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.text-centerimg{
+  text-align: center;
+}
+
+
+@media  (min-width: 1000px) {
+  .imgQuizz{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    border-radius: 16px;
+    width: 60%;
+    }
+  }
+
+  .btnvoltarraoLearnMore{
+
+    margin-top: 2em;
+      padding: 0.5rem 1rem;
+      color: #4D7542;
+      background: #BEE1B2;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-bottom: 2em;
+ 
+  
+  }
+
+  .alinharbtnVoltarLM{
+    margin: auto;
+    text-align: center;
+  }
+
+
+  .backgroundcontrastequiz{
+    color: #6d8465;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-weight: 500;
+    font-size: 18px;
+    background: #BEE1B2;
+    height: 30px;
+    width: 45px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #BEE1B2;
+    user-select: none;
+    margin-top: 0.8em;
+    margin: auto;
+  }
+
+  .divfinalquiz{
+    color: #fff !important;
+    margin: auto;
+    text-align: center;
+  }
+
+  .espacamentoscore{
+    margin-top: 1em;
+  }
+
+.fundoquiz1{
+  background-color: #BEE1B2 !important;
+}
+
+
+
+
+/* CSS */
+.formatacaoLi {
+  appearance: button;
+  background-color: #b67b43;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .6px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: left;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  width: 80%;
+  margin-bottom: 0.8em;
+}
+
+.formatacaoLi:after {
+  background-clip: padding-box;
+  background-color:   #766447;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.formatacaoLi:main,
+.formatacaoLi:focus {
+  user-select: auto;
+}
+
+.formatacaoLi:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.formatacaoLi:disabled {
+  cursor: auto;
+}
+
+.listacentrada{
+  text-align: center;
+  margin: auto;
+}

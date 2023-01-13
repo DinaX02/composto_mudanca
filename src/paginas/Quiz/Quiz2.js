@@ -1,10 +1,9 @@
 import React from "react";
-import Quiz1 from "./Quiz1";
+import Quiz1 from "./PaginaIncialQuizGeral";
 import { useState } from "react";
 const Quiz2 = ({
   username
 }) => {
-
  
     return (
       <div>
@@ -17,4 +16,3 @@ const Quiz2 = ({
   
   export default Quiz2;
 
-  

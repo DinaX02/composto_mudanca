@@ -20,7 +20,7 @@ import localizacao from "./paginas/localizacao.json";
 import ReactMapGL from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import LearnMore from "./paginas/Quiz/LearMore";
-import Quiz1 from "./paginas/Quiz/Quiz1";
+import Quiz1 from "./paginas/Quiz/PaginaIncialQuizGeral";
 import Quiz2 from "./paginas/Quiz/Quiz2";
 import Quiz3 from "./paginas/Quiz/Quiz3";
 //const localizacaoEscolas = localizacao;
@@ -29,8 +29,11 @@ import AuthDetails from "./components/auth/AuthDetails";
 import SignIn_Professor from "./paginas/SignIn_Professor";
 import SignUp_Professor from "./paginas/SignUp_Professor";
 import Atividade from "./components/Atividade/Atividade";
-const localizacaoEscolas = localizacao;
-console.log(localizacaoEscolas.Aveiro);
+import PaginaPerguntasQ1 from "./paginas/Quiz/PaginaPerguntasQ1";
+//const localizacaoEscolas = localizacao;
+//console.log(localizacaoEscolas.Aveiro);
+
+
 
 function App() {
   const [username, setUsername] = useState("");
@@ -100,6 +103,9 @@ function App() {
             element={<Quiz2 username={username} setUsername={setUsername} />}
           />
           <Route path="/quiz3" element={<Quiz3 />} />
+
+          <Route path="/paginaPerguntaQ1" element={<PaginaPerguntasQ1 />} />
+
         </Routes>
       </Router>
     </div>
