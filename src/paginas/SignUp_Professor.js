@@ -5,6 +5,7 @@ import {createUserWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
 import AuthDetails from "../components/auth/AuthDetails";
+import {Link} from "react-router-dom";
 
 
 
@@ -22,7 +23,13 @@ const SignUpProfessor = () => {
             });
     }
 
-  return (
+    const [buttonText, setButtonText] = useState('Registra-te como Professor');
+
+    function handleClick() {
+        setButtonText('Registrado');
+    }
+
+    return (
     <div className="fundosign">
         <Navbar />
         <form onSubmit={signUp}>
@@ -76,9 +83,9 @@ const SignUpProfessor = () => {
         </div>
           <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
           <div className="textaligninputs">
-              <button className="btnHsignup btnsignup" type={"submit"}>
-                 Regista-te como Professor
-              </button>
+              <Link to={'/create'}><button className="btnHsignup btnsignup" type="submit" onClick={handleClick}>
+                  {buttonText}
+              </button></Link>
 
           </div>
 
