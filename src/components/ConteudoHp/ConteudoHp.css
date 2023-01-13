@@ -57,8 +57,10 @@ h1{
 }
 
 .sectionajuste{
-    margin: auto;
-    width: 80%;
+    display: flex;
+    margin: 0  auto 0 auto;
+    align-items: center;
+    width: 70%;
 }
 #login:hover{
     color:white;

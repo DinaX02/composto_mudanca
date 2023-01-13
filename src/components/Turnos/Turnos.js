@@ -6,7 +6,7 @@ const Turnos = () => {
   const datas=[9,11,12,13,14,15,16,17,18,19];
 
   return (
-    <div className="CompTurnos">
+    <div className="CompTurnos" id='GoToTurnos'>
 
         <h2 id='tituloturnos'>Turnos</h2>
         <div id='setasTurnos'>

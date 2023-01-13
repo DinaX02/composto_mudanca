@@ -11,10 +11,10 @@ const Service = () => {
       <Navbar/>
       <div>
     <div className="Headerfundo">
-      <h1 className="h1first h1about">Nosso Serviço</h1>
+      <h1 className="h1first h1about">O que fazemos</h1>
       </div>
       <div className="spacer layerHeader"></div>
-      <h1 className="h3about h1about">O que fazemos:</h1>
+      <h1 className="h3about h1about"></h1>
     </div>
         <div className="paragrafowidth containerrrdiv">
         

@@ -17,7 +17,7 @@ background: #4D7542;
 }
 .escolherAva p{
 font-size: medium;
-    margin-bottom: 2em;
+
 }
 .escolherAva{
     text-align: center;
@@ -80,17 +80,6 @@ input[type='password'], select{
     box-sizing: border-box;
 }
 
-input[type=email] {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-
   @media only screen and (max-width: 600px){
     input[type=text],input[type='email'],input[type='password'],  select{
         width: 80%;
@@ -115,8 +104,23 @@ input[type=email] {
       }
   }
 
+.creators{
+    margin:1em;
 
+}
+.infos img{
+    margin:2em;
+}
+.infos p{
+    color:#3d5e34;
+    font-size:medium;
+}
 
+.creators p{
+    font-weight: bold;
+    color: #3d5e34;
+
+}
   .divESp {
     /*border-radius: 5px;*/
     background-color: #4D7542;
@@ -150,8 +154,11 @@ input[type=email] {
 
 .paragrafowidth{
   width: 90%;
-}
 
+}
+#refresh{
+    margin:15px;
+}
 .textoclean{
   text-align: justify !important;
 }

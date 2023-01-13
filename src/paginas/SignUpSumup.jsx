@@ -9,13 +9,13 @@ function SignUpSumUp() {
     let ultimoNome='Maria';
     let user='sbvogensen@gmail.com'
     let avatar1 = `https://avatars.dicebear.com/api/big-smile/1.svg`;
-
+    let randomAva1 = () => {
+        return (Math.floor(Math.random() * 30))
+    }
 
         let gerar = () => {
-            console.log('boa tarde')
-            let randomAva1 = () => {
-                return (Math.floor(Math.random() * 30))
-            }
+
+        console.log('entrei')
             let seed1 = randomAva1();
 
 
@@ -36,8 +36,12 @@ function SignUpSumUp() {
 
                     <div className='escolherAva'>
                         <p id='escolhe'> Escolhe o teu avatar</p>
-                        <img src={avatar1} className='profile'/></div>
-                    <button id='refresh' onClick={gerar}>Refresh</button>
+                        <button id='refresh' onClick={gerar()}><a onClick={()=>{window.location.reload(false)}}> Refresh</a></button>
+
+                        <div><img src={avatar1} className='profile'/></div></div>
+
+
+
                 <br/>
                 <button className="btnHsignup btnsignup" type={"text"}>
                     <a href="/feed">Entrar no feed</a>

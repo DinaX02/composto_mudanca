@@ -34,11 +34,11 @@ const Menu = () => {
 
         <div className="flex-child-element green">
             <div>
-                <img id='Equipas' className="imgMenu" src={require('./icons8-calendar-96.png')} alt='equipas'/>
+                <a href='#GoToTurnos'><img id='Turnos' className="imgMenu" src={require('./icons8-calendar-96.png')} alt='turnos'/></a>
 
             </div>
             <div>
-                <img id='Turnos' className="imgMenu" src={require('./icons8-community-96.png')} alt='turnos'/>
+                <a href='#GoToEquipas'> <img id='Equipas' className="imgMenu" src={require('./icons8-community-96.png')} alt='equipas'/></a>
             </div>
         </div>
     
