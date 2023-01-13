@@ -1,8 +1,14 @@
+import quiz1img1 from "../Quiz/quiz1_img1.jpg";
+import quiz1img2 from "../Quiz/quiz1_img2.jpg";
+import quiz1img3 from "../Quiz/quiz1_img3.jpg";
+import quiz1img4 from "../Quiz/quiz1_img4.jpg";
+import quiz1img5 from "../Quiz/quiz1_img5.jpg";
+
 const questions1 =[
     {
         numb:1,
         question:"Existem dois tipos de Compostagem: a _______ e a ________.",
-        imagem: "../Quiz/quiz1_img2.jpg",
+        imagem: quiz1img1,
         options:[ 
             
         {alineaKey:0,text: "Compostagem Exótica e Vermicompostagem.",resposta:false},
@@ -16,7 +22,7 @@ const questions1 =[
     {
         numb:2,
         question:"Quais são as 3 consequências do despejo inadequado do resíduo orgânico?",
-        imagem:"assets/images/water_p_Q2.png",
+        imagem:quiz1img2,
         options: [
 
             {alineaKey:0,text:"...",resposta:false},
@@ -30,7 +36,7 @@ const questions1 =[
     {
         numb:3,
         question:"O Lixo Marinho é composto principalmente por:",
-        imagem:"assets/images/O_Lixo_Marinho_Q3.png",
+        imagem:quiz1img3,
         options:[ 
          {alineaKey:0,text:"Papel/Cartão.",resposta:false},
          {alineaKey:1,text:"Metal",resposta:true},
@@ -43,7 +49,7 @@ const questions1 =[
     {
         numb:4,
         question:"O Plástico representa cerca de ____% do lixo marinho a nível global.",
-        imagem:"assets/images/plastic_Q4.png",
+        imagem:quiz1img4,
         options: [
             {alineaKey:0,text:"10%",resposta:false},
             {alineaKey:1,text:"40%",resposta:false},
@@ -55,7 +61,7 @@ const questions1 =[
     {
         numb:5,
         question:"Porque é que o plástico é perigoso para a vida marinha?",
-        imagem:"assets/images/perigo_vida_marinha_Q5.png",
+        imagem:quiz1img5,
         options: [
          {alineaKey:0,text:"Os animais confundem-no com as suas presas, o que pode conduzir a danos severos no trato gastro-intestinal ou até levar à morte.",resposta:false},
          {alineaKey:1,text:"Os animais podem ficar emaranhados, o que lhes pode dificultar a natação e/ou amputar membros.",resposta:false},

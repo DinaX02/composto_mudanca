@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Quiz.css";
 import questions1 from "./questions";
-import quiz1img1 from "../Quiz/quiz1_img2.jpg";
+//import quiz1img1 from "../Quiz/quiz1_img2.jpg";
 import { Link } from "react-router-dom";
 
 const PaginaPerguntasQ1 = () => {
@@ -69,7 +69,7 @@ const PaginaPerguntasQ1 = () => {
             {questions1[currentQuestion].question}
           </h1>
           <div id="imgQuizz" className="text-centerimg">
-            <img className="imgQuizz" src={quiz1img1} />
+            <img className="imgQuizz" src={questions1[0].imagem} />
           </div>
           <ul className="listacentrada">
             {questions1[currentQuestion].options.map((alinea) => {
