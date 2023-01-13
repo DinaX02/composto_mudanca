@@ -52,11 +52,20 @@ button{
 
 .flexy{
     display: flex;
+    align-items:center;
     background-color: white;
 }
 
 
+p.log{
+    text-align: right;
+    padding-left: 3em;
+}
+.corpo{
+    margin:auto 0 auto 0;
+    text-align: left;
 
+}
 .post{
     border-radius: 1em!important;
     margin: 2em 2em 2em 2em;

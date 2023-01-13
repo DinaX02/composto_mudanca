@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {auth} from '../../firebase';
+import '../Navbar/Navbar.css';
 import {onAuthStateChanged, signOut} from "firebase/auth";
 
 const AuthDetails = () => {

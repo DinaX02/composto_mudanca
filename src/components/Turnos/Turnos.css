@@ -9,7 +9,10 @@
     --eventColor3: #e2f8ff;
     --eventColor4: #d1ffe6;
   }
-  
+.CompTurnos{
+  height: 120vh;
+}
+
   .calendar {
     background-color: transparent;
     display: grid;
@@ -20,6 +23,7 @@
   
 .timeline {
     background-color: #bee1b2;
+    color: white;
     display: grid;
     width: 3em;
     grid-template-rows: repeat(var(--numHours), var(--timeHeight));

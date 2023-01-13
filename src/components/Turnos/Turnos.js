@@ -2,6 +2,9 @@ import React from "react";
 import "./Turnos.css";
 
 const Turnos = () => {
+
+  const datas=[9,11,12,13,14,15,16,17,18,19];
+
   return (
     <div className="CompTurnos">
 
@@ -9,7 +12,7 @@ const Turnos = () => {
         <div id='setasTurnos'>
         <p></p>
         </div>
-        <p id="ola"> This week | Next Week | This Month </p>
+      <p id="ola"> <a>This week</a> | <a> Next Week </a>| <a>This Month</a> </p>
         <div className="calendar">
   <div className="timeline">
     <div className="spacer"></div>
@@ -39,7 +42,7 @@ const Turnos = () => {
     </div>
     <div className="day tues">
       <div className="date">
-        <p className="date-num">12</p>
+        <p className="date-num">10</p>
         <p className="date-day">Tues</p>
       </div>
       <div className="events">

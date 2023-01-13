@@ -4,6 +4,7 @@ import Atividade from "../components/Atividade/Atividade";
 import Equipas from "../components/Equipas/Equipas";
 import Turnos from "../components/Turnos/Turnos";
 import { useState } from "react";
+import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 const Feed = ({dataBreveD,dataSelected}) => {
     //fazer um array com dados random para utilizar em random logs com spread operators;
@@ -26,7 +27,9 @@ const Feed = ({dataBreveD,dataSelected}) => {
     let randomAva3 = () => {
         return(Math.floor(Math.random() * 30))
     }
-
+    function refreshPage() {
+        window.location.reload(false);
+    }
     let gerar = () =>{
         console.log('boa tarde')
 
@@ -46,7 +49,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
 
   return (
     <div>
-      
+        <NavbarSignedIn/>
         <Menu/>
         <div className="CompAtividade">
             <br/>
@@ -57,7 +60,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
             </h5>
             <p id='recent'></p>
             <br></br>
-            <button id='refresh' onClick={gerar()}>Refresh</button>
+            <button id='refresh' onClick={gerar()}><a onClick={()=>{window.location.reload(false)}}>Refresh</a> </button>
 
 
             <div className='post'>
@@ -66,7 +69,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
                     <div className='divimagem'>
                         <img src={avatar1} className='profile'/>
                     </div>
-                    <p className='log'>João colocou bananas no 31/12 Às 13:43</p>
+                    <p className='corpo log'>João colocou bananas no 31/12 Às 13:43</p>
                     <p ></p>
                 </div>
             </div>
@@ -79,11 +82,12 @@ const Feed = ({dataBreveD,dataSelected}) => {
                         <img src={avatar2} className='profile'/>
                     </div>
                     <div>
+                        <p className="corpo log">[PrimeiroNome] colocou  {dataSelected} às [horas] no dia [data]</p>
                     </div>
-                    <p className="log">Resíduos Selecionados: {dataSelected}</p>
-                    <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
-                    <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
+
                 </div>
+                <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
+                <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
 
 
 
@@ -95,7 +99,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
                     <div className='divimagem'>
                         <img src={avatar3} className='profile'/>
                     </div>
-                    <p className="log"> João colocou bananas no 31/12 Às 13:43</p></div>
+                    <p className="corpo log"> João colocou bananas no 31/12 Às 13:43</p></div>
             </div>
             <a href="/tracker"><button>Regista a tua mais recente atividade</button></a>
             <a href="/learnmore"><button>LearnMore</button></a>

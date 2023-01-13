@@ -15,15 +15,8 @@ const Menu = () => {
   return (
     <div className='MenuComp'>
     <div id='navbary'>
-    <div className='avatar imgMenu'>
-        <a href='/perfil'> <img src='https://avatars.dicebear.com/api/big-smile/9.svg'/> </a>
+
     </div>
-    <div id='settings'>
-    <button ></button>
-    
-    <button ></button>
-    <button></button>
-    </div></div>
     <div onClick={mostrarEsconder} className='settings'>
    //TODO: FLIP BUTTONS
     </div>

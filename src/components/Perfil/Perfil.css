@@ -17,7 +17,7 @@ margin:2em;
     border-radius: 20px;
 }
 
-.post p:first-child{
+.equipalabel{
     opacity: 40%;
     text-align: right;
     font-weight: bold;

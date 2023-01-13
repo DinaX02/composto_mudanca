@@ -33,17 +33,20 @@ avatar1 = `https://avatars.dicebear.com/api/big-smile/${seed1}.svg`;
 avatar2 = `https://avatars.dicebear.com/api/big-smile/${seed2}.svg`;
 avatar3 = `https://avatars.dicebear.com/api/big-smile/${seed3}.svg`;
 
-console.log(avatar1);
-console.log(avatar2);
-console.log(avatar3);
+//console.log(avatar1);
+//console.log(avatar2);
+//console.log(avatar3);
 
 }
 const Atividade = ({dataBreveD,dataSelected}) => {
     console.log(dataBreveD);  
 
-    console.log(Tracker.selectedTracker)
+
   return (
     <div className="CompAtividade">
+      <br/>
+        <br/>
+
         <h5>
             Atividade Recente
         </h5>
