@@ -3,7 +3,9 @@ import Navbar from "../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import "./SignUp_Aluno.css";
 
-function SignUpSumUp( usernamenovo,setUsername1,) {
+function SignUpSumUp() {
+    const [usernamenovo,setUsernamenovo]=useState('');
+    const [apelido,setApelido]=useState('');
 
     //let primeiro='Sofia';
     //let ultimoNome='Maria';
@@ -37,7 +39,7 @@ function SignUpSumUp( usernamenovo,setUsername1,) {
           name="firstname"
           placeholder="Primeiro Nome..."
           value={usernamenovo}
-          onChange={(e) => setUsername1(e.target.value)}
+          onChange={(e) => setUsernamenovo(e.target.value)}
         />
 
         <input
@@ -45,10 +47,12 @@ function SignUpSumUp( usernamenovo,setUsername1,) {
           id="lname"
           name="lastname"
           placeholder="Apelido..."
+          value={apelido}
+          onChange={(e) => setApelido(e.target.value)}
         />
 
   
-                <h3 className='tituloprincipal'>Bem vindo {""} {""}</h3>
+                <h3 className='tituloprincipal'>Bem vindo {usernamenovo} {apelido}</h3>
                     <p>Estas a utilizar a conta {user}</p>
 
 

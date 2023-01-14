@@ -6,7 +6,8 @@ import Turnos from "../components/Turnos/Turnos";
 import { useState } from "react";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
-const Feed = ({dataBreveD,dataSelected,dataForaSitio}) => {
+const Feed = ({dataBreveD,dataSelected,dataForaSitio,apelido,nomeEquipa}) => {
+    console.log(apelido);
     //fazer um array com dados random para utilizar em random logs com spread operators;
     //new randomlogs={nome:'Joana';resíduo:'Borras de Café';data:'11/11';horas:`${.getTime()}`}
 
@@ -76,7 +77,7 @@ const Feed = ({dataBreveD,dataSelected,dataForaSitio}) => {
 
             <div className='post'>
 
-                <p className='equipalabel'>Equipa [nome da equipa]</p>
+                <p className='equipalabel'>{nomeEquipa}</p>
                 <div className='flexy'>
                     <div className='divimagem'>
                         <img src={avatar2} className='profile'/>

@@ -3,6 +3,7 @@ import logo from '../Navbar/logo_composto_mudanca-8.png'
 import './Perfil.css'
 import ReactDOM from 'react-dom';
 import Calendar from 'react-github-contribution-calendar';
+import SignUpSumUp from "../../paginas/SignUpSumup";
 
 const Perfil = ()=> {
     let values = {

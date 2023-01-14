@@ -42,10 +42,10 @@ console.log(localizacaoEscolas.Aveiro);
 
 function App() {
   const [username, setUsername] = useState("");
-  const [username1, setUsername1] = useState("");
   const [dataBreveD, setDataBreveD] = useState("");
   const [dataSelected, setDataSelected] = useState("");
   const [dataForaSitio, setDataForaSitio] = useState("");
+  const[nomeEquipa,setNomeEquipa]=useState("");
   return (
     <div className="App">
       <Router>
@@ -60,7 +60,8 @@ function App() {
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
 
           <Route path='/create' element={<SignUpSumup
-          username1={username1} setUsername1={setUsername1}/>}/>
+
+          />}/>
 
           <Route path='/perfil' element={<Perfil/>}/>
           <Route
@@ -73,6 +74,8 @@ function App() {
                 setDataSelected={setDataSelected}
                 dataForaSitio={dataForaSitio}
                 setDataForaSitio={setDataForaSitio}
+                nomeEquipa={nomeEquipa}
+                setNomeEquipa={setNomeEquipa}
               />
             }
           />
@@ -89,6 +92,8 @@ function App() {
                 setDataSelected={setDataSelected}
                 dataForaSitio={dataForaSitio}
                 setDataForaSitio={setDataForaSitio}
+                nomeEquipa={nomeEquipa}
+                setNomeEquipa={setNomeEquipa}
               />
             }
           />
@@ -103,6 +108,8 @@ function App() {
                 setDataSelected={setDataSelected}
                 dataForaSitio={dataForaSitio}
                 setDataForaSitio={setDataForaSitio}
+                nomeEquipa={nomeEquipa}
+                setNomeEquipa={setNomeEquipa}
               />
             }
           />

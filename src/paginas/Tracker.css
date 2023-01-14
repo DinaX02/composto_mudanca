@@ -15,6 +15,9 @@ margin-top: -2em;
     text-align: center;
 }
 
+.nomeeuipainput{
+    width: 20% !important;
+}
 .titulostracker{
     margin-top: 2em;
     font-weight: 700;
@@ -53,7 +56,7 @@ color: rgb(30, 29, 29);
 }
 .hiperlitracker{
     text-decoration: none;
-    color: #4D7542;
+    color: #4D7542 !important;
     font-weight: 800;
 }
 
@@ -92,7 +95,8 @@ text-align: center !important;
     background: white;
     width: 60%;
     border-radius: 20px;
-    height:190px
+    height:auto;
+    padding-bottom: 1em;
 }
 
 .encontatitulotarcker{

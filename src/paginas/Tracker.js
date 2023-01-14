@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
 
-const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio}) => {
+const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa}) => {
 
   //console.log(Mapp.getValueCidade)
 
@@ -76,6 +76,13 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
               </a>
             </p>
             <br></br>
+            <input className="nomeeuipainput"
+          type="text"
+          name="nomedaequipa"
+          placeholder="Nome da Equipa"
+          value={ nomeEquipa}
+          onChange={(e) => setNomeEquipa(e.target.value)}
+        />
             <br></br>
             <div className="brevedescricaotracker">
               <label for="residuos">Escolhe o tipo de resíduos</label>
@@ -136,6 +143,9 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
             </div>
 
             <div className="divapresentacaodados">
+            <div className="cabetudonalinha">
+                <h4 className="encontatitulotarcker">Nome Equipa:{print ? <h4 className="semcordados1">{nomeEquipa}</h4> : null} </h4>
+              </div>
               <div className="cabetudonalinha">
                 <h4 className="encontatitulotarcker">Tipo de Resíduo:{print ? <h4 className="semcordados1">{dataSelected}</h4> : null} </h4>
               </div>

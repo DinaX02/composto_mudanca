@@ -35,38 +35,38 @@ const questions1 =[
 
     {
         numb:3,
-        question:"O Lixo Marinho é composto principalmente por:",
+        question:"Quais destas não é uma consequência do despejo inadequado de matéria orgânica?",
         imagem:quiz1img3,
         options:[ 
-         {alineaKey:0,text:"Papel/Cartão.",resposta:false},
-         {alineaKey:1,text:"Metal",resposta:true},
-         {alineaKey:2,text:"Vidro",resposta:false},
-         {alineaKey:3,text: "Plástico",resposta:false}
+         {alineaKey:0,text:"Aumento da riqueza do solo",resposta:true},
+         {alineaKey:1,text:"Libertação de gases com efeito de estufa",resposta:false},
+         {alineaKey:2,text:"Atração de vetores causadores de doenças",resposta:false},
+         {alineaKey:3,text: "Contaminação dos lenços freáticos",resposta:false}
     ]
  
     },
 
     {
         numb:4,
-        question:"O Plástico representa cerca de ____% do lixo marinho a nível global.",
+        question:"Qual destas é a cor do novo ecoponto de matéria orgânica?",
         imagem:quiz1img4,
         options: [
-            {alineaKey:0,text:"10%",resposta:false},
-            {alineaKey:1,text:"40%",resposta:false},
-            {alineaKey:2,text:"60%",resposta:true},
-            {alineaKey:3,text:"70%",resposta:false},
+            {alineaKey:0,text:"Azul",resposta:false},
+            {alineaKey:1,text:"Amarelo",resposta:false},
+            {alineaKey:2,text:"Castanho",resposta:true},
+            {alineaKey:3,text:"Verde",resposta:false},
     ]
     },
 
     {
         numb:5,
-        question:"Porque é que o plástico é perigoso para a vida marinha?",
+        question:"Qual destes não é um fenômeno do processo de compostagem?",
         imagem:quiz1img5,
         options: [
-         {alineaKey:0,text:"Os animais confundem-no com as suas presas, o que pode conduzir a danos severos no trato gastro-intestinal ou até levar à morte.",resposta:false},
-         {alineaKey:1,text:"Os animais podem ficar emaranhados, o que lhes pode dificultar a natação e/ou amputar membros.",resposta:false},
-         {alineaKey:2,text:"Todas as opções a cima estão corretas.",resposta:false},
-         {alineaKey:3,text:"Nenhuma das opções estão corretas.",resposta:true},
+         {alineaKey:0,text:"Sedimentação",resposta:false},
+         {alineaKey:1,text:"Fermentação",resposta:false},
+         {alineaKey:2,text:"Decomposição",resposta:false},
+         {alineaKey:3,text:"Liquidificação",resposta:true},
     ]
 }
 ]
