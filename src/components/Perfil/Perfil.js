@@ -15,7 +15,7 @@ let thisHtml = ' <div  className=\'post\'>\n' +
     '            </div>\n' +
     '        </div>'
 
-const Perfil = (nomeEquipa)=> {
+const Perfil = ()=> {
 
 
     let values = {
@@ -29,9 +29,10 @@ const Perfil = (nomeEquipa)=> {
     let until = '2016-06-30';
     let elem = document.getElementById('app');
 
+    
     return (
-        <div className='CompPerfil'>
-
+        
+        <div className='CompPerfil'>    
             <Link to={"/feed"}>
                 <button className="voltar">Voltar</button>
             </Link>
