@@ -43,6 +43,7 @@ function App() {
   const [username, setUsername] = useState("");
   const [dataBreveD, setDataBreveD] = useState("");
   const [dataSelected, setDataSelected] = useState("");
+  const [dataForaSitio, setDataForaSitio] = useState("");
   return (
     <div className="App">
       <Router>
@@ -56,6 +57,7 @@ function App() {
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
           <Route path='/create' element={<SignUpSumup/>}/>
+          <Route path='/perfil' element={<Perfil/>}/>
           <Route
               path="/tracker"
             element={
@@ -64,6 +66,8 @@ function App() {
                 setDataBreveD={setDataBreveD}
                 dataSelected={dataSelected}
                 setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
               />
             }
           />
@@ -78,6 +82,8 @@ function App() {
                 setDataBreveD={setDataBreveD}
                 dataSelected={dataSelected}
                 setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
               />
             }
           />
@@ -90,6 +96,8 @@ function App() {
                 setDataBreveD={setDataBreveD}
                 dataSelected={dataSelected}
                 setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
               />
             }
           />

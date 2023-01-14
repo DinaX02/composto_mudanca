@@ -6,7 +6,7 @@ import Turnos from "../components/Turnos/Turnos";
 import { useState } from "react";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
-const Feed = ({dataBreveD,dataSelected}) => {
+const Feed = ({dataBreveD,dataSelected,dataForaSitio}) => {
     //fazer um array com dados random para utilizar em random logs com spread operators;
     //new randomlogs={nome:'Joana';resíduo:'Borras de Café';data:'11/11';horas:`${.getTime()}`}
 
@@ -87,7 +87,7 @@ const Feed = ({dataBreveD,dataSelected}) => {
 
                 </div>
                 <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
-                <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
+                <div><p className="log">Algo Fora do Sítio: {dataForaSitio}</p></div>
 
 
 
