@@ -12,7 +12,8 @@ const Navbar = ()=> {
     return(
         <div className="Navbar">
             <span className="nav-logo">
-                <a href="/"><img className="logo" src={logo}/></a>
+                <a href="/"><img className="logo" src={logo}/>
+                </a> <span id='titulo'>Composto de Mudança</span>
             </span>
             <div className={`nav-items ${isOpen && "open"}`}>
                 <a href="/about">About us</a>

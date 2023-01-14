@@ -1,18 +1,23 @@
-.fundosign{
+.fundosign {
     background: #4D7542;
     height: 100vh;
 }
 
 
-.tituloprincipal{
+#titulo {
+    margin: auto 0 auto 0;
+}
+
+
+.tituloprincipal {
     text-align: center;
     color: white;
     margin-top: 10vh;
     font-size: 40px;
 }
 
-.textaligninputs{
-text-align: center;
+.textaligninputs {
+    text-align: center;
 background: #4D7542;
 }
 .escolherAva p{
@@ -104,19 +109,41 @@ input[type='password'], select{
       }
   }
 
-.creators{
-    margin:1em;
+.creators {
+    margin: 1em;
+    text-align: center;
+    font-size: 3em;
+
 
 }
-.infos img{
-    margin:2em;
-}
-.infos p{
-    color:#3d5e34;
-    font-size:medium;
+
+.creators p {
+    font-weight: lighter !important;
 }
 
-.creators p{
+.creators button {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    background-color: transparent;
+
+}
+
+.creators button img {
+    width: 100%;
+    height: 100%;
+}
+
+.infos img {
+    margin: 2em;
+}
+
+.infos p {
+    color: #bee1b2;
+    font-size: medium;
+}
+
+.creators p {
     font-weight: bold;
     color: #3d5e34;
 
@@ -126,6 +153,7 @@ input[type='password'], select{
     background-color: #4D7542;
     padding: 20px;
   }
+
 
   .localizacaobtn{
     width: 60%;
@@ -138,10 +166,11 @@ input[type='password'], select{
     margin-bottom: 0;
   }
 
-  .h3about{
-    text-align: center;
-    margin-bottom: 2em;
-    color: #4D7542;
+  .h3about {
+      font-size: xxx-large;
+      text-align: center;
+      margin-bottom: 2em;
+      color: #4D7542;
   }
 
 .espacofooterabout{
