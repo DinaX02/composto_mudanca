@@ -33,7 +33,6 @@ p.equipalabel{
 }
 
 p.log{
-    align-content: left;
     color: green!important;
 }
 
@@ -71,15 +70,6 @@ p.log {
 }
 
 .post {
-    margin: 1em 1em 1em 1em;
-
-    border-radius: 1em !important;
-    background-color: white;
-}
-
-
-.post {
-    margin: 1em 1em 1em 1em;
 
     border-radius: 1em !important;
     background-color: white;
@@ -94,4 +84,23 @@ p.log {
 
 }
 
+@media screen and (min-width: 1145px) {
+    .post {
 
+        margin: 1em 20em 1em 20em;
+    }
+}
+
+@media screen and (max-width: 1144px) {
+    .post {
+
+        margin: 1em 10em 1em 10em;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .post {
+
+        margin: 1em 1em 1em 1em;
+    }
+}

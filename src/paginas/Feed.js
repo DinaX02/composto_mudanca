@@ -13,6 +13,7 @@ import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css";
+import {hover} from "@testing-library/user-event/dist/hover";
 
 
 const locales = {
@@ -170,34 +171,8 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
             <br/>
             <div className='compCalendario'>
 
-                <h1 id='GoToTurnos'>Turnos</h1>
-                <h2>Adiciona um novo turno</h2>
-                <div>
-                    <input
-                        type="text"
-                        placeholder="Descrição do Turno"
-                        style={{width: "60%", marginRight: "10px"}}
-                        value={newEvent.title}
-                        onChange={(e) => setNewEvent({...newEvent, title: e.target.value})}
-                    />
-                </div>
-                <div>
-                    <DatePicker
-                        placeholderText="Começo (Formato M/D/A)"
-                        style={{marginLeft: "10px"}}
-                        selected={newEvent.start}
-                        onChange={(start) => setNewEvent({...newEvent, start})}
+                <h1 className='corbranca' id='GoToTurnos'>Turnos</h1>
 
-                    /></div>
-                <DatePicker
-                    placeholderText="End (Formato M/D/A)"
-                    selected={newEvent.end}
-                    onChange={(end) => setNewEvent({...newEvent, end})}
-
-                />
-                <button style={{marginTop: "10px"}} onClick={handleAddEvent}>
-                    Adicionar Turno
-                </button>
 
                 <Calendar
                     localizer={localizer}
@@ -214,7 +189,35 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                         borderRadius: "2em"
                     }}
                 />
+                <div>
+                    <br/>
 
+                    <input
+                        type="text"
+                        placeholder="Descrição do Turno"
+                        style={{width: "60%", marginRight: "10px"}}
+                        value={newEvent.title}
+                        onChange={(e) => setNewEvent({...newEvent, title: e.target.value})}
+                    />
+                </div>
+                <div>
+
+                    <DatePicker
+                        placeholderText="Começo (Formato M/D/A)"
+                        style={{marginLeft: "10px"}}
+                        selected={newEvent.start}
+                        onChange={(start) => setNewEvent({...newEvent, start})}
+
+                    /></div>
+                <DatePicker
+                    placeholderText="End (Formato M/D/A)"
+                    selected={newEvent.end}
+                    onChange={(end) => setNewEvent({...newEvent, end})}
+
+                />
+                <button style={{marginTop: "10px"}} onClick={handleAddEvent}>
+                    Adicionar Turno
+                </button>
             </div>
 
         </div>
