@@ -17,7 +17,7 @@ const Navbar = ()=> {
             </span>
             <div className={`nav-items ${isOpen && "open"}`}>
                 <a href="/about">About us</a>
-                <a href="/service">Nosso Serviço</a>
+               
                 <a href="/signup">Log In</a>
 
             </div>
