@@ -38,7 +38,6 @@ import PaginaPerguntasQ1 from "./paginas/Quiz/PaginaPerguntasQ1";
 import SignUpSumup from "./paginas/SignUpSumup";
 import Signin from "./components/auth/Signin";
 
-
 import Quiz2geral from "./paginas/Quiz/PaginaIncialQuizGeral2";
 import PaginaPerguntasQ2 from "./paginas/Quiz/PaginaPerguntasQ2";
 import PaginaPerguntasQ3 from "./paginas/Quiz/PaginaPerguntasQ3";
@@ -46,11 +45,10 @@ const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
 function App() {
-  const [username, setUsername] = useState("");
   const [dataBreveD, setDataBreveD] = useState("");
   const [dataSelected, setDataSelected] = useState("");
   const [dataForaSitio, setDataForaSitio] = useState("");
-  const[nomeEquipa,setNomeEquipa]=useState("");
+  const [nomeEquipa, setNomeEquipa] = useState("");
   return (
     <div className="App">
       <Router>
@@ -59,23 +57,31 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/signupprofessor" element={<SignUp_Professor/>} />
-          <Route path="/signup" element={<SignUp/>}/>
-          <Route path='login' element={<SignInAluno/>}/>
-          <Route path="/signupprofessor" element={<SignUp_Professor/>}/>
+          <Route path="/signupprofessor" element={<SignUp_Professor />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="login" element={<SignInAluno />} />
+          <Route path="/signupprofessor" element={<SignUp_Professor />} />
           <Route path="/signupaluno" element={<SignUpAluno />} />
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
 
-          <Route path='/create' element={<SignUpSumup
+          <Route path="/create" element={<SignUpSumup />} />
 
-          />}/>
-
-          <Route path='/perfil' element={<Perfil
-          nomeEquipa={nomeEquipa}
-          setNomeEquipa={setNomeEquipa}/>}/>
           <Route
-              path="/tracker"
+            path="/perfil"
+            element={
+              <Perfil dataBreveD={dataBreveD}
+              setDataBreveD={setDataBreveD}
+              dataSelected={dataSelected}
+              setDataSelected={setDataSelected}
+              dataForaSitio={dataForaSitio}
+              setDataForaSitio={setDataForaSitio}
+              nomeEquipa={nomeEquipa}
+              setNomeEquipa={setNomeEquipa}/>
+            }
+          />
+          <Route
+            path="/tracker"
             element={
               <Tracker
                 dataBreveD={dataBreveD}
@@ -128,24 +134,15 @@ function App() {
 
           <Route path="/learnmore" element={<LearnMore />} />
 
-          <Route
-            path="/quiz1"
-            element={<Quiz1 username={username} setUsername={setUsername} />}
-          />
-          <Route
-            path="/quiz2"
-            element={<Quiz2 username={username} setUsername={setUsername} />}
-          />
+          <Route path="/quiz1" element={<Quiz1 />} />
+          <Route path="/quiz2" element={<Quiz2 />} />
           <Route path="/quiz3" element={<Quiz3 />} />
 
           <Route path="/paginaPerguntaQ1" element={<PaginaPerguntasQ1 />} />
 
-          <Route path="/quiztesteee" element={<Quiz1teste username={username} setUsername={setUsername} />} />
-
-          <Route path="/quiz2geral" element={<Quiz2geral/>} />
-          <Route path="/paginaPerguntaQ2" element={<PaginaPerguntasQ2/>} />
-          <Route path="/paginaPerguntaQ3" element={<PaginaPerguntasQ3/>} />
-         
+          <Route path="/quiz2geral" element={<Quiz2geral />} />
+          <Route path="/paginaPerguntaQ2" element={<PaginaPerguntasQ2 />} />
+          <Route path="/paginaPerguntaQ3" element={<PaginaPerguntasQ3 />} />
         </Routes>
       </Router>
     </div>

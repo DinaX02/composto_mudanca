@@ -58,6 +58,7 @@ const PaginaPerguntasQ3 = () => {
         </div>
 
       ) : (
+        
         /*div com perguntas /alineas*/
         <div className="question-card">
             

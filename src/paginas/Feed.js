@@ -52,7 +52,7 @@ const events = [
 
 const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) => {
     console.log(apelido);
-    //fazer um array com dados random para utilizar em random logs com spread operators;
+     //fazer um array com dados random para utilizar em random logs com spread operators;
     //new randomlogs={nome:'Joana';resíduo:'Borras de Café';data:'11/11';horas:`${.getTime()}`}
 
 
