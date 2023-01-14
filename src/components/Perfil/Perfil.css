@@ -60,11 +60,3 @@ margin:1em 3em 1em 3em;
 .labelequipa:hover{
     color:white;
 }
-
-@media only screen and (min-width: 530px){
-    .post, select{
-        width:90vh;
-        margin: 1em auto 1em auto;
-        color:#3d5e34;
-    }
-}

@@ -25,10 +25,10 @@ const SignUpProfessor = ({
             });
     }
 
-    const [buttonText, setButtonText] = useState('Registra-te como Professor');
+    const [buttonText, setButtonText] = useState('Regista-te como Professor');
 
     function handleClick() {
-        setButtonText('Registrado');
+        setButtonText('Registado');
     }
 
     return (

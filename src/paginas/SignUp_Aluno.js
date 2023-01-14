@@ -11,19 +11,19 @@ const SignUpAluno = () => {
 
     const [email,setEmail] =useState('');
     const [password,setPassword] =useState('');
-    const signUp = (e)=>{
+    const signUp = (e) => {
         e.preventDefault();
-        createUserWithEmailAndPassword(auth, email, password).then((userCredential)=>{
+        createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
             console.log(userCredential);
         })
             .catch((error) => {
                 console.log(error);
             });
     }
-    const [buttonText, setButtonText] = useState('Registra-te como aluno');
+    const [buttonText, setButtonText] = useState('Regista-te como aluno');
 
     function handleClick() {
-        setButtonText('Registrado');
+        setButtonText('Registado');
     }
 
   return (

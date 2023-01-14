@@ -13,13 +13,13 @@ const About = () => {
       <h1 className="h1first h1about margin">Porquê criar este projeto?</h1>
         <div className="paragrafowidth ">
             <div className='sectionajuste infos'>
-                <img src={require('./foto1.jpg')} width='680vh'/><p className='textoclean'>
+                <img src={require('./foto1.jpg')} width='100%'/><p className='textoclean'>
                 Compostagem Comunitária é um processo que envolve muitos stakeholders e por isso pode implicar vários
                 factores para que corra bem.</p>
             </div>
 
 
-            <div className='sectionajuste infos'><img src={require('./foto2.jpg')} width='680vh'/>
+            <div className='sectionajuste infos'><img src={require('./foto2.jpg')} width='100%'/>
                 <p className="espacofooterabout textoclean"> Este projeto nasceu de um concurso de medidas sustentáveis
                     organizado pelo projeto Mobi Green da Generation Earth no ano de 2020.
                     Os projetos vencedores foram alunos de secundário da cidade de Chaves que desenvolveram um projeto
@@ -41,13 +41,13 @@ const About = () => {
           <div className="textoclean containerrrdiv criadores">
 
               <div className='creators'>
-                  <button><img src={require('./dinis.png')}/></button>
-                  <p>Dinis Antunes</p></div>
+                  <button><img src={require('./dinis.png')} width='100%'/></button>
+                  <p><a href='https://github.com/DinaX02' target='_blank'>Dinis Antunes</a></p></div>
 
 
               <div className='creators'>
                   <button><img src={require('./sofia.png')} width='680vh'/></button>
-                  <p> Sofia Bermudez</p></div>
+                  <p><a href='https://github.com/sbvog' target='_blank'>Sofia Bermudez</a></p></div>
 
 
         <div>

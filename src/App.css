@@ -4,15 +4,21 @@
   box-sizing: border-box;
 }
 
-.App{
+.App {
   background: #BEE1B2;
   /*height: 205vh;*/
 }
 
-a:hover button{
-  background-color: #3d5e34;
-  color: white;
+a:hover {
+  font-weight: bolder;
 }
+
+button a:hover {
+  color: #342f2f;
+  font-weight: bold;
+}
+
+
 
 /*.App {
   text-align: center;

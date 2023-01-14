@@ -13,6 +13,7 @@ import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css";
+import {hover} from "@testing-library/user-event/dist/hover";
 
 
 const locales = {
@@ -170,9 +171,27 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
             <br/>
             <div className='compCalendario'>
 
-                <h1 id='GoToTurnos'>Turnos</h1>
-                <h2>Adiciona um novo turno</h2>
+                <h1 className='corbranca' id='GoToTurnos'>Turnos</h1>
+
+
+                <Calendar
+                    localizer={localizer}
+                    events={allEvent}
+                    startAcessor="start"
+                    endAcessor='end'
+                    style={{
+                        height: "500px",
+                        marginTop: "2em",
+                        marginLeft: "1em",
+                        marginRight: "1em",
+                        backgroundColor: "white",
+                        padding: "1em",
+                        borderRadius: "2em"
+                    }}
+                />
                 <div>
+                    <br/>
+
                     <input
                         type="text"
                         placeholder="Descrição do Turno"
@@ -182,6 +201,7 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                     />
                 </div>
                 <div>
+
                     <DatePicker
                         placeholderText="Começo (Formato M/D/A)"
                         style={{marginLeft: "10px"}}
@@ -198,23 +218,6 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                 <button style={{marginTop: "10px"}} onClick={handleAddEvent}>
                     Adicionar Turno
                 </button>
-
-                <Calendar
-                    localizer={localizer}
-                    events={allEvent}
-                    startAcessor="start"
-                    endAcessor='end'
-                    style={{
-                        height: "500px",
-                        marginTop: "2em",
-                        marginLeft: "5em",
-                        marginRight: "5em",
-                        backgroundColor: "white",
-                        padding: "1em",
-                        borderRadius: "2em"
-                    }}
-                />
-
             </div>
 
         </div>

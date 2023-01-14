@@ -51,8 +51,8 @@ const Perfil = ()=> {
         <br></br>
         <h5 className='titles'>Atividade Recente</h5>
 
-        //TODO colocar variaveis de nome e tracker
-        <div className="content post" dangerouslySetInnerHTML={{__html: thisHtml}}></div>
+
+            <div className="content post" dangerouslySetInnerHTML={{__html: thisHtml}}></div>
 
 
         <h5 className='titles'>Contribuições</h5>
