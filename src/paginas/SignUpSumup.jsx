@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import Navbar from "../components/Navbar/Navbar";
 import "./SignUp_Aluno.css";
 
-
 function SignUpSumUp() {
 
     let primeiro='Sofia';

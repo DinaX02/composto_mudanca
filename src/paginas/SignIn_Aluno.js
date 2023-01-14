@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import {signInWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
+import {Link} from "react-router-dom";
 
 const SignInAluno = () =>{
 
@@ -23,6 +24,7 @@ const [password,setPassword] =useState('');
   return (
     <div className="fundosign">
       <Navbar />
+        <form onSubmit={signIn}>
       <h1 className="tituloprincipal">Sign In</h1>
 
       <div className="textaligninputs divESp">
@@ -43,7 +45,11 @@ const [password,setPassword] =useState('');
         <button className="btnHsignup btnsignup" type="submit">
           Sign In
         </button>
-      </div>
+          <Link to={'/feed'}><button className="btnHsignup btnsignup" type="text">
+              Próximo
+          </button></Link>
+
+      </div> </form>
     </div>
   );
 };

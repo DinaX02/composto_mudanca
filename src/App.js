@@ -56,6 +56,7 @@ function App() {
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
           <Route path='/create' element={<SignUpSumup/>}/>
+          <Route path='/perfil' element={<Perfil/>}/>
           <Route
               path="/tracker"
             element={

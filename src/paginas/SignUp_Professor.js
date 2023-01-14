@@ -83,10 +83,12 @@ const SignUpProfessor = () => {
         </div>
           <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
           <div className="textaligninputs">
-              <Link to={'/create'}><button className="btnHsignup btnsignup" type="submit" onClick={handleClick}>
+          <button className="btnHsignup btnsignup" type="submit" onClick={handleClick}>
                   {buttonText}
+              </button><br/>
+              <Link to={'/create'}><button className="btnHsignup btnsignup" type="text">
+                 Próximo
               </button></Link>
-
           </div>
 
 

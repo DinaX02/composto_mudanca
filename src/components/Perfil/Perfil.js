@@ -56,6 +56,7 @@ const Perfil = ()=> {
     <p>João colocou bananas no 31/12 Às 13:43</p>
     </div>
     </div>
+        <h5 className='titles'>Contribuições</h5>
         <div id='graph' className='post'><Calendar  values={values} until={until} /></div>
 
 
