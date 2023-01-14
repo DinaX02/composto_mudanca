@@ -27,7 +27,8 @@ p a{
 .avatar{
     border-radius: 50%;
     width: 100px;
-    margin:2em;
+    margin: 2em;
+    margin-top: 1em;
     background-color: white;
 }
 
@@ -106,10 +107,11 @@ div.flex-parent-element div{
   background-color: transparent;
 }
 
-.imgMenu{
+.imgMenu {
     background-color: white;
-    padding:0.6em;
-    border-radius:20px;
+    padding: 0.6em;
+    padding-right: 0.9em;
+    border-radius: 20px;
     width: 5em;
 }
 
