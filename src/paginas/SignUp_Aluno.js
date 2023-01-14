@@ -41,19 +41,7 @@ const SignUpAluno = () => {
         </strong>
       </p>
       <div className="textaligninputs divESp">
-        <input
-          type="text"
-          id="fname"
-          name="firstname"
-          placeholder="Primeiro Nome..."
-        />
 
-        <input
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Apelido..."
-        />
 
         <input type="email" id="email" name="email" placeholder="Email..."  value={email}
                onChange={(e)=>setEmail(e.target.value)}/>

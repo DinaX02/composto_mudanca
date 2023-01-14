@@ -38,7 +38,7 @@
     opacity: 1;
 }
 
-.Navbar > .nav-items > a::before{
+.Navbar > .nav-items > a::before {
     content: "";
     position: absolute;
     left: 0;
@@ -49,7 +49,11 @@
     transition: all .45s;
 }
 
-.Navbar > .nav-items > a:hover::before{
+.ola {
+    margin-right: 2em;
+}
+
+.Navbar > .nav-items > a:hover::before {
     width: 100%;
 
 }

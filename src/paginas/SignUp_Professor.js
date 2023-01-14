@@ -48,19 +48,6 @@ const SignUpProfessor = ({
       </p>
       <div className="textaligninputs divESp">
 
-        <input
-          type="text"
-          id="fname"
-          name="firstname"
-          placeholder="Primeiro Nome..."
-        />
-
-        <input
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Apelido..."
-        />
 <p></p>
 
         <input  type="email"

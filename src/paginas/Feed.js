@@ -162,7 +162,7 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                     <button>Regista a tua mais recente atividade</button>
                 </a>
             </div>
-
+            <span id='GoToLearn'/>
             <LearnMore/>
 
 
@@ -170,7 +170,7 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
             <br/>
             <div className='compCalendario'>
 
-                <h1 className=''>Turnos</h1>
+                <h1 id='GoToTurnos'>Turnos</h1>
                 <h2>Adiciona um novo turno</h2>
                 <div>
                     <input

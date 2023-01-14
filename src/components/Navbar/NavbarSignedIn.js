@@ -18,10 +18,10 @@ const Navbar = ()=> {
                 </div>
 
 
-            <div className={`nav-items ${isOpen && "open"}`}>
+            <div className={`nav-items ${isOpen && "open"} ola`}>
                 <a href=""> <AuthDetails/></a>
             </div>
-            <div className={`nav-toggle ${isOpen && "open"}`} onClick={()=>setIsOpen(!isOpen)}>
+            <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
                 <div className="bar"></div>
             </div>
         </div>
