@@ -37,6 +37,11 @@ import PaginaPerguntasQ1 from "./paginas/Quiz/PaginaPerguntasQ1";
 
 import SignUpSumup from "./paginas/SignUpSumup";
 import Signin from "./components/auth/Signin";
+
+
+import Quiz2geral from "./paginas/Quiz/PaginaIncialQuizGeral2";
+import PaginaPerguntasQ2 from "./paginas/Quiz/PaginaPerguntasQ2";
+import PaginaPerguntasQ3 from "./paginas/Quiz/PaginaPerguntasQ3";
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
@@ -66,7 +71,9 @@ function App() {
 
           />}/>
 
-          <Route path='/perfil' element={<Perfil/>}/>
+          <Route path='/perfil' element={<Perfil
+          nomeEquipa={nomeEquipa}
+          setNomeEquipa={setNomeEquipa}/>}/>
           <Route
               path="/tracker"
             element={
@@ -135,6 +142,10 @@ function App() {
 
           <Route path="/quiztesteee" element={<Quiz1teste username={username} setUsername={setUsername} />} />
 
+          <Route path="/quiz2geral" element={<Quiz2geral/>} />
+          <Route path="/paginaPerguntaQ2" element={<PaginaPerguntasQ2/>} />
+          <Route path="/paginaPerguntaQ3" element={<PaginaPerguntasQ3/>} />
+         
         </Routes>
       </Router>
     </div>

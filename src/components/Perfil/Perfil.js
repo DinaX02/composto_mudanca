@@ -4,9 +4,12 @@ import './Perfil.css'
 import ReactDOM from 'react-dom';
 import Calendar from 'react-github-contribution-calendar';
 import SignUpSumUp from "../../paginas/SignUpSumup";
+import { Link } from "react-router-dom";
 
-const Perfil = ()=> {
 
+
+
+const Perfil = (nomeEquipa)=> {
     let thisHtml = ' <div  className=\'post\'>\n' +
         '            <p className=\'equipalabel\'>Equipa 1</p>\n' +
         '            <div className=\'flexy\'>\n' +
@@ -14,7 +17,7 @@ const Perfil = ()=> {
         '                <p></p>\n' +
         '            </div>\n' +
         '        </div>'
-
+}
     let values = {
         '2016-06-23': 1,
         '2016-06-26': 2,
@@ -27,14 +30,14 @@ const Perfil = ()=> {
     return(
     <div className='CompPerfil'>
 
-    <a href='/feed'><button className="voltar">Voltar</button></a>
+    <Link to={"/feed"}><button className="voltar">Voltar</button></Link>
     <div id="Avatar" >
         <button>
             <img  src={`https://avatars.dicebear.com/api/big-smile/9.svg`} className='Perfil'></img>
         </button>
         <h2>João</h2>
         <label className='labels'>  Coordenador  </label>
-        <label className='labelequipa'>Equipa 2</label>
+        <label className='labelequipa'>Equipa 1</label>
 
 
     </div>

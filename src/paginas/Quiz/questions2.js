@@ -1,14 +1,14 @@
-import quiz1img1 from "../Quiz/quiz1_img1.jpg";
-import quiz1img2 from "../Quiz/quiz1_img2.jpg";
-import quiz1img3 from "../Quiz/quiz1_img3.jpg";
-import quiz1img4 from "../Quiz/quiz1_img4.jpg";
-import quiz1img5 from "../Quiz/quiz1_img5.jpg";
+import quiz1img6 from "../Quiz/quiz1_img6.jpg";
+import quiz1img7 from "../Quiz/quiz1_img7.jpg";
+import quiz1img8 from "../Quiz/quiz1_img8.jpg";
+import quiz1img9 from "../Quiz/quiz1_img9.jpg";
+import quiz1img10 from "../Quiz/quiz1_img10.jpg";
 
 const questions2 =[
     {
         numb:1,
         question:"O que não se deve colocar no compostor comunitário?",
-        imagem: quiz1img1,
+        imagem: quiz1img6,
         options:[ 
             
         {alineaKey:0,text: "Borras de café e filtros de café usados",resposta:false},
@@ -22,7 +22,7 @@ const questions2 =[
     {
         numb:2,
         question:"Qual destes é uma etapa da compostagem comunitária?",
-        imagem:quiz1img2,
+        imagem:quiz1img7,
         options: [
 
             {alineaKey:0,text:"Humificação",resposta:false},
@@ -36,7 +36,7 @@ const questions2 =[
     {
         numb:3,
         question:"Qual destes podes colocar no compostor comunitário?",
-        imagem:quiz1img3,
+        imagem:quiz1img8,
         options:[ 
          {alineaKey:0,text:"Borras de Café",resposta:true},
          {alineaKey:1,text:"Dejetos de cão",resposta:false},
@@ -49,7 +49,7 @@ const questions2 =[
     {
         numb:4,
         question:"Qual é a média de resíduo orgânico que é gerado por dia por cada pessoa?",
-        imagem:quiz1img4,
+        imagem:quiz1img9,
         options: [
             {alineaKey:0,text:"5g",resposta:false},
             {alineaKey:1,text:"100g",resposta:false},
@@ -61,7 +61,7 @@ const questions2 =[
     {
         numb:5,
         question:"Qual destes não podes compostar?",
-        imagem:quiz1img5,
+        imagem:quiz1img10,
         options: [
          {alineaKey:0,text:"Folhas Secas",resposta:false},
          {alineaKey:1,text:"Casca de ovo",resposta:false},

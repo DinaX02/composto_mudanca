@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
+import { Link } from "react-router-dom";
 import "./Quiz.css";
 
 const LearnMore = () => {
@@ -22,7 +23,7 @@ const LearnMore = () => {
                     <h1 className="titulosbrancoscartas">Compostagem</h1>
             <br></br><br></br>
             <p>Testa os teus conhecimentos</p>
-            <a href='/quiz1'><button className="btnselecionarquizes">Selecionar Tema</button></a>
+            <Link to={'/quiz1'}><button className="btnselecionarquizes">Selecionar Tema</button></Link>
           </div>
         </div>
       </div>
@@ -35,7 +36,7 @@ const LearnMore = () => {
           <div class="flip-card-back">
             <h1 className="titulosbrancoscartas">Compostagem Comunitária</h1>
             <p>Testa os teus conhecimentos</p>
-            <a href='/quiz2'><button className="btnselecionarquizes">Selecionar Tema</button></a>
+            <Link to={'/quiz2geral'}><button className="btnselecionarquizes">Selecionar Tema</button></Link>
           </div>
         </div>
       </div>
@@ -47,7 +48,7 @@ const LearnMore = () => {
           <div class="flip-card-back">
             <h1 className="titulosbrancoscartas">Benefícios da Compostagem</h1>
             <p>Testa os teus conhecimentos</p>
-            <a href='/quiz3'><button className="btnselecionarquizes">Selecionar Tema</button></a>
+            <Link to={'/quiz3'}><button className="btnselecionarquizes">Selecionar Tema</button></Link>
           </div>
         </div>
       </div>
