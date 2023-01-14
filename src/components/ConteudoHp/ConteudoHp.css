@@ -120,7 +120,8 @@ section {
 
 .sectionajuste{
     display: flex;
-    margin: 0  auto 0 auto;
+    justify-content: center;
+    margin: 0 auto 0 auto;
     align-items: center;
     width: 70%;
 }
@@ -139,7 +140,7 @@ section {
     margin-top: 1.5em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .sectionajuste {
         display: flex;
         flex-direction: column;

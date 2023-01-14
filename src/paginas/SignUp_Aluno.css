@@ -187,7 +187,8 @@ input[type='password'], select{
 }
 
 .paragrafowidth{
-  width: 90%;
+    width: 100%;
+
 
 }
 #refresh{
@@ -212,8 +213,14 @@ margin: auto;
     margin-bottom: 3em;
 }
 
-.CompSumUp{
+.CompSumUp {
     text-align: center;
-background-color: #4D7542;
+    background-color: #4D7542;
     height: 100vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .containerrrdiv, select {
+        flex-direction: column;
+    }
 }
