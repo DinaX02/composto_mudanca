@@ -7,10 +7,18 @@
     background-color: #3d5e34;
 }
 
-.logo{
+.logo {
     max-width: 65px;
+    margin-left: 1em;
+    margin-right: 1em;
+
 }
-.Navbar > .nav-logo{
+
+.nav-logo {
+    display: flex;
+}
+
+.Navbar > .nav-logo {
     font-weight: 700;
     font-size: 21px;
     margin: 15px;

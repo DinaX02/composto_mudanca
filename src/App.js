@@ -55,6 +55,9 @@ function App() {
           <Route path="/service" element={<Service />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signupprofessor" element={<SignUp_Professor/>} />
+          <Route path="/signup" element={<SignUp/>}/>
+          <Route path='login' element={<SignInAluno/>}/>
+          <Route path="/signupprofessor" element={<SignUp_Professor/>}/>
           <Route path="/signupaluno" element={<SignUpAluno />} />
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />

@@ -5,6 +5,7 @@ import Equipas from "../components/Equipas/Equipas";
 import Turnos from "../components/Turnos/Turnos";
 import { useState } from "react";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
+import LearnMore from "./Quiz/LearMore";
 
 const Feed = ({dataBreveD,dataSelected,dataForaSitio,apelido,nomeEquipa}) => {
     console.log(apelido);
@@ -106,7 +107,7 @@ const Feed = ({dataBreveD,dataSelected,dataForaSitio,apelido,nomeEquipa}) => {
             <a href="/learnmore"><button>LearnMore</button></a>
         </div>
 
-        <Equipas/>
+        <LearnMore/>
         <Turnos/>
 
     </div>
