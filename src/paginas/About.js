@@ -13,13 +13,13 @@ const About = () => {
       <h1 className="h1first h1about margin">Porquê criar este projeto?</h1>
         <div className="paragrafowidth ">
             <div className='sectionajuste infos'>
-                <img src={require('./foto1.jpg')} width='100%'/><p className='textoclean'>
+                <img src={require('./foto1.jpg')} width='60%'/><p className='textoclean'>
                 Compostagem Comunitária é um processo que envolve muitos stakeholders e por isso pode implicar vários
                 factores para que corra bem.</p>
             </div>
 
 
-            <div className='sectionajuste infos'><img src={require('./foto2.jpg')} width='100%'/>
+            <div className='sectionajuste infos'><img src={require('./foto2.jpg')} width='60%'/>
                 <p className="espacofooterabout textoclean"> Este projeto nasceu de um concurso de medidas sustentáveis
                     organizado pelo projeto Mobi Green da Generation Earth no ano de 2020.
                     Os projetos vencedores foram alunos de secundário da cidade de Chaves que desenvolveram um projeto

@@ -13,7 +13,6 @@ import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css";
-import {hover} from "@testing-library/user-event/dist/hover";
 
 
 const locales = {
@@ -173,25 +172,7 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
 
                 <h1 className='corbranca' id='GoToTurnos'>Turnos</h1>
 
-
-                <Calendar
-                    localizer={localizer}
-                    events={allEvent}
-                    startAcessor="start"
-                    endAcessor='end'
-                    style={{
-                        height: "500px",
-                        marginTop: "2em",
-                        marginLeft: "1em",
-                        marginRight: "1em",
-                        backgroundColor: "white",
-                        padding: "1em",
-                        borderRadius: "2em"
-                    }}
-                />
                 <div>
-                    <br/>
-
                     <input
                         type="text"
                         placeholder="Descrição do Turno"
@@ -201,7 +182,6 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                     />
                 </div>
                 <div>
-
                     <DatePicker
                         placeholderText="Começo (Formato M/D/A)"
                         style={{marginLeft: "10px"}}
@@ -219,6 +199,22 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                     Adicionar Turno
                 </button>
             </div>
+            <Calendar
+                localizer={localizer}
+                events={allEvent}
+                startAcessor="start"
+                endAcessor='end'
+                style={{
+                    height: "500px",
+                    marginTop: "2em",
+                    marginLeft: "1em",
+                    marginRight: "1em",
+                        backgroundColor: "white",
+                        padding: "1em",
+                        borderRadius: "2em"
+                    }}
+                />
+
 
         </div>
   );

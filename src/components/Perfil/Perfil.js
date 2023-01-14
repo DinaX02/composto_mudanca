@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 
 
 let thisHtml = ' <div  className=\'post\'>\n' +
-    '            <p className=\'equipalabel\'>Equipa 1</p>\n' +
     '            <div className=\'flexy\'>\n' +
     '                <p className=\'corpo log\'>João colocou cascas de ovo no 11/01 Às 10:15</p>\n' +
     '                <p></p>\n' +
