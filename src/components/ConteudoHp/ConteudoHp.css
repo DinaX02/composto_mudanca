@@ -128,14 +128,24 @@ section {
     color:white;
 }
 
-@media  (max-width: 600px) {
-    .sectionajuste{
+@media (max-width: 600px) {
+    .sectionajuste {
         margin: auto;
         width: 90%;
     }
 }
 
-.espaaacoemcimahp{
-margin-top: 1.5em;
+.espaaacoemcimahp {
+    margin-top: 1.5em;
 }
+
+@media (max-width: 600px) {
+    .sectionajuste {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+}
+
 
