@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./Quiz.css";
-import questions1 from "./questions";
+import questions2 from "./questions2";
 //import quiz1img1 from "../Quiz/quiz1_img2.jpg";
 import { Link } from "react-router-dom";
 
-const PaginaPerguntasQ1 = () => {
+const PaginaPerguntasQ2 = () => {
   const [showFinalResults, setFinalResults] = useState(false);
   const [score, setScore] = useState(0);
   const [currentQuestion, setcurrentQuestion] = useState(0);
@@ -16,7 +16,7 @@ const PaginaPerguntasQ1 = () => {
     }
     //vai passar de pergunta
 
-    if (currentQuestion + 1 < questions1.length) {
+    if (currentQuestion + 1 < questions2.length) {
       setcurrentQuestion(currentQuestion + 1);
       setcurrentImg(currentImg + 1);
     } else {
@@ -47,8 +47,8 @@ const PaginaPerguntasQ1 = () => {
 
         <div className="final-results">
           <h1 className="divfinalquiz">Parabéns Completaste o quiz!</h1>
-          <h2 className="finaldivcentro">Acertas-te {score} de {questions1.length} Perguntas</h2>
-          <h2 className="finaldivcentro">Acertas-te {(score / questions1.length) * 100} % do Quiz!</h2>
+          <h2 className="finaldivcentro">Acertas-te {score} de {questions2.length} Perguntas</h2>
+          <h2 className="finaldivcentro">Acertas-te {(score / questions2.length) * 100} % do Quiz!</h2>
           <div className="alinharbtnVoltarLM">
           <button className="btnvoltarraoLearnMore" onClick={() => restartQuiz()}>
             Restart Quiz
@@ -63,18 +63,18 @@ const PaginaPerguntasQ1 = () => {
             
      
 
-<span><h2>Pergunta {currentQuestion + 1} de {questions1.length}</h2>
+<span><h2>Pergunta {currentQuestion + 1} de {questions2.length}</h2>
 
 <h2 className="espacamentoscore">Score: <span className="backgroundcontrastequiz">{score}</span></h2></span>
 
           <h1 className="question-text">
-            {questions1[currentQuestion].question}
+            {questions2[currentQuestion].question}
           </h1>
           <div id="imgQuizz" className="text-centerimg">
-            <img className="imgQuizz" src={questions1[currentImg].imagem} />
+            <img className="imgQuizz" src={questions2[currentImg].imagem} />
           </div>
           <ul className="listacentrada">
-            {questions1[currentQuestion].options.map((alinea) => {
+            {questions2[currentQuestion].options.map((alinea) => {
               return (
 
                 
@@ -100,4 +100,4 @@ const PaginaPerguntasQ1 = () => {
   );
 };
 
-export default PaginaPerguntasQ1;
+export default PaginaPerguntasQ2;

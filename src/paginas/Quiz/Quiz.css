@@ -348,6 +348,12 @@ li {
 }
 
 .final-results {
+  background-image: url(../Quiz/imgdivfinal-8.png
+  );
+  background-repeat: no-repeat;
+  background-size:cover
+  ;
+  object-fit: cover;
   position: absolute;
 top: 0; bottom: 0;
 left: 0; right: 0;
@@ -384,7 +390,8 @@ left: 0; right: 0;
 .imgQuizz{
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   border-radius: 16px;
   width: 80%;
   }
@@ -478,13 +485,16 @@ font-size: 20px;
 
 .fundoquiz1{
   background-color: #BEE1B2 !important;
-  height: 168vh;
+  height: 175vh;
+}
+
+.finaldivcentro{
+  margin-top: 0.6em;
+  text-align: center;
 }
 
 
 
-
-/* CSS */
 .formatacaoLi {
   appearance: button;
   background-color: #b67b43;
