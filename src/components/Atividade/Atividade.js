@@ -38,7 +38,7 @@ avatar3 = `https://avatars.dicebear.com/api/big-smile/${seed3}.svg`;
 //console.log(avatar3);
 
 }
-const Atividade = ({dataBreveD,dataSelected}) => {
+const Atividade = ({dataBreveD,dataSelected,dataForaSitio}) => {
     console.log(dataBreveD);  
 
   return (
@@ -75,7 +75,7 @@ const Atividade = ({dataBreveD,dataSelected}) => {
         </div>
         <p className="log">Resíduos Selecionados: {dataSelected}</p>
         <div><p className="log">Breve Descrição: {dataBreveD}</p></div>
-        <div><p className="log">Algo Fora do Sítio: {dataBreveD}</p></div>
+        <div><p className="log">Algo Fora do Sítio: {dataForaSitio}</p></div>
         </div>
 
 

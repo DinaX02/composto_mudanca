@@ -43,6 +43,7 @@ function App() {
   const [username, setUsername] = useState("");
   const [dataBreveD, setDataBreveD] = useState("");
   const [dataSelected, setDataSelected] = useState("");
+  const [dataForaSitio, setDataForaSitio] = useState("");
   return (
     <div className="App">
       <Router>
@@ -66,6 +67,8 @@ function App() {
                 setDataBreveD={setDataBreveD}
                 dataSelected={dataSelected}
                 setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
               />
             }
           />
@@ -80,6 +83,8 @@ function App() {
                 setDataBreveD={setDataBreveD}
                 dataSelected={dataSelected}
                 setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
               />
             }
           />
@@ -92,6 +97,8 @@ function App() {
                 setDataBreveD={setDataBreveD}
                 dataSelected={dataSelected}
                 setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
               />
             }
           />

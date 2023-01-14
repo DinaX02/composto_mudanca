@@ -143,9 +143,6 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected}) => {
               <div className="cabetudonalinha">
                 <h4 className="encontatitulotarcker">Algo Fora do Sítio:{print ? <h4 className="semcordados1">{dataForaSitio}</h4> : null} </h4>
               </div>
-              <div className="cabetudonalinha">
-                <h4 className="encontatitulotarcker">Algo Fora do Sítio:{print ? <h4 className="semcordados1">{dataForaSitio}</h4> : null} </h4>
-              </div>
             </div>
 
             <button

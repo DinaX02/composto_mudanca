@@ -9,7 +9,9 @@ import {Link} from "react-router-dom";
 
 
 
-const SignUpProfessor = () => {
+const SignUpProfessor = ({
+  username1,setUsername1,
+}) => {
 
     const [email,setEmail] =useState('');
     const [password,setPassword] =useState('');
@@ -51,6 +53,8 @@ const SignUpProfessor = () => {
           id="fname"
           name="firstname"
           placeholder="Primeiro Nome..."
+          value={username1}
+        onChange={(e) => setUsername1(e.target.value)}
         />
 
         <input
