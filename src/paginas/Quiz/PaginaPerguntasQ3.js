@@ -35,7 +35,7 @@ const PaginaPerguntasQ3 = () => {
     <div className="fundoquiz1">
       <div className="headerquiz">
         <span id="textoquizz" className="h1Quizzz">
-          Quiz
+          Quizz
         </span>
       </div>
 
@@ -46,14 +46,14 @@ const PaginaPerguntasQ3 = () => {
         /*div resultados finais score...*/
 
         <div className="final-results">
-          <h1 className="divfinalquiz">Parabéns Completaste o quiz!</h1>
-          <h2 className="finaldivcentro">Acertas-te {score} de {questions3.length} Perguntas</h2>
-          <h2 className="finaldivcentro">Acertas-te {(score / questions3.length) * 100} % do Quiz!</h2>
+          <h1 className="divfinalquiz">Parabéns Completaste o quizz!</h1>
+          <h2 className="finaldivcentro">Acertaste {score} de {questions3.length} Perguntas</h2>
+          <h2 className="finaldivcentro">Resultado: {(score / questions3.length) * 100} % !</h2>
           <div className="alinharbtnVoltarLM">
           <button className="btnvoltarraoLearnMore" onClick={() => restartQuiz()}>
-            Restart Quiz
+            Restart Quizz
           </button>
-        <Link to={'/feed'}><button className="btnvoltarraoLearnMore">Sair Quiz</button></Link>
+        <Link to={'/feed'}><button className="btnvoltarraoLearnMore">Sair Quizz</button></Link>
       </div>
         </div>
 

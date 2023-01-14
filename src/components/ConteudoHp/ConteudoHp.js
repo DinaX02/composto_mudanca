@@ -3,9 +3,9 @@ import "./ConteudoHp.css";
 import img1 from '../ConteudoHp/compostagem_img_1.png'
 import img2 from '../ConteudoHp/bencom.png'
 import img3 from '../ConteudoHp/comunity_img.png'
-import Reviews from "../reviews/Reviews";
+//import Reviews from "../reviews/Reviews";
 import {Carousel} from "react-responsive-carousel";
-import Carrousel from "../reviews/Reviews";
+//import Carrousel from "../reviews/Reviews";
 
 const ConteudoHp = () => {
 
