@@ -207,8 +207,8 @@ const Feed = ({dataBreveD, dataSelected, dataForaSitio, apelido, nomeEquipa}) =>
                     style={{
                         height: "500px",
                         marginTop: "2em",
-                        marginLeft: "5em",
-                        marginRight: "5em",
+                        marginLeft: "1em",
+                        marginRight: "1em",
                         backgroundColor: "white",
                         padding: "1em",
                         borderRadius: "2em"
