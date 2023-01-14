@@ -55,9 +55,9 @@ function App() {
           <Route path="/signupaluno" element={<SignUpAluno />} />
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
-
+          <Route path='/create' element={<SignUpSumup/>}/>
           <Route
-            path="/tracker"
+              path="/tracker"
             element={
               <Tracker
                 dataBreveD={dataBreveD}

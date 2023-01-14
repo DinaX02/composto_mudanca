@@ -6,6 +6,7 @@ import {auth} from '../../firebase';
 import {onAuthStateChanged, signOut} from "firebase/auth";
 
 
+
 const Navbar = ()=> {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = ()=> {
                 <a href="/about">About us</a>
                 <a href="/service">Nosso Serviço</a>
                 <a href="/signup">Log In</a>
-                <a href=""><AuthDetails/></a>
+                <a href=""> <AuthDetails/></a>
             </div>
             <div className={`nav-toggle ${isOpen && "open"}`} onClick={()=>setIsOpen(!isOpen)}>
                 <div className="bar"></div>

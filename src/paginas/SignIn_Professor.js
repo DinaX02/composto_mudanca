@@ -48,9 +48,9 @@ const SignInProfessor = () => {
           </button>
 
               <button className="btnHsignup btnsignup" type="text">
-                  Entra no teu feed
-              </button> <a href="/feed">
-          </a>
+                  <a href="/feed"> Entra no teu feed </a>
+              </button>
+
         </div>
     </form>
     </div>
