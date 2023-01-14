@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Quiz1 = ({
+const Quiz1teste = ({
   username,setUsername,
 }) => {
 
@@ -20,6 +20,9 @@ const Quiz1 = ({
         onChange={(e) => setUsername(e.target.value)}
         />
 
+<div>
+  <p>{username}</p>
+</div>
         <div>
           <Link to={"/quiz2"}><button>
             quiz2
@@ -30,4 +33,4 @@ const Quiz1 = ({
     );
   };
   
-  export default Quiz1;
+  export default Quiz1teste;

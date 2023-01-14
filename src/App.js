@@ -21,6 +21,7 @@ import ReactMapGL from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import LearnMore from "./paginas/Quiz/LearMore";
 import Quiz1 from "./paginas/Quiz/PaginaIncialQuizGeral";
+import Quiz1teste from "./paginas/Quiz/Quiz1";
 import Quiz2 from "./paginas/Quiz/Quiz2";
 import Quiz3 from "./paginas/Quiz/Quiz3";
 //const localizacaoEscolas = localizacao;
@@ -41,6 +42,7 @@ console.log(localizacaoEscolas.Aveiro);
 
 function App() {
   const [username, setUsername] = useState("");
+  const [username1, setUsername1] = useState("");
   const [dataBreveD, setDataBreveD] = useState("");
   const [dataSelected, setDataSelected] = useState("");
   const [dataForaSitio, setDataForaSitio] = useState("");
@@ -52,11 +54,14 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/signupprofessor" element={<SignUp_Professor />} />
+          <Route path="/signupprofessor" element={<SignUp_Professor/>} />
           <Route path="/signupaluno" element={<SignUpAluno />} />
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
-          <Route path='/create' element={<SignUpSumup/>}/>
+
+          <Route path='/create' element={<SignUpSumup
+          username1={username1} setUsername1={setUsername1}/>}/>
+
           <Route path='/perfil' element={<Perfil/>}/>
           <Route
               path="/tracker"
@@ -117,6 +122,8 @@ function App() {
           <Route path="/quiz3" element={<Quiz3 />} />
 
           <Route path="/paginaPerguntaQ1" element={<PaginaPerguntasQ1 />} />
+
+          <Route path="/quiztesteee" element={<Quiz1teste username={username} setUsername={setUsername} />} />
 
         </Routes>
       </Router>

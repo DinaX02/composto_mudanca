@@ -53,8 +53,6 @@ const SignUpProfessor = ({
           id="fname"
           name="firstname"
           placeholder="Primeiro Nome..."
-          value={username1}
-        onChange={(e) => setUsername1(e.target.value)}
         />
 
         <input

@@ -1,11 +1,12 @@
 import React, {useState} from "react";
 import Navbar from "../components/Navbar/Navbar";
+import { Link } from "react-router-dom";
 import "./SignUp_Aluno.css";
 
-function SignUpSumUp() {
+function SignUpSumUp( usernamenovo,setUsername1,) {
 
-    let primeiro='Sofia';
-    let ultimoNome='Maria';
+    //let primeiro='Sofia';
+    //let ultimoNome='Maria';
     let user='sbvogensen@gmail.com'
     let avatar1 = `https://avatars.dicebear.com/api/big-smile/1.svg`;
     let randomAva1 = () => {
@@ -28,8 +29,26 @@ function SignUpSumUp() {
 
 '
 
-                <div className='textaligninputs corbranca'>
-                <h3 className='tituloprincipal'>Bem vindo {primeiro} {ultimoNome}</h3>
+        <div className='textaligninputs corbranca'>
+            <p className="espacoparainPuts">Por Favor Insira os Seguintes dados :</p>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Primeiro Nome..."
+          value={usernamenovo}
+          onChange={(e) => setUsername1(e.target.value)}
+        />
+
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Apelido..."
+        />
+
+  
+                <h3 className='tituloprincipal'>Bem vindo {""} {""}</h3>
                     <p>Estas a utilizar a conta {user}</p>
 
 

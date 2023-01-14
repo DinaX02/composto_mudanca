@@ -5,13 +5,13 @@ import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
 
-const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected}) => {
+const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio}) => {
 
   //console.log(Mapp.getValueCidade)
 
   //const [dataSelected, setDataSelected] = useState(null);
   //const [dataBreveD, setDataBreveD] = useState(null);
-  const [dataForaSitio, setDataForaSitio] = useState(null);
+  //const [dataForaSitio, setDataForaSitio] = useState(null);
   const [print, setPrint] = useState(false);
 
   //function getDataSelected(val2){
@@ -31,13 +31,13 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected}) => {
   //}
 
 
-  function getDataForaSitio(val) {
-    setDataForaSitio(val.target.value);
-    setPrint(false);
+ // function getDataForaSitio(val) {
+    //setDataForaSitio(val.target.value);
+    //setPrint(false);
     //console.log(val.target.value);
-    console.log(dataForaSitio);
-    console.log(print);
-  }
+    //console.log(dataForaSitio);
+    //console.log(print);
+  //}
 
   return (
       <div>
@@ -119,7 +119,9 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected}) => {
                 type="text"
                 id="description"
                 name="description"
-                onChange={getDataForaSitio}
+                value={dataForaSitio}
+                onChange={(e) => setDataForaSitio(e.target.value)}
+          
             />
 
             <div className="frasesobretutorialTracker">
