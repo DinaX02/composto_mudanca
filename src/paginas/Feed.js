@@ -17,13 +17,19 @@ const Feed = ({dataBreveD,dataSelected,dataForaSitio,apelido,nomeEquipa}) => {
     let avatar2 = `https://avatars.dicebear.com/api/big-smile/2.svg`;
     let avatar3 = `https://avatars.dicebear.com/api/big-smile/3.svg`;
 
+    let randomize = [
+        ['Joana', 'Maria', 'Martim', 'Carina'],
+        ['bananas', 'borras', 'matéria seca', 'frutas']
+            ['11:53', '11:54', '12:00', '12:30'],
+        ['11/0', '09/01', '10/01', '12/01']
+    ]
 
     let randomAva1 = () => {
-        return(Math.floor(Math.random() * 30))
+        return (Math.floor(Math.random() * 30))
     }
 
     let randomAva2 = () => {
-        return(Math.floor(Math.random() * 30))
+        return (Math.floor(Math.random() * 30))
     }
 
     let randomAva3 = () => {
@@ -66,13 +72,13 @@ const Feed = ({dataBreveD,dataSelected,dataForaSitio,apelido,nomeEquipa}) => {
 
 
             <div  className='post'>
-                <p className='equipalabel'>Equipa [nome da equipa]</p>
+                <p className='equipalabel'>Equipa 1</p>
                 <div className='flexy'>
                     <div className='divimagem'>
                         <img src={avatar1} className='profile'/>
                     </div>
-                    <p className='corpo log'>João colocou bananas no 31/12 Às 13:43</p>
-                    <p ></p>
+                    <p className='corpo log'>Ruben colocou cascas de ovo no 11/01 Às 10:15</p>
+                    <p></p>
                 </div>
             </div>
 
@@ -96,15 +102,14 @@ const Feed = ({dataBreveD,dataSelected,dataForaSitio,apelido,nomeEquipa}) => {
             </div>
 
             <div className='post'>
-                <p  className='equipalabel'>Equipa [nome da equipa]</p>
+                <p className='equipalabel'>Equipa 3</p>
                 <div className='flexy'>
                     <div className='divimagem'>
                         <img src={avatar3} className='profile'/>
                     </div>
-                    <p className="corpo log"> João colocou bananas no 31/12 Às 13:43</p></div>
+                    <p className="corpo log"> Maria colocou borras de café no 11/01 Às 8:20</p></div>
             </div>
             <a href="/tracker"><button>Regista a tua mais recente atividade</button></a>
-            <a href="/learnmore"><button>LearnMore</button></a>
         </div>
 
         <LearnMore/>

@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
+import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa}) => {
 
@@ -41,12 +42,12 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
 
   return (
       <div>
-        <Navbar />
-        <div>
-          <a href="/feed">
-            <button className="voltar"> Voltar</button>
-          </a>
-        </div>
+          <NavbarSignedIn/>
+          <div>
+              <a href="/feed">
+                  <button className="voltar"> Voltar</button>
+              </a>
+          </div>
         <div className="trackeralinharcentro">
           <h1 className="titulostracker">Tracker</h1>
           <div>

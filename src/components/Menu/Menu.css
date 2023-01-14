@@ -40,13 +40,13 @@ p a{
   align-items: flex-end;
 }
 .flex-parent-element {
-  background-color: transparent;
-
-  justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    margin:auto;
+    margin: auto;
     width: 15em;
-  }
+}
   
 
 #navbary{
@@ -96,8 +96,9 @@ text-align: center;
   margin:0.1em;
 }
 
-#LearnMore{
-    margin-top:0.3em;
+#LearnMore {
+    margin-top: 0.3em;
+    margin-left: 1em;
 }
 
 
