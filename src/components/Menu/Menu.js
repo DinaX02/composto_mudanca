@@ -3,12 +3,6 @@ import "./Menu.css";
 import OverlaySettings from "../Overlay/OverlaySettings";
 const Menu = () => {
 
-    function mostrarEsconder() {
-
-        return(<OverlaySettings/>
-          )
-
-    }
 
 
 
@@ -17,9 +11,7 @@ const Menu = () => {
     <div id='navbary'>
 
     </div>
-    <div onClick={mostrarEsconder} className='settings'>
-   //TODO:FLIPBUTTONS
-    </div>
+
     <div className='flex-parent-element'>
         <div className='flex-child-element magenta'>
             <div id='Tracker'>
