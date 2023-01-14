@@ -9,11 +9,16 @@
   /*height: 205vh;*/
 }
 
+a:hover {
+  font-weight: bolder;
+}
 
 button a:hover {
   color: #342f2f;
   font-weight: bold;
 }
+
+
 
 /*.App {
   text-align: center;
