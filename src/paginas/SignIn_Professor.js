@@ -5,6 +5,7 @@ import "./SignUp_Aluno.css";
 import {signInWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import AuthDetails from "../components/auth/AuthDetails";
+import {Link} from "react-router-dom";
 
 const SignInProfessor = () => {
 
@@ -47,9 +48,10 @@ const SignInProfessor = () => {
           Sign In
           </button>
 
-              <button className="btnHsignup btnsignup" type="text">
-                  <a href="/feed"> Entra no teu feed </a>
-              </button>
+      <br/>
+          <Link to={'/feed'}><button className="btnHsignup btnsignup" type="text">
+              Próximo
+          </button></Link>
 
         </div>
     </form>
