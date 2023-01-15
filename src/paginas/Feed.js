@@ -136,7 +136,7 @@ const Feed = ({
               <img src={avatar1} className="profile" />
             </div>
             <p className="corpo log">
-            {usernamenovo} colocou cascas de ovo no 11/01 Às 
+            {usernamenovo} colocou cascas de ovo no 11/01 às 17:28
             </p>
             <p></p>
           </div>
