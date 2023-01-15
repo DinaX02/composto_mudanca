@@ -1,11 +1,9 @@
 import React, {useState} from "react";
-import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import {createUserWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
 import {Link} from "react-router-dom";
-import AuthDetails from "../components/auth/AuthDetails";
 
 const SignUpAluno = () => {
 

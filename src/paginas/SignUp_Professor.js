@@ -1,10 +1,8 @@
 import React, {useState} from "react";
-import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import {createUserWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
-import AuthDetails from "../components/auth/AuthDetails";
 import {Link} from "react-router-dom";
 
 
@@ -91,8 +89,3 @@ const SignUpProfessor = ({
 
 export default SignUpProfessor;
 
-//<select id="cidade" name="cidade" placeholder="Escolha cidade">
-//<option value="australia">Aveiro</option>
-//<option value="canada">Chaves</option>
-//<option value="usa">Peniche</option>
-//</select>

@@ -1,42 +1,29 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
 import { useState } from "react";
-//import Header from './components/Header/Header';
-//import ConteudoHp from './components/ConteudoHp/ConteudoHp';
-//import Footer from './components/Footer/Footer';
 import About from "./paginas/About";
 import SignUp from "./paginas/SignUp";
 import SignUpAluno from "./paginas/SignUp_Aluno";
 import SignInAluno from "./paginas/SignIn_Aluno";
 import Tutorial from "./paginas/Tutorial";
 import Homepage from "./paginas/Homepage";
-import Location from "./components/teste/location";
-import Service from "./paginas/Service";
 import Feed from "./paginas/Feed";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Tracker from "./paginas/Tracker";
 import Mapp from "./paginas/Testemap";
 import localizacao from "./paginas/localizacao.json";
-import ReactMapGL from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import LearnMore from "./paginas/Quiz/LearMore";
 import Quiz1 from "./paginas/Quiz/PaginaIncialQuizGeral";
-import Quiz1teste from "./paginas/Quiz/Quiz1";
 import Quiz2 from "./paginas/Quiz/Quiz2";
 import Quiz3 from "./paginas/Quiz/Quiz3";
-//const localizacaoEscolas = localizacao;
-//console.log(localizacaoEscolas.Aveiro);
-import AuthDetails from "./components/auth/AuthDetails";
 import SignIn_Professor from "./paginas/SignIn_Professor";
-import Perfil from "./components/Perfil/Perfil";
+import Perfil from "./paginas/Perfil/Perfil";
 import SignUp_Professor from "./paginas/SignUp_Professor";
 import Atividade from "./components/Atividade/Atividade";
 import PaginaPerguntasQ1 from "./paginas/Quiz/PaginaPerguntasQ1";
-//const localizacaoEscolas = localizacao;
-//console.log(localizacaoEscolas.Aveiro);
 
 import SignUpSumup from "./paginas/SignUpSumup";
-import Signin from "./components/auth/Signin";
+
 
 import Quiz2geral from "./paginas/Quiz/PaginaIncialQuizGeral2";
 import PaginaPerguntasQ2 from "./paginas/Quiz/PaginaPerguntasQ2";
@@ -49,13 +36,15 @@ function App() {
   const [dataSelected, setDataSelected] = useState("");
   const [dataForaSitio, setDataForaSitio] = useState("");
   const [nomeEquipa, setNomeEquipa] = useState("");
+  const [usernamenovo,setUsernamenovo]=useState('');
+  const [apelido,setApelido]=useState('');
+
   return (
     <div className="App">
       <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signupprofessor" element={<SignUp_Professor />} />
           <Route path="/signup" element={<SignUp />} />
@@ -65,7 +54,13 @@ function App() {
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
 
-          <Route path="/create" element={<SignUpSumup />} />
+          <Route path="/create" element={<SignUpSumup 
+          usernamenovo={usernamenovo}
+          setUsernamenovo={setUsernamenovo}
+          apelido={apelido}
+          setApelido={setApelido}
+          
+          />} />
 
           <Route
             path="/perfil"
@@ -77,7 +72,12 @@ function App() {
               dataForaSitio={dataForaSitio}
               setDataForaSitio={setDataForaSitio}
               nomeEquipa={nomeEquipa}
-              setNomeEquipa={setNomeEquipa}/>
+              setNomeEquipa={setNomeEquipa}
+              usernamenovo={usernamenovo}
+              setUsernamenovo={setUsernamenovo}
+              apelido={apelido}
+              setApelido={setApelido}
+              />
             }
           />
           <Route
@@ -110,6 +110,10 @@ function App() {
                 setDataForaSitio={setDataForaSitio}
                 nomeEquipa={nomeEquipa}
                 setNomeEquipa={setNomeEquipa}
+                usernamenovo={usernamenovo}
+              setUsernamenovo={setUsernamenovo}
+                apelido={apelido}
+                setApelido={setApelido}
               />
             }
           />

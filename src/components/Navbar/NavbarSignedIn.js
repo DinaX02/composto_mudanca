@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import logo from '../Navbar/logo_composto_mudanca-8.png'
 import './Navbar.css'
 import AuthDetails from "../auth/AuthDetails";
-import {auth} from '../../firebase';
-import {onAuthStateChanged, signOut} from "firebase/auth";
+
 
 
 
