@@ -58,6 +58,10 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
           value={ nomeEquipa}
           onChange={(e) => setNomeEquipa(e.target.value)}
         />
+        <div>
+        <input type="time" id="timer" required/>
+        <input type="date" id="datatracker" name="datainput"/>
+        </div>
             <br></br>
             <div className="brevedescricaotracker">
               <label for="residuos">Escolhe o tipo de resíduos</label>

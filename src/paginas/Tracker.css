@@ -114,6 +114,13 @@ text-align: center !important;
     color: black !important;
     font-weight: 400;
 }
+
+
+@media  (max-width:968px) {
+    .nomeeuipainput{
+        width: 60% !important;
+    }
+    }
 /*
 
 
