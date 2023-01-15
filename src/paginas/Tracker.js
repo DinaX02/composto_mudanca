@@ -7,7 +7,7 @@ import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 
 
-const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa}) => {
+const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa,datainput,setDatainput, tempoinput,setTempoinput}) => {
 
 
   const [print, setPrint] = useState(false);
@@ -58,6 +58,18 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
           value={ nomeEquipa}
           onChange={(e) => setNomeEquipa(e.target.value)}
         />
+        <div>
+
+        <input className="tempotracker" type="time"  value={ datainput} id="timer" required
+         onChange={(e) => setDatainput(e.target.value)}
+         />  
+
+
+        <input className="datainputtracker" type="date" id="datatracker" name="datainput"
+         value={ tempoinput}  onChange={(e) => setTempoinput(e.target.value)} />
+
+
+        </div>
             <br></br>
             <div className="brevedescricaotracker">
               <label for="residuos">Escolhe o tipo de resíduos</label>
@@ -120,6 +132,10 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
             <div className="divapresentacaodados">
             <div className="cabetudonalinha">
                 <h4 className="encontatitulotarcker">Nome Equipa:{print ? <h4 className="semcordados1">{nomeEquipa}</h4> : null} </h4>
+              </div>
+              <div className="cabetudonalinha">
+              <h4 className="encontatitulotarcker">Data:{print ? <h4 className="semcordados1">{tempoinput}</h4> : null} </h4>
+                <h4 className="encontatitulotarcker">Horas:{print ? <h4 className="semcordados1">{datainput}</h4> : null} </h4>
               </div>
               <div className="cabetudonalinha">
                 <h4 className="encontatitulotarcker">Tipo de Resíduo:{print ? <h4 className="semcordados1">{dataSelected}</h4> : null} </h4>

@@ -38,6 +38,8 @@ function App() {
   const [nomeEquipa, setNomeEquipa] = useState("");
   const [usernamenovo,setUsernamenovo]=useState('');
   const [apelido,setApelido]=useState('');
+  const[datainput,setDatainput]= useState("");
+  const[tempoinput,setTempoinput]= useState("");
 
   return (
     <div className="App">
@@ -92,6 +94,10 @@ function App() {
                 setDataForaSitio={setDataForaSitio}
                 nomeEquipa={nomeEquipa}
                 setNomeEquipa={setNomeEquipa}
+                datainput={datainput}
+                setDatainput={setDatainput}
+                tempoinput={tempoinput}
+                setTempoinput={setTempoinput}
               />
             }
           />
@@ -111,9 +117,13 @@ function App() {
                 nomeEquipa={nomeEquipa}
                 setNomeEquipa={setNomeEquipa}
                 usernamenovo={usernamenovo}
-              setUsernamenovo={setUsernamenovo}
+                setUsernamenovo={setUsernamenovo}
                 apelido={apelido}
                 setApelido={setApelido}
+                datainput={datainput}
+                setDatainput={setDatainput}
+                tempoinput={tempoinput}
+                setTempoinput={setTempoinput}
               />
             }
           />
@@ -130,6 +140,10 @@ function App() {
                 setDataForaSitio={setDataForaSitio}
                 nomeEquipa={nomeEquipa}
                 setNomeEquipa={setNomeEquipa}
+                datainput={datainput}
+                setDatainput={setDatainput}
+                tempoinput={tempoinput}
+                setTempoinput={setTempoinput}
               />
             }
           />

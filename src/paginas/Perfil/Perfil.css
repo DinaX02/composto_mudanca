@@ -22,9 +22,8 @@ margin:2em;
     opacity: 40%;
     text-align: right;
     font-weight: bold;
-    color:hotpink;
-    text-decoration-line: underline;
-    text-decoration-color: hotpink;
+    color: #4D7542 !important;
+
 
 }
 .post{
