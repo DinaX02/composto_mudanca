@@ -27,6 +27,7 @@
   background-image: url('./layered_Header_newagain.svg');
 } 
 
+
 .spacer{
     aspect-ratio: 960/100;
     width: 100%;
@@ -34,6 +35,7 @@
     background-position: center;
     background-size: cover;
 }
+
 
 .btnHomePage{
     padding: 0.5rem 1rem;

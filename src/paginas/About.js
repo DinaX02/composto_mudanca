@@ -15,7 +15,7 @@ const About = () => {
             </h1>
             <div className="paragrafowidth ">
               <div className="sectionajuste infos">
-                <img src={require("./foto1.jpg")} width="60%" />
+                <img className="imgabout"src={require("./foto1.jpg")} width="50%" />
                 <p className="textoclean">
                   Compostagem Comunitária é um processo que envolve muitos
                   stakeholders e por isso pode implicar vários factores para que
@@ -24,7 +24,7 @@ const About = () => {
               </div>
 
               <div className="sectionajuste infos">
-                <img src={require("./foto2.jpg")} width="60%" />
+                <img className="imgabout" src={require("./foto2.jpg")} width="50%" />
                 <p className="espacofooterabout textoclean">
                   {" "}
                   Este projeto nasceu de um concurso de medidas sustentáveis

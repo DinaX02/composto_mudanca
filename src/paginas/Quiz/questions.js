@@ -25,10 +25,10 @@ const questions1 =[
         imagem:quiz1img2,
         options: [
 
-            {alineaKey:0,text:"...",resposta:false},
+            {alineaKey:0,text:"Mau Cheiro",resposta:false},
             {alineaKey:1,text:"Contaminação dos lençóis freáticos, a atração de vetores causadores de doenças e a emissão de gases causadores do aquecimento mundial",resposta:true},
-            {alineaKey:2,text: "Não existem consequências.",resposta:false},
-            {alineaKey:3,text:"Aumento do Aquecimento .... ",resposta:false}
+            {alineaKey:2,text: "Todas as opções acima",resposta:false},
+            {alineaKey:3,text:"Não existem consequências.",resposta:false}
     ]
     
     },

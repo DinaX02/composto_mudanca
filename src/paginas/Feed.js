@@ -128,13 +128,13 @@ const Feed = ({
         </button>
 
         <div className="post">
-          <p className="equipalabel">Equipa 1</p>
+          <p className="equipalabel">{nomeEquipa}</p>
           <div className="flexy">
             <div className="divimagem">
               <img src={avatar1} className="profile" />
             </div>
             <p className="corpo log">
-              Ruben colocou cascas de ovo no 11/01 Às 10:15
+            {usernamenovo} colocou cascas de ovo no 11/01 Às 10:15
             </p>
             <p></p>
           </div>
@@ -153,22 +153,22 @@ const Feed = ({
             </div>
           </div>
           <div>
-            <p className="log">Breve Descrição: {dataBreveD}</p>
+            <p className="log">Breve Descrição: <span>{dataBreveD}</span></p>
           </div>
           <div>
-            <p className="log">Algo Fora do Sítio: {dataForaSitio}</p>
+            <p className="log">Algo Fora do Sítio: <span>{dataForaSitio}</span></p>
           </div>
         </div>
 
         <div className="post">
-          <p className="equipalabel">Equipa 3</p>
+          <p className="equipalabel">{nomeEquipa}</p>
           <div className="flexy">
             <div className="divimagem">
               <img src={avatar3} className="profile" />
             </div>
             <p className="corpo log">
               {" "}
-              Maria colocou borras de café no 11/01 Às 8:20
+              {usernamenovo} colocou borras de café no 11/01 Às 8:20
             </p>
           </div>
         </div>
