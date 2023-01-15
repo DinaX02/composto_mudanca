@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 let thisHtml =
   " <div  className='post'>\n" +
-  "            <div className='flexy'>\n" +
-  "                <p className='corpo log'>João colocou cascas de ovo no 11/01 Às 10:15</p>\n" +
-  "                <p></p>\n" +
+    "            <div className='flexy'>\n" +
+    "                <p className='corpo log'>Colocaste cascas de ovo no 11/01 Às 10:15</p>\n" +
+    "                <p></p>\n" +
   "            </div>\n" +
   "        </div>";
 
@@ -25,20 +25,20 @@ const Perfil = () => {
 
   return (
     <div className="CompPerfil">
-      <Link to={"/feed"}>
-        <button className="voltar">Voltar</button>
-      </Link>
-      <div id="Avatar">
-        <button>
-          <img
-            src={`https://avatars.dicebear.com/api/big-smile/9.svg`}
-            className="Perfil"
-          ></img>
-        </button>
-        <h2>JOÃO</h2>
-        <label className="labels"> Coordenador </label>
-        <label className="labelequipa">Equipa 1</label>
-      </div>
+        <Link to={"/feed"}>
+            <button className="voltar">Voltar</button>
+        </Link>
+        <div id="Avatar">
+            <button>
+                <img
+                    src={`https://avatars.dicebear.com/api/big-smile/9.svg`}
+                    className="Perfil"
+                ></img>
+            </button>
+            <h2 className='corbranca'>O teu perfil</h2> <br/>
+            <label className="labels"> Coordenador </label>
+            <label className="labelequipa">Equipa 1</label>
+        </div>
 
       <br></br>
       <h5 className="titles">Atividade Recente</h5>

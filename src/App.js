@@ -35,21 +35,21 @@ function App() {
   const [dataBreveD, setDataBreveD] = useState("");
   const [dataSelected, setDataSelected] = useState("");
   const [dataForaSitio, setDataForaSitio] = useState("");
-  const [nomeEquipa, setNomeEquipa] = useState("");
-  const [usernamenovo,setUsernamenovo]=useState('');
-  const [apelido,setApelido]=useState('');
-  const[datainput,setDatainput]= useState("");
-  const[tempoinput,setTempoinput]= useState("");
+  const [nomeEquipa, setNomeEquipa] = useState("Equipa 1");
+  const [usernamenovo, setUsernamenovo] = useState('');
+  const [apelido, setApelido] = useState('');
+  const [datainput, setDatainput] = useState("13:31");
+  const [tempoinput, setTempoinput] = useState("16/01");
 
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signupprofessor" element={<SignUp_Professor />} />
-          <Route path="/signup" element={<SignUp />} />
+      <div className="App">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Homepage/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/signup" element={<SignUp/>}/>
+            <Route path="/signupprofessor" element={<SignUp_Professor/>}/>
+            <Route path="/signup" element={<SignUp/>}/>
           <Route path="login" element={<SignInAluno />} />
           <Route path="/signupprofessor" element={<SignUp_Professor />} />
           <Route path="/signupaluno" element={<SignUpAluno />} />

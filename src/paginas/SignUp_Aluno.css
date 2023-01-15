@@ -117,7 +117,8 @@ input[type='password'], select{
 .creators {
     margin: 1em;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
+    color: #3d5e34 !important;
 
 
 }
@@ -127,8 +128,8 @@ input[type='password'], select{
 }
 
 .creators button {
-    width: 50vh;
-    height: 50vh;
+    width: 48vh;
+    height: 45vh;
     border-radius: 50%;
     background-color: transparent;
 

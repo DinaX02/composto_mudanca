@@ -73,15 +73,13 @@ const Feed = ({
   ];
 
   let randomAva1 = () => {
-    return Math.floor(Math.random() * 30);
+    return Math.floor(Math.random() * 40);
   };
 
-  let randomAva2 = () => {
-    return Math.floor(Math.random() * 30);
-  };
+
 
   let randomAva3 = () => {
-    return Math.floor(Math.random() * 30);
+    return Math.floor(Math.random() * 40);
   };
   function refreshPage() {
     window.location.reload(false);
@@ -90,15 +88,12 @@ const Feed = ({
     console.log("boa tarde");
 
     let seed1 = randomAva1();
-    let seed2 = randomAva2();
     let seed3 = randomAva3();
 
     avatar1 = `https://avatars.dicebear.com/api/big-smile/${seed1}.svg`;
-    avatar2 = `https://avatars.dicebear.com/api/big-smile/${seed2}.svg`;
     avatar3 = `https://avatars.dicebear.com/api/big-smile/${seed3}.svg`;
 
     console.log(avatar1);
-    console.log(avatar2);
     console.log(avatar3);
   };
   const [newEvent, setNewEvent] = useState({ title: "", start: "", end: "" });
@@ -133,10 +128,10 @@ const Feed = ({
           <p className="equipalabel">{nomeEquipa}</p>
           <div className="flexy">
             <div className="divimagem">
-              <img src={avatar1} className="profile" />
+              <img src={avatar1} className="profile"/>
             </div>
             <p className="corpo log">
-            {usernamenovo} colocou cascas de ovo no 11/01 às 17:28
+              colocou cascas de ovo às 11:49 no dia 16/01
             </p>
             <p></p>
           </div>
@@ -146,11 +141,11 @@ const Feed = ({
           <p className="equipalabel">{nomeEquipa}</p>
           <div className="flexy">
             <div className="divimagem">
-              <img src={avatar2} className="profile" />
+              <img src='https://avatars.dicebear.com/api/big-smile/9.svg' className="profile"/>
             </div>
             <div>
               <p className="corpo log">
-                {usernamenovo} colocou {dataSelected} às {datainput} no dia {tempoinput}
+                colocou {dataSelected} às {datainput} no dia {tempoinput}
               </p>
             </div>
           </div>
@@ -166,11 +161,11 @@ const Feed = ({
           <p className="equipalabel">{nomeEquipa}</p>
           <div className="flexy">
             <div className="divimagem">
-              <img src={avatar3} className="profile" />
+              <img src={avatar3} className="profile"/>
             </div>
             <p className="corpo log">
               {" "}
-              {usernamenovo} colocou borras de café no 11/01 Às 8:20
+              colocou borras de café às 8:20 no dia 11/01
             </p>
           </div>
         </div>
