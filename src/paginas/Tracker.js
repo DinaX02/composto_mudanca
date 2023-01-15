@@ -99,6 +99,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
                 id="description"
                 name="description"
                 type="text"
+                placeholder='Coloca uma breve descrição...'
                 value={dataBreveD}
                 onChange={(e) => setDataBreveD(e.target.value)}
             />
@@ -113,6 +114,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
                 type="text"
                 id="description"
                 name="description"
+                placeholder='Reporta algo fora do sítio...'
                 value={dataForaSitio}
                 onChange={(e) => setDataForaSitio(e.target.value)}
           
