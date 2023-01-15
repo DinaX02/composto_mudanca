@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Como aceder ao Composto de Mudança
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
 ## Available Scripts
 
-In the project directory, you can run:
+No diretório do projeto, pode-se inserir no terminal ou linha de comandos:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Corre a aplicação em modo developper.
+Abre [http://localhost:3000](http://localhost:3000) para visualizar no teu browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esta página irá refrescar quando se efectuam alterações.\
+Também podes verificar erros na consola.
 
-### `npm test`
+### `npm i react-scripts`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instala os node modules que faltam para poder compilar a aplicação.
 
-### `npm run build`
+### `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+By default, npm install will install all modules listed as dependencies in package.json.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dados para Firebase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para tornar a autenticação Firebase integrada no projeto, é preciso guardar num ficheiro .env.local na raíz do projeto
+com:
 
-### `npm run eject`
+REACT_APP_FIREBASE_API_KEY="AIzaSyBVExW75G1mqwNhNZygBW_w88TUF9-FUoo"
+REACT_APP_FIREBASE_AUTH_DOMAIN="composto-de-mudanca.firebaseapp.com"
+REACT_APP_FIREBASE_PROJECT_ID="composto-de-mudanca"
+REACT_APP_FIREBASE_STORAGE_BUCKET="composto-de-mudanca.appspot.com"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID="1070162396418"
+REACT_APP_FIREBASE_APP_IDD="1:1070162396418:web:8b775c83d7d06ba668ee1b"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Módulos precisos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para certificar que estão incluídos todos os módulos pretendidos para o bom-desempenho do projeto, verifique esta
+checklist:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Big React Calendar
+  `npm i react-big-calendar`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Fonte: https://www.npmjs.com/package/react-big-calendar
 
-## Learn More
+- Bootstrap
+  `npm i react-bootstrap`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fonte: https://www.npmjs.com/package/react-bootstrap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Mapbox GL
+  `npm i mapbox-gl`
 
-### Code Splitting
+Fonte: https://www.npmjs.com/package/mapbox-gl
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Datepicker
 
-### Analyzing the Bundle Size
+  `npm i react-datepicker`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Fonte: https://www.npmjs.com/package/react-datepicker
 
-### Making a Progressive Web App
+- Date fns
+  `npm i date-fns`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Fonte: https://www.npmjs.com/package/date-fns
 
-### Advanced Configuration
+- Firebase
+  `npm i firebase`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Fonte: https://www.npmjs.com/package/firebase
 
-### Deployment
+- Github Contribution Grid Calendar
+  `npm i react-github-contribution-calendar`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fonte: https://www.npmjs.com/package/react-github-contribution-calendar
