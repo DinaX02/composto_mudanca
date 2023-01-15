@@ -431,6 +431,20 @@ font-size: 20px;
     }
   }
 
+  @media  (max-width: 675px) {
+    .final-results {
+      width: 70%;
+      height: auto !important;
+    }
+    }
+
+    @media  (max-width: 472px) {
+      .final-results {
+        width: 70%;
+        height: auto !important;
+      }
+      }
+
   .btnvoltarraoLearnMore{
 
     margin-top: 2em;
