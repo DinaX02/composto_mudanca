@@ -3,14 +3,12 @@ import Navbar from "../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import "./SignUp_Aluno.css";
 
-function SignUpSumUp() {
-    const [usernamenovo,setUsernamenovo]=useState('');
-    const [apelido,setApelido]=useState('');
+const SignUpSumUp = ({usernamenovo,apelido,setApelido,setUsernamenovo}) => {
 
-    //let primeiro='Sofia';
-    //let ultimoNome='Maria';
+
 
     let avatar1 = `https://avatars.dicebear.com/api/big-smile/1.svg`;
+
     let randomAva1 = () => {
         return (Math.floor(Math.random() * 30))
     }
@@ -63,14 +61,14 @@ function SignUpSumUp() {
                         />
                     </div>
 
-
-
                 <br/>
+
+
                 <button className="btnHsignup btnsignup" type={"text"}>
-                    <a href="/feed">Entrar no feed</a>
+                    <Link to={"/feed"}>Entrar no feed</Link>
                 </button> </div>
             </div>
         );
     }
-
+    
 export default SignUpSumUp;

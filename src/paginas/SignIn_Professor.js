@@ -1,10 +1,8 @@
 import React, {useState} from "react";
-import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "./SignUp_Aluno.css";
 import {signInWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
-import AuthDetails from "../components/auth/AuthDetails";
 import {Link} from "react-router-dom";
 
 const SignInProfessor = () => {

@@ -1,44 +1,18 @@
 import React, { useState } from "react";
 import "./Tracker.css";
-import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
+
+
 const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa}) => {
 
-  //console.log(Mapp.getValueCidade)
 
-  //const [dataSelected, setDataSelected] = useState(null);
-  //const [dataBreveD, setDataBreveD] = useState(null);
-  //const [dataForaSitio, setDataForaSitio] = useState(null);
   const [print, setPrint] = useState(false);
 
-  //function getDataSelected(val2){
-    //setDataSelected(val2.target.value);
-    //setPrint(false);
-    //console.log(dataSelected);
-    //console.log(print);
-  //}
 
-
-
-  //function getDataBrevedescricao(val1){
-    //setDataBreveD(val1.target.value);
-    //setPrint(false);
-   // console.log(dataBreveD);
-   // console.log(print);
-  //}
-
-
- // function getDataForaSitio(val) {
-    //setDataForaSitio(val.target.value);
-    //setPrint(false);
-    //console.log(val.target.value);
-    //console.log(dataForaSitio);
-    //console.log(print);
-  //}
 
   return (
       <div>

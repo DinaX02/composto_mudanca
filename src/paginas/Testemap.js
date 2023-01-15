@@ -1,10 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import mapboxgl, { Marker } from "mapbox-gl";
 import localizacaoteste from "./localizacaoteste.json";
 import "./Tutorial.css";
 import Navbar from "../components/Navbar/Navbar";
-import { Link } from "react-router-dom";
 const localizacaoEscolas = localizacaoteste;
 
 console.log(localizacaoteste[0].coordinates);
