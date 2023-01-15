@@ -3,15 +3,30 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="spacerF layerfooter">
-      </div>
-          <div className="footermarginbot">
-            <p className="footerh2">Composto de mudança</p>
+        <div className="spacerF layerfooter flexyfooter">
 
-            <p className="txtFooter">
-              Projeto Final - Tecnologias Avançadas Client-Side : Dinis Antunes
-              102802 e Sofia Bermudez 103242
-            </p>
+            <div className="footermarginbot">
+                <p className="footerh2"></p>
+            </div>
+            <ul className='footerItems'>
+                <li><a href='/about'>About us</a></li>
+                <li><a href='/'>Home Page</a></li>
+                <li><a href='/login'>Log In</a></li>
+                <li><a href='/signup'>Sign up</a></li>
+            </ul>
+
+            <div className='logosFooter'>
+                <div className='flexydiv1'>
+                    <img src={require('./logo1.png')} width='10%' height='5%'/>
+                    <img src={require('./logo2.png')} width='25%' height='10%'/>
+
+                </div>
+                <div className='flexydiv'>
+                    <p className='corbrancac css'>
+                        Projeto Final - Tecnologias Avançadas Client-Side
+                    </p>
+                </div>
+            </div>
 
 
         </div>

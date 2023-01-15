@@ -11,7 +11,8 @@ import format from "date-fns/format";
 import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
-import "react-datepicker/dist/react-datepicker.css";
+import "react-datepicker/dist/react-datepicker.css"
+import FooterFeed from "../components/Footer/FooterFeed";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
@@ -104,17 +105,17 @@ const Feed = ({
   }
 
   return (
-    <div className="compFeed">
-      <NavbarSignedIn />
-      <Menu />
-      <div className="CompAtividade">
-        <br />
-        <br />
+      <div className="compFeed" id='topo'>
+        <NavbarSignedIn/>
+        <Menu/>
+        <div className="CompAtividade">
+          <br/>
+          <br/>
 
-        <h5 id="go">Atividade Recente</h5>
-        <p id="recent"></p>
-        <br></br>
-        <button id="refresh" onClick={gerar()}>
+          <h5 id="go">Atividade Recente</h5>
+          <p id="recent"></p>
+          <br></br>
+          <button id="refresh" onClick={gerar()}>
           <a
             onClick={() => {
               window.location.reload(false);
@@ -212,21 +213,23 @@ const Feed = ({
         </button>
       </div>
       <Calendar
-        localizer={localizer}
-        events={allEvent}
-        startAcessor="start"
-        endAcessor="end"
-        style={{
-          height: "500px",
-          marginTop: "2em",
-          marginLeft: "1em",
-          marginRight: "1em",
-          backgroundColor: "white",
-          padding: "1em",
-          borderRadius: "2em",
-        }}
-      />
-    </div>
+          localizer={localizer}
+          events={allEvent}
+          startAcessor="start"
+          endAcessor="end"
+          style={{
+            height: "500px",
+            marginTop: "2em",
+            marginLeft: "1em",
+            marginRight: "1em",
+            backgroundColor: "white",
+            padding: "1em",
+            borderRadius: "2em",
+          }}
+      /><br/><br/>
+        <FooterFeed/>
+
+      </div>
   );
 };
 
