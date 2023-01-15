@@ -52,6 +52,8 @@ const Feed = ({
   apelido,
   nomeEquipa,
   usernamenovo,
+  datainput,
+  tempoinput,
 }) => {
   console.log(apelido);
 
@@ -134,7 +136,7 @@ const Feed = ({
               <img src={avatar1} className="profile" />
             </div>
             <p className="corpo log">
-            {usernamenovo} colocou cascas de ovo no 11/01 Às 10:15
+            {usernamenovo} colocou cascas de ovo no 11/01 Às 
             </p>
             <p></p>
           </div>
@@ -148,7 +150,7 @@ const Feed = ({
             </div>
             <div>
               <p className="corpo log">
-                {usernamenovo} colocou {dataSelected} às [horas] no dia [data]
+                {usernamenovo} colocou {dataSelected} às {datainput} no dia {tempoinput}
               </p>
             </div>
           </div>

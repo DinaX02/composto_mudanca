@@ -121,6 +121,23 @@ text-align: center !important;
         width: 60% !important;
     }
     }
+
+
+ .tempotracker{
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    margin-right: 0.2em !important;
+ }   
+
+ .datainputtracker{
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    margin-left: 0.2em !important;
+ }
 /*
 
 
