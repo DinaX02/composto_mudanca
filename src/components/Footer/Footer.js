@@ -11,8 +11,8 @@ const Footer = () => {
             <ul className='footerItems'>
                 <li><a href='/about'>About us</a></li>
                 <li><a href='/'>Home Page</a></li>
-                <li><a href='/login'>Log In</a></li>
-                <li><a href='/signup'>Sign up</a></li>
+                <li><a href='https://github.com/DinaX02/composto_mudanca' target='_blank'>Github Project</a></li>
+                <li><a href='/signup' target='_blank'>Sign up</a></li>
             </ul>
 
             <div className='logosFooter'>
