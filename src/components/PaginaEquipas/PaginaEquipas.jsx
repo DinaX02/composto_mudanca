@@ -45,6 +45,6 @@ function  PaginaEquipas() {
 
         </div>
     );
-};
+}
 
 export default PaginaEquipas;
