@@ -24,7 +24,6 @@ import PaginaPerguntasQ1 from "./paginas/Quiz/PaginaPerguntasQ1";
 
 import SignUpSumup from "./paginas/SignUpSumup";
 
-
 import Quiz2geral from "./paginas/Quiz/PaginaIncialQuizGeral2";
 import PaginaPerguntasQ2 from "./paginas/Quiz/PaginaPerguntasQ2";
 import PaginaPerguntasQ3 from "./paginas/Quiz/PaginaPerguntasQ3";
@@ -36,48 +35,54 @@ function App() {
   const [dataSelected, setDataSelected] = useState("");
   const [dataForaSitio, setDataForaSitio] = useState("");
   const [nomeEquipa, setNomeEquipa] = useState("Equipa 1");
-  const [usernamenovo, setUsernamenovo] = useState('');
-  const [apelido, setApelido] = useState('');
+  const [usernamenovo, setUsernamenovo] = useState("");
+  const [apelido, setApelido] = useState("");
   const [datainput, setDatainput] = useState("13:31");
   const [tempoinput, setTempoinput] = useState("16/01");
 
   return (
-      <div className="App">
-        <Router>
-          <Routes>
-            <Route path="/" element={<Homepage/>}/>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/signupprofessor" element={<SignUp_Professor/>}/>
-            <Route path="/signup" element={<SignUp/>}/>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signupprofessor" element={<SignUp_Professor />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="login" element={<SignInAluno />} />
           <Route path="/signupprofessor" element={<SignUp_Professor />} />
           <Route path="/signupaluno" element={<SignUpAluno />} />
           <Route path="/signinaluno" element={<SignInAluno />} />
           <Route path="/signinprofessor" element={<SignIn_Professor />} />
 
-          <Route path="/create" element={<SignUpSumup 
-          usernamenovo={usernamenovo}
-          setUsernamenovo={setUsernamenovo}
-          apelido={apelido}
-          setApelido={setApelido}
-          
-          />} />
+          <Route
+            path="/create"
+            element={
+              <SignUpSumup
+                usernamenovo={usernamenovo}
+                setUsernamenovo={setUsernamenovo}
+                apelido={apelido}
+                setApelido={setApelido}
+              />
+            }
+          />
 
           <Route
             path="/perfil"
             element={
-              <Perfil dataBreveD={dataBreveD}
-              setDataBreveD={setDataBreveD}
-              dataSelected={dataSelected}
-              setDataSelected={setDataSelected}
-              dataForaSitio={dataForaSitio}
-              setDataForaSitio={setDataForaSitio}
-              nomeEquipa={nomeEquipa}
-              setNomeEquipa={setNomeEquipa}
-              usernamenovo={usernamenovo}
-              setUsernamenovo={setUsernamenovo}
-              apelido={apelido}
-              setApelido={setApelido}
+              <Perfil
+                dataBreveD={dataBreveD}
+                setDataBreveD={setDataBreveD}
+                dataSelected={dataSelected}
+                setDataSelected={setDataSelected}
+                dataForaSitio={dataForaSitio}
+                setDataForaSitio={setDataForaSitio}
+                nomeEquipa={nomeEquipa}
+                setNomeEquipa={setNomeEquipa}
+                usernamenovo={usernamenovo}
+                setUsernamenovo={setUsernamenovo}
+                apelido={apelido}
+                setApelido={setApelido}
               />
             }
           />
