@@ -12,7 +12,6 @@ const SignUpSumUp = ({usernamenovo,apelido,setApelido,setUsernamenovo}) => {
 
         return (
             <div className='CompSumUp'>
-                <Navbar/>
 
 '
 

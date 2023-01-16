@@ -3,6 +3,7 @@
 }
 
 h1 {
+    margin: 0 1em 0.3em;
     color: #4D7542;
 
 }
@@ -70,10 +71,11 @@ section {
 }
 
 .p {
+    padding-left: 6em;
     text-align: justify;
     color: #342f2f;
     margin-bottom: 1.4em;
-    margin-left: 3em;
+
     margin-right: 3em;
     margin-top: 1em;
 }
@@ -85,14 +87,13 @@ section {
     margin-right: 0.5em;
 }
 
-.div2img{
+.div2img {
     display: flex;
-    justify-content: center;
-    margin-bottom: 4em;
+    align-items: flex-start;
 }
 
 .img{
-    max-width: 220px;
+
    /* position: absolute;*/
     margin: auto;
     text-align: center;
@@ -103,28 +104,28 @@ section {
     z-index: 1.5;
 }
 
-.img2{
-    max-width: 203px;
+.img2 {
+    max-width: 278px;
     /* position: absolute;*/
     margin: auto;
     text-align: center;
-   /* z-index: 3;   */ 
+    /* z-index: 3;   */
 }
 
 .img3{
     max-width:278px;
     /*position: absolute;*/
-    margin: auto;
     text-align: center;
    /* z-index: 3;*/
 }
 
-.sectionajuste{
+.sectionajuste {
     display: flex;
-    justify-content: center;
-    margin: 0 auto 0 auto;
+    height: auto;
+    justify-content: space-between;
+    margin: 1em auto 0 auto;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 #login:hover{
     color:white;
@@ -137,8 +138,21 @@ section {
     }
 }
 
+
 .espaaacoemcimahp {
+    margin-left: 1.5em;
+    margin-right: 2em;
+    text-align: right;
+
+}
+
+.espaaacoemcimahp.p2 {
+    padding-left: 2em;
     margin-top: 1.5em;
+    margin-left: 2em;
+    text-align: left;
+
+
 }
 
 @media (max-width: 800px) {
@@ -151,3 +165,153 @@ section {
 }
 
 
+.texto1 {
+    padding: 3%;
+    padding-left: 6em;
+    margin-right: 5em;
+    background-color: #E9F5E5;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.texto2 {
+    padding: 3%;
+    margin-left: 3em;
+    background-color: #E9F5E5;
+    border-radius: 100px 0px 0px 100px;
+
+}
+
+.img1 {
+    background-color: #E9F5E5;
+    margin-right: 0px;
+    float: right;
+    padding-right: 5em;
+
+    border-radius: 143px 0px 0px 143px;
+}
+
+.img2 {
+    width: 100em;
+    background-color: #E9F5E5;
+    margin-left: 0px;
+    float: right;
+    border-radius: 0px 143px 143px 0px
+
+}
+
+.p.p2 {
+    margin-right: 12em;
+}
+
+@media only screen and (max-width: 800px) {
+    .texto1, select {
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .texto2, select {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .p, select {
+        padding: 3%;
+        background-color: #E9F5E5;
+        border-radius: 0px 100px 100px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .espaaacoemcimahp, select {
+        text-align: left;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .espaaacoemcimahp.p2, select {
+        padding-left: 1em;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .p.p2, select {
+        margin-left: 1em;
+        padding-right: 3em;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .p.p.p2, select {
+
+        margin-right: 3em;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .img {
+        padding-bottom: 1em;
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .img1, select {
+        background-color: transparent;
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .img2, select {
+        background-color: transparent;
+        padding-bottom: 1em;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .img3, select {
+        margin-bottom: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .div.div2img.img2 select {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .sectionajuste, select {
+        margin: 1em;
+
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .sectionajuste.sec2, select {
+
+        flex-direction: column;
+    }
+
+}

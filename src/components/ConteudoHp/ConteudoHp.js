@@ -1,69 +1,79 @@
 import React from "react";
 import "./ConteudoHp.css";
-import img1 from "../ConteudoHp/compostagem_img_1.png";
-import img2 from "../ConteudoHp/bencom.png";
-import img3 from "../ConteudoHp/comunity_img.png";
+import img1 from "../ConteudoHp/conteudo1.png";
+import img2 from "../ConteudoHp/conteudo2.png";
+import img3 from "../ConteudoHp/conteudo3.png";
 
 const ConteudoHp = () => {
   return (
-    <div>
-      <div className="conteudohomepage">
-        <h1 className="espaaacoemcimahp">Compostagem?</h1>
+      <div>
+        <div className="conteudohomepage">
 
-        <section className="sectionajuste">
-          <p className="p">
-            Compostagem é o processo de biodegradação natural da matéria
-            orgânica. Em outros termos, é a reciclagem dos resíduos orgânicos. O
-            produto final deste processo é o adubo orgânico e o biofertilizante,
-            sendo que este pode ser coletado e utilizado antes mesmo de
-            concluída a compostagem.
-          </p>
+          <section className="sectionajuste">
+            <div className='texto1'>
+              <h1 className="espaaacoemcimahp">Compostagem?</h1>
+              <p className="p">
+                Compostagem é a reciclagem dos resíduos orgânicos. O
+                produto final deste processo é o adubo orgânico.
+                Compostagem é a reciclagem dos resíduos orgânicos. O
+                produto final deste processo é o adubo orgânico.
+                Compostagem é a reciclagem dos resíduos orgânicos. O
+                produto final deste processo é o adubo orgânico.
+              </p>
+            </div>
+            <div className="div2img img1">
+              <img className="img" src={require('./conteudo1.png')} width={'278px'} height={'278px'}/>
+            </div>
+          </section>
 
-          <div className="div2img">
-            <img className="img" src={img1} />
-          </div>
-        </section>
-        <h1>Benefícios da compostagem</h1>
+          <section className="sectionajuste sec2">
 
-        <section className="sectionajuste">
-          <p className="p">
-            A compostagem é a forma de desviar os resíduos orgânicos dos aterros
-            sanitários e lixões, onde a degradação ocorre de forma anaeróbia.
-            Quando estes resíduos, que correspondem a cerca de 50% dos resíduos
-            sólidos urbanos, são degradados sem a presença de oxigênio e
-            misturados com outros resíduos e com rejeitos, são liberados gases
-            do efeito estufa, como o gás metano. Aproximadamente 90% das
-            emissões de gás metano são reduzidas quando os resíduos orgânicos
-            são compostados em vez de serem encaminhados para o aterro sanitário
-            ou lixão. Assim, a compostagem é uma importante ferramenta de
-            combate às mudanças climáticas.
-          </p>
+            <div className="div2img img2">
+              <img className="img2" src={require('./conteudo2.png')} width={'278px'} height={'278px'}/>
+            </div>
+            <div className='texto2'>
+              <h1 className='espaaacoemcimahp p2'>Salvar o Planeta</h1>
+              <p className="p p2">
+                A compostagem é uma importante ferramenta de combate às mudanças climáticas
+                A compostagem é uma importante ferramenta de combate às mudanças climáticas
+                A compostagem é uma importante ferramenta de combate às mudanças climáticas
 
-          <div className="div2img">
-            <img className="img2" src={img2} />
-          </div>
-        </section>
-        <h1>Compostagem Comunitária</h1>
-        <section className="sectionajuste">
-          <p className="p">
-            A compostagem comunitária é aquela feita por pequenas comunidades,
-            as quais se organizam coletivamente e compartilham a
-            responsabilidade pelos processos envolvidos na realização da
-            compostagem e seus ganhos, desde a coleta dos resíduos até a
-            distribuição e uso do húmus produzido.
-          </p>
 
-          <div className="div2img">
-            <img className="img3" src={img3} />
-          </div>
-        </section>
-        <section>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+              </p>
+            </div>
+          </section>
+
+
+          <section className="sectionajuste">
+            <div className='texto1'>
+              <h1 className='espaaacoemcimahp'>Compostagem Comunitária</h1>
+              <p className="p">
+                A compostagem comunitária é aquela feita por pequenas comunidades,
+                as quais se organizam e partilham a
+                responsabilidade na realização da
+                compostagem. responsabilidade na realização da
+                compostagem. responsabilidade na realização da
+                compostagem. responsabilidade na realização da
+                compostagem.
+              </p>
+            </div>
+            <div className="div2img img1">
+              <img className="img3" src={require('./conteudo3.png')}/>
+            </div>
+          </section>
+          <section>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <h1 className="espacoultimafrase">
+            Para usufruir da aplicação efetue{" "}
+            <a id="login" href="./login">
+              login
+            </a>
+          </h1>
         </section>
       </div>
     </div>
