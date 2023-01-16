@@ -198,7 +198,9 @@ input[type='password'], select{
     }
     }
 
-    
+    .novobgcololorperfil{
+        background: white !important;
+    }
 @media  (max-width: 400px) {
     .imgabout{
 

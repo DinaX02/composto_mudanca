@@ -60,6 +60,8 @@ const Atividade = ({dataBreveD,dataSelected,dataForaSitio}) => {
         <div className='divimagem'>
         <img src={avatar1} className='profile'/>
         </div>
+
+        
         <p >{Tracker.selectedTracker}</p>
         </div>
     </div>

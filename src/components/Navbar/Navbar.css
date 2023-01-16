@@ -67,7 +67,7 @@
 
     .Navbar > .nav-items{
         position: absolute;
-        top: 60px;
+        top: 90px;
         display: flex;
         flex-direction: column;
         background: #4D7542;

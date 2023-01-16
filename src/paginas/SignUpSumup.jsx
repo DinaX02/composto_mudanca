@@ -24,7 +24,7 @@ const SignUpSumUp = ({usernamenovo,apelido,setApelido,setUsernamenovo}) => {
                     <div className='escolherAva'>
 
 
-                    <div><img src={avatar1} className='profile'/></div>
+                    <div><img src={avatar1} className='profile novobgcololorperfil'/></div>
                         <p className="espacoparainPuts">Por Favor Insira os Seguintes dados :</p>
                         <input
                             type="text"

@@ -56,7 +56,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
           name="nomedaequipa"
           placeholder="Nome da Equipa"
           value={ nomeEquipa}
-          onChange={(e) => setNomeEquipa(e.target.value)}
+          onChange={(e) => setNomeEquipa(e.target.value)} 
         />
         <div>
 
