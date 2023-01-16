@@ -17,12 +17,12 @@ const Footer = () => {
 
             <div className='logosFooter'>
                 <div className='flexydiv1'>
-                    <img src={require('./logo1.png')} width='10%' height='5%'/>
-                    <img src={require('./logo2.png')} width='25%' height='10%'/>
+                    <img className="espacinhofooter" src={require('./logo1.png')} width='10%' height='5%'/>
+                    <img className="espacinhofooter" src={require('./logo2.png')} width='25%' height='10%'/>
 
                 </div>
                 <div className='flexydiv'>
-                    <p className='corbrancac css'>
+                    <p className='corbrancac css espacinhoparagrafofooter'>
                         Projeto Final - Tecnologias Avançadas Client-Side
                     </p>
                 </div>

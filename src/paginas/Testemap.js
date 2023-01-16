@@ -2,7 +2,7 @@ import React from "react";
 import mapboxgl, { Marker } from "mapbox-gl";
 import localizacaoteste from "./localizacaoteste.json";
 import "./Tutorial.css";
-import Navbar from "../components/Navbar/Navbar";
+import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 const localizacaoEscolas = localizacaoteste;
 
 console.log(localizacaoteste[0].coordinates);
@@ -69,27 +69,27 @@ class Mapp extends React.Component {
     //...localizacaoteste[1].coordinates  -cordenadas chaves
     // ...localizacaoteste[2].coordinates - cordenadas peniche
   }
-  state = {
-    value: "",
-  };
+  //state = {
+  //  value: "",
+ // };
 
-  getValueCidade = (event) => {
+ // getValueCidade = (event) => {
     //console.log(event.target.value);
     //console.log('cidade escolhida foi:',event.target.value);
-    this.setState({ value: event.target.value });
-  };
+ //   this.setState({ value: event.target.value });
+ // };
 
-  handleSubmitMapa = () => {
-    const valuecidade = this.state.value;
-    console.log(valuecidade);
-  };
+ // handleSubmitMapa = () => {
+   // const valuecidade = this.state.value;
+  //  console.log(valuecidade);
+  //};
 
   render() {
     console.log("State:", this.state);
 
     return (
       <div className="fundoloc">
-        <Navbar />
+        <NavbarSignedIn />
 
         <br></br>
         <div className="espacotoploc">
@@ -106,36 +106,6 @@ class Mapp extends React.Component {
           ref={(el) => (this.mapContainer = el)}
           style={{ width: "60%", height: "80vh" }}
         ></div>
-        <div className="espacotopmapa">
-          <label className="escolahcidade">
-            <strong>Escolha Cidade</strong>
-          </label>
-          <br></br>
-          <select
-            id="cidade"
-            name="cidade"
-            placeholder="Escolha cidade"
-            onChange={this.getValueCidade}
-          >
-            <option value="Não Selecionda">Seleciona uma opção</option>
-            <option value="Aveiro">Aveiro</option>
-            <option value="Chaves">Chaves</option>
-            <option value="Peniche">Peniche</option>
-          </select>
-        </div>
-
-        <div className="fundoverdeeeeeeemapa">
-          <button
-            onClick={this.handleSubmitMapa}
-            className="btnsubmterMAPAAA"
-            type="button"
-          >
-            Confirmar dados
-          </button>
-          <a href="/tracker">
-            <button className="btnsubmterMAPAAA">Submeter</button>
-          </a>
-        </div>
       </div>
     );
   }
@@ -143,12 +113,3 @@ class Mapp extends React.Component {
 
 export default Mapp;
 
-//var marker = new mapboxgl.Marker().setLngLat(localizacao[0].coordinates)
-
-//var marker = new mapboxgl.Marker()
-//.setLngLat(location.coordinates)
-//.setPopup( new mapboxgl.Popup({offset:30}))
-//.setHTML('<h4>'+ location.cidade +'</h4>'+ location.location)
-
-//.addTo(map);
-//console.log(marker);

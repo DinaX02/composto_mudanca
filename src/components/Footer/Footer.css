@@ -50,12 +50,13 @@ footer {
 }
 
 .logosFooter {
+    background: #71553d !important;
     display: flex;
     margin-top: 4em;
-    margin-bottom: 1em;
-    margin-left: 4em;
+    margin-bottom:0;
+    margin-left:0;
     align-items: center;
-    margin-right: 1em;
+    margin-right: 0em;
     justify-content: space-between;
 }
 
@@ -112,16 +113,31 @@ footer {
     opacity: 90%;
 }
 
+.espacinhofooter{
+    margin-left: 1em;
+
+}
+
+.espacinhoparagrafofooter{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+}
+
 @media only screen and (max-width: 508px) {
     .logosFooter {
+
+        background: #71553d !important;
         display: flex;
         flex-direction: column;
-        margin: 1em;
+        margin:0;
         text-align: center;
         justify-content: flex-start
     }
+    .footerItems{
+        margin-bottom: 2em;
+    }
 }
-
 @media only screen and (max-width: 508px) {
     .flexydiv {
         justify-content: flex-start;

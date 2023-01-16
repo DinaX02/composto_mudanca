@@ -52,10 +52,7 @@ const SignUpAluno = () => {
           value={password}
           onChange={(e)=>setPassword(e.target.value)}
         />
-        <div className="divescolhacid">
-        <label className="escolahcidade" >Escolha Cidade</label>
-        </div>
-        <button className="btnHsignup btnsignup localizacaobtn" type="button"><a href='/location'>Escolha a sua localização </a></button>
+        
       </div>
       <div className="textaligninputs">
           <button className="btnHsignup btnsignup" type="submit" onClick={handleClick}>

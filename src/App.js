@@ -27,6 +27,7 @@ import SignUpSumup from "./paginas/SignUpSumup";
 import Quiz2geral from "./paginas/Quiz/PaginaIncialQuizGeral2";
 import PaginaPerguntasQ2 from "./paginas/Quiz/PaginaPerguntasQ2";
 import PaginaPerguntasQ3 from "./paginas/Quiz/PaginaPerguntasQ3";
+import Valuecidade from "./paginas/valuecidademapa";
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
@@ -39,6 +40,7 @@ function App() {
   const [apelido, setApelido] = useState("");
   const [datainput, setDatainput] = useState("13:31");
   const [tempoinput, setTempoinput] = useState("16/01");
+  const[localizacaoinput, setLocalizacaoinput]=useState("Por definir");
 
   return (
     <div className="App">
@@ -102,6 +104,8 @@ function App() {
                 setDatainput={setDatainput}
                 tempoinput={tempoinput}
                 setTempoinput={setTempoinput}
+                localizacaoinput={localizacaoinput}
+                setLocalizacaoinput={setLocalizacaoinput}
               />
             }
           />
@@ -165,6 +169,12 @@ function App() {
           <Route path="/quiz2geral" element={<Quiz2geral />} />
           <Route path="/paginaPerguntaQ2" element={<PaginaPerguntasQ2 />} />
           <Route path="/paginaPerguntaQ3" element={<PaginaPerguntasQ3 />} />
+
+          <Route path="/mapalocalizacao" element={<Valuecidade 
+          localizacaoinput={localizacaoinput}
+          setLocalizacaoinput={setLocalizacaoinput}
+          />} />
+
         </Routes>
       </Router>
     </div>

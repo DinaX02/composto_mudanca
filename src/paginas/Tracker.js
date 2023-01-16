@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import "./Tracker.css";
-import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 
 
-const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa,datainput,setDatainput, tempoinput,setTempoinput}) => {
+const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa,datainput,setDatainput, tempoinput,setTempoinput,localizacaoinput}) => {
 
 
   const [print, setPrint] = useState(false);
@@ -38,14 +37,14 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
           </div>
           <div className="trackeralinharcentro">
             <p id="LocationText" className="ptracker">
-              Location:<span id="Currentlocation"></span>{" "}
+              Location:<span id="Currentlocation"> {localizacaoinput}</span>
             </p>
             <br></br>
             <br></br>
             <p className="reduzirespacoppp ptracker">
               {" "}
               Não é a tua localização?
-              <a className="hiperlitracker" href="/location">
+              <a className="hiperlitracker" href="/mapalocalizacao">
                 {" "}
                 Muda aqui
               </a>
@@ -165,7 +164,6 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
 
           </div>
         </div>
-        <Footer />
       </div>
   );
 };

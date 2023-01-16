@@ -169,8 +169,10 @@ background: #4D7542;
 }
 
 .espacotopmapa{
+  margin: auto;
+  text-align: center;
   background: #4D7542;
-  margin-top: 2em;
+  margin-top: 0em;
   color: white;
 }
 
