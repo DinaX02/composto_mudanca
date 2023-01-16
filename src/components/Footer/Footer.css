@@ -48,6 +48,7 @@ footer {
     flex-direction: row;
     font-size: initial;
 
+
 }
 
 .logosFooter {
@@ -159,14 +160,24 @@ footer {
 
 }
 
-
-.imgprefooterfundo{
-    width: 300px;
-    background-color: aqua;
-/*background-image: url("../../paginas/foto1.jpg");*/
+.childFooter {
+    width: 100%;
 }
-.espacofooter{
-    margin-top: 3em;
+
+.imgprefooterfundo {
+    display: flex;
+    height: 130vh;
+    background-color: transparent;
+    /*background-image: url("../../paginas/foto1.jpg");*/
+}
+
+.imgprefooterfundo img {
+    width: 100%;
+    /*background-image: url("../../paginas/foto1.jpg");*/
+}
+
+.espacofooter {
+    margin-top: 2em;
 }
 
 .footermarginbot {

@@ -5,6 +5,8 @@ const ImgpreFooter = ()=>{
     return(
 
         <div className="imgprefooterfundo">
+            <div className='childFooter'><img src={require('../../paginas/foto1.jpg')}/></div>
+
         </div>
     )
 }

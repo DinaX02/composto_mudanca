@@ -13,12 +13,8 @@ const ConteudoHp = () => {
             <div className='texto1'>
               <h1 className="espaaacoemcimahp">Compostagem?</h1>
               <p className="p">
-                Compostagem é a reciclagem dos resíduos orgânicos. O
-                produto final deste processo é o adubo orgânico.
-                Compostagem é a reciclagem dos resíduos orgânicos. O
-                produto final deste processo é o adubo orgânico.
-                Compostagem é a reciclagem dos resíduos orgânicos. O
-                produto final deste processo é o adubo orgânico.
+                Compostagem é a reciclagem dos resíduos orgânicos, que dá nova vida à matéria orgânica. A compostagem
+                comunitária costuma ser compostagem termofílica.
               </p>
             </div>
             <div className="div2img img1">
@@ -34,9 +30,8 @@ const ConteudoHp = () => {
             <div className='texto2'>
               <h1 className='espaaacoemcimahp p2'>Salvar o Planeta</h1>
               <p className="p p2">
-                A compostagem é uma importante ferramenta de combate às mudanças climáticas
-                A compostagem é uma importante ferramenta de combate às mudanças climáticas
-                A compostagem é uma importante ferramenta de combate às mudanças climáticas
+                A compostagem é uma importante ferramenta de combate às mudanças climáticas, para o enriquecimento dos
+                solos, para a fixação de água e para impedir a quantidade de resíduos em aterros sanitários.
 
 
               </p>
@@ -51,10 +46,7 @@ const ConteudoHp = () => {
                 A compostagem comunitária é aquela feita por pequenas comunidades,
                 as quais se organizam e partilham a
                 responsabilidade na realização da
-                compostagem. responsabilidade na realização da
-                compostagem. responsabilidade na realização da
-                compostagem. responsabilidade na realização da
-                compostagem.
+                compostagem. Através da nossa aplicação, nunca foi tão fácil fazer compostagem
               </p>
             </div>
             <div className="div2img img1">
@@ -68,13 +60,9 @@ const ConteudoHp = () => {
             <br/>
             <br/>
             <br/>
-            <h1 className="espacoultimafrase">
-            Para usufruir da aplicação efetue{" "}
-            <a id="login" href="./login">
-              login
-            </a>
-          </h1>
-        </section>
+
+
+          </section>
       </div>
     </div>
   );
