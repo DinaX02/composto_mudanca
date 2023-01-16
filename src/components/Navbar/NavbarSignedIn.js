@@ -9,7 +9,7 @@ const NavbarSignedIn = () => {
     return (
         <div className="NavbarSignedIn">
 
-            <div className='imgMenu avatar'>
+            <div className='avatar imgPerfil'>
                 <a href='/perfil'> <img src='https://avatars.dicebear.com/api/big-smile/9.svg'/> </a>
             </div>
 

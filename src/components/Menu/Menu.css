@@ -110,9 +110,15 @@ div.flex-parent-element div{
     background-color: white;
     padding: 0.6em;
     border-radius: 20px;
-    width: 4em;
+    width: 5em;
 }
 
+.imgPerfil {
+  background-color: white;
+  padding: 0.6em;
+  border-radius: 20px;
+  width: 4em;
+}
 
 #settings button{
   display: block;
