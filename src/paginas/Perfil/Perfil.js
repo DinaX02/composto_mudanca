@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Perfil.css";
 import Calendar from "react-github-contribution-calendar";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
+import {profile1} from "../Create";
 
 let thisHtml =
   " <div  className='post'>\n" +
@@ -11,17 +12,21 @@ let thisHtml =
   "            </div>\n" +
   "        </div>";
 
-const Perfil = () => {
-  let values = {
-    "2016-06-23": 1,
-    "2016-06-26": 2,
-    "2016-06-27": 3,
-    "2016-06-28": 4,
-    "2016-06-29": 4,
-  };
+const Perfil = ({
 
-  let until = "2016-06-30";
-  let elem = document.getElementById("app");
+                    fotoPerfil,
+                    setFotoPerfil,
+                }) => {
+    let values = {
+        "2016-06-23": 1,
+        "2016-06-26": 2,
+        "2016-06-27": 3,
+        "2016-06-28": 4,
+        "2016-06-29": 4,
+    };
+    console.log(profile1)
+    let until = "2016-06-30";
+    let elem = document.getElementById("app");
 
   return (
     <div className="CompPerfil">

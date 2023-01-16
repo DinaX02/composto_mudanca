@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import './NavbarSignedIn.css'
 import AuthDetails from "../auth/AuthDetails";
-
+import {Link} from "react-router-dom";
+import {profile1} from "../../paginas/Create";
 
 const NavbarSignedIn = () => {
 
@@ -10,12 +11,12 @@ const NavbarSignedIn = () => {
         <div className="NavbarSignedIn">
 
             <div className='avatar imgPerfil'>
-                <a href='/perfil'> <img src='https://avatars.dicebear.com/api/big-smile/9.svg'/> </a>
+                <a href='/perfil'> <img src={`https://avatars.dicebear.com/api/big-smile/9.svg`}/> </a>
             </div>
 
 
             <div className={`nav-items ${isOpen && "open"} ola`}>
-                <a href=""> <AuthDetails/></a>
+                <Link to="/"> <AuthDetails/></Link>
             </div>
 
         </div>
