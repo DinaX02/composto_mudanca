@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <footer>
+    <footer className="espacofooter">
         <div className="spacerF layerfooter flexyfooter">
 
             <div className="footermarginbot">

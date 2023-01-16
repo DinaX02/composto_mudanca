@@ -46,7 +46,7 @@ const About = () => {
         <div className="textoclean containerrrdiv criadores">
           <div className="creators">
             <button>
-              <img src={require("./dinis.png")} width="100%" />
+              <img className="imgaboutuscreadores" src={require("./dinis.png")}/>
             </button>
             <p>
               <a href="https://github.com/DinaX02" target="_blank">
@@ -57,7 +57,7 @@ const About = () => {
 
           <div className="creators">
             <button>
-              <img src={require("./sofia.png")} width="680vh" />
+              <img className="imgaboutuscreadores" src={require("./sofia.png")}/>
             </button>
             <p>
               <a href="https://github.com/sbvog" target="_blank">

@@ -4,7 +4,7 @@ import {createUserWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase";
 import "./SignUp_Aluno.css";
 import {Link} from "react-router-dom";
-
+import Footer from "../components/Footer/Footer";
 
 
 const SignUpProfessor = ({
@@ -80,6 +80,7 @@ const SignUpProfessor = ({
       </div>
 
 </form>
+<Footer/>
     </div>
   );
 };
