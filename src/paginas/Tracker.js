@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Tracker.css";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
+import Footer from "../components/Footer/FooterFeed";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 
@@ -18,7 +19,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
           <NavbarSignedIn/>
           <div>
               <a href="/feed">
-                  <button className="voltar"> Voltar</button>
+                  <button id="gotonavtop" className="voltar"> Voltar</button>
               </a>
           </div>
         <div className="trackeralinharcentro">

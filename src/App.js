@@ -28,6 +28,8 @@ import Quiz2geral from "./paginas/Quiz/PaginaIncialQuizGeral2";
 import PaginaPerguntasQ2 from "./paginas/Quiz/PaginaPerguntasQ2";
 import PaginaPerguntasQ3 from "./paginas/Quiz/PaginaPerguntasQ3";
 import Valuecidade from "./paginas/valuecidademapa";
+
+
 const localizacaoEscolas = localizacao;
 console.log(localizacaoEscolas.Aveiro);
 
