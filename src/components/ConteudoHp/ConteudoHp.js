@@ -64,12 +64,6 @@ const ConteudoHp = () => {
           <br />
           <br />
           <br />
-          <h1 className="espacoultimafrase">
-            Para usufruir da aplicação efetue{" "}
-            <a id="login" href="./login">
-              login
-            </a>
-          </h1>
         </section>
       </div>
     </div>

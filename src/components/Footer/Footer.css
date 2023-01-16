@@ -159,6 +159,12 @@ footer {
 
 }
 
+
+.imgprefooterfundo{
+    width: 300px;
+    background-color: aqua;
+/*background-image: url("../../paginas/foto1.jpg");*/
+}
 .espacofooter{
     margin-top: 2em;
 }
