@@ -226,6 +226,7 @@ max-height: 80%;
 }
 .textoclean{
   text-align: justify !important;
+  margin-right: 1em;
 }
 
 .containerrrdiv{

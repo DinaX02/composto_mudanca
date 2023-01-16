@@ -227,6 +227,7 @@ const Feed = ({
             borderRadius: "2em",
           }}
       /><br/><br/>
+      <span className="esapcofooterfeed"></span>
         <FooterFeed/>
 
       </div>
