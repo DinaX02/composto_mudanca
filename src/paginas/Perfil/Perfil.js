@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Perfil.css";
 import Calendar from "react-github-contribution-calendar";
 import {Link} from "react-router-dom";
-import {profile1} from "../Create";
+
 
 let thisHtml =
   " <div  className='post'>\n" +
@@ -24,7 +24,6 @@ const Perfil = ({
         "2016-06-28": 4,
         "2016-06-29": 4,
     };
-    console.log(profile1)
     let until = "2016-06-30";
     let elem = document.getElementById("app");
 

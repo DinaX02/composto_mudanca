@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import './NavbarSignedIn.css'
 import AuthDetails from "../auth/AuthDetails";
 import {Link} from "react-router-dom";
-import {profile1} from "../../paginas/Create";
 
 const NavbarSignedIn = () => {
 
