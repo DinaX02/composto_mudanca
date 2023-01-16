@@ -43,10 +43,10 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
             <br></br>
             <p className="reduzirespacoppp ptracker">
               {" "}
-              Não é a tua localização?
+              Selecione a sua Localização
               <a className="hiperlitracker" href="/mapalocalizacao">
                 {" "}
-                Muda aqui
+                Aqui
               </a>
             </p>
             <br></br>
