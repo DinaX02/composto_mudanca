@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Tracker.css";
 import { Link } from "react-router-dom";
 import Mapp from "./Testemap";
-import Footer from "../components/Footer/FooterFeed";
+import Footer from "../components/Footer/Footer";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 
