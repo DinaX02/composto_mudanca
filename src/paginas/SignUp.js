@@ -9,7 +9,7 @@ const SignUp = () => {
     <div>
         <Navbar/>
         <Header/>
-        <section>
+        <section className="spacer_end">
         <h1 className="titulo espacoinic">Como Professor:</h1>
         <p className="textalign espacofim">
           Como Professor gere as tuas equipas, atribui turnos, papéis aos alunos e acede a recursos de aprendizagem sobre  a compostagem.

@@ -1,7 +1,8 @@
 import React, {useState} from "react";
-import Navbar from "../components/Navbar/Navbar";
+//import Navbar from "../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import "./SignUp_Aluno.css";
+import Footer from "../components/Footer/Footer";
 
 const SignUpSumUp = ({usernamenovo,apelido,setApelido,setUsernamenovo}) => {
 
@@ -13,7 +14,7 @@ const SignUpSumUp = ({usernamenovo,apelido,setApelido,setUsernamenovo}) => {
         return (
             <div className='CompSumUp'>
 
-'
+<p className="transparentP">'</p>
 
                 <div className='textaligninputs corbranca'>
 
@@ -50,6 +51,8 @@ const SignUpSumUp = ({usernamenovo,apelido,setApelido,setUsernamenovo}) => {
                 <button className="btnHsignup btnsignup" type={"text"}>
                     <Link to={"/feed"}>Entrar no feed</Link>
                 </button> </div>
+
+                <Footer/>
             </div>
         );
     }

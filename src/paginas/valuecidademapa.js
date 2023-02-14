@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import Mapp from "./Testemap";
 import { Link } from "react-router-dom";
 import "./Tutorial.css";
+import Footer from "../components/Footer/Footer";
+
+
+
 const Valuecidade = ({ localizacaoinput,setLocalizacaoinput}) => {
   return (
     <div>
@@ -11,7 +15,7 @@ const Valuecidade = ({ localizacaoinput,setLocalizacaoinput}) => {
             <strong>Escolha Cidade</strong>
           </label>
           <br></br>
-          <select
+          <select className="inputcidadesgeral"
             id="cidade"
             name="cidade"
             placeholder="Escolha cidade"
@@ -30,6 +34,7 @@ const Valuecidade = ({ localizacaoinput,setLocalizacaoinput}) => {
 
         </div>
 
+<Footer/>
     </div>
   );
 };

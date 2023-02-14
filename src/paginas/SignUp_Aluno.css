@@ -247,11 +247,15 @@ margin: auto;
 .CompSumUp {
     text-align: center;
     background-color: #4D7542;
-    height: 100vh;
+    height: 110vh;
 }
 
 @media only screen and (max-width: 800px) {
     .containerrrdiv, select {
         flex-direction: column;
     }
+}
+
+.transparentP{
+    color: transparent;
 }

@@ -227,7 +227,9 @@ const Feed = ({
             borderRadius: "2em",
           }}
       /><br/><br/>
+      <div className="spacerrFeed_footer">
       <span className="esapcofooterfeed"></span>
+      </div>
         <FooterFeed/>
 
       </div>

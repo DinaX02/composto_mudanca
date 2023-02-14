@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Perfil.css";
 import Calendar from "react-github-contribution-calendar";
 import {Link} from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 
 
 let thisHtml =
@@ -56,6 +57,8 @@ const Perfil = ({
       <div id="graph" className="post">
         <Calendar values={values} until={until} />
       </div>
+
+      <Footer/>
     </div>
   );
 };

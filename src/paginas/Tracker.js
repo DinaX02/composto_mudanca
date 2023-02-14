@@ -7,6 +7,7 @@ import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
 
 
 
+
 const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataForaSitio, setDataForaSitio, nomeEquipa,setNomeEquipa,datainput,setDatainput, tempoinput,setTempoinput,localizacaoinput}) => {
 
 
@@ -149,7 +150,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
                 <h4 className="encontatitulotarcker">Algo Fora do Sítio:{print ? <h4 className="semcordados1">{dataForaSitio}</h4> : null} </h4>
               </div>
             </div>
-
+            <div className="spacerrfooter_tracker">
             <button
                 onClick={() => { setPrint(true); }}
                 className="espacosubmeter btnSubmeterTrackerrr"
@@ -162,9 +163,10 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
             }><button className="espacosubmeter btnSubmeterTrackerrr">
               Submeter dados
             </button></Link>
-
+            </div>
           </div>
         </div>
+        <Footer/>
       </div>
   );
 };

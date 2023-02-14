@@ -326,3 +326,54 @@ section {
     }
 
 }
+
+.imagem_hp_wave{
+  background-image: url(../../paginas/foto1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  object-fit: cover;
+  height: 580px;
+  width: 100%;
+  margin-top: 15vh !important;
+  bottom: 0px !important;
+}
+
+.titulo_img_wavy{
+display:flex ;
+justify-content: center;
+margin: auto;
+text-align: center;
+padding-top: 18vh;
+}
+
+.cor_titulo_img_wavy{
+    color: white !important;
+}
+
+
+.btn_img_wavy {
+    margin-top: 2.5em;
+    padding: 0.5rem 1rem;
+    color: #4D7542;
+    background: #C0E590;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.waves_hpp{
+    background-image: url(./wave_antes_img_hp.svg);
+    height: 120px; 
+}
+
+.spaceWaves{
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

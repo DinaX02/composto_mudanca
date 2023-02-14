@@ -97,6 +97,7 @@ margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 2em;
   display: flex;
+  padding-bottom: 5em !important;
 
 }
 .dot {
@@ -173,7 +174,13 @@ background: #4D7542;
   text-align: center;
   background: #4D7542;
   margin-top: 0em;
-  color: white;
+  color: white !important;
+}
+
+.inputcidadesgeral{
+  background: white !important;
+  width: 60% !important;
+  border-radius: 5px !important;
 }
 
 .btnsubmterMAPAAA{
@@ -193,6 +200,7 @@ background: #4D7542;
 
 .fundoverdeeeeeeemapa{
   background:#4D7542 ;
+  padding-bottom: 4em !important;
 }
 
 .btnvoltarlocationMAPAAA{

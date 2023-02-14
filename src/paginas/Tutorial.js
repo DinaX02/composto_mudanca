@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './Tutorial.css'
 import dataSlider from './dataSlider';
 import Navbar from '../components/Navbar/Navbar';
-
+import Footer from '../components/Footer/Footer';
 
 export default function Tutorial(){
 
@@ -47,6 +47,9 @@ export default function Tutorial(){
             </div>
 
     </div>
+
+
+    <Footer/>
     </div>
   );
 };
