@@ -151,10 +151,10 @@ const Feed = ({
             </div>
           </div>
           <div>
-            <p className="log">Breve Descrição: <span>{dataBreveD}</span></p>
+            <p className=" alinhar_frase_esq log"><strong>Breve Descrição:</strong> <span>{dataBreveD}</span></p>
           </div>
           <div>
-            <p className="log">Algo Fora do Sítio: <span>{dataForaSitio}</span></p>
+            <p className=" alinhar_frase_esq log"><strong>Algo Fora do Sítio:</strong><span>{dataForaSitio}</span></p>
           </div>
         </div>
 
