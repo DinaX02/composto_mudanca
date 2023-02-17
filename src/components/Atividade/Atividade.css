@@ -34,6 +34,8 @@ p.equipalabel{
 
 p.log{
     color: green!important;
+    overflow-wrap: break-word !important;
+   /* max-width: 90% !important;*/
 }
 
 button{
