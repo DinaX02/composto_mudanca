@@ -329,9 +329,11 @@ section {
 
 .imagem_hp_wave{
   background-image: url(../../paginas/foto1.jpg);
+  aspect-ratio: 2048/1365;
   background-repeat: no-repeat;
   background-size:cover;
-  object-fit: cover;
+  background-position: center;
+  /*object-fit: cover;*/
   height: 580px;
   width: 100%;
   margin-top: 15vh !important;

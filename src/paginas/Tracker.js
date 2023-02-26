@@ -76,7 +76,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
               <label for="residuos">Escolhe o tipo de resíduos</label>
             </div>
             <br></br>
-            <select name="residuos" id="residuos"  onChange={(e) => setDataSelected(e.target.value)}>
+            <select className="selecttrackerr" name="residuos" id="residuos"  onChange={(e) => setDataSelected(e.target.value)}>
               <option value="select">Seleciona uma opção</option>
               <option value="Restos de fruta e legumes crus">Restos de fruta e legumes crus</option>
               <option value="Borras de café e chá">Borras de café e chá</option>

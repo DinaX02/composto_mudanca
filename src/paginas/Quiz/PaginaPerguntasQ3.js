@@ -3,7 +3,7 @@ import "./Quiz.css";
 import questions3 from "./questions3";
 //import quiz1img1 from "../Quiz/quiz1_img2.jpg";
 import { Link } from "react-router-dom";
-import Footer from "../../components/Footer/Footer";
+
 
 const PaginaPerguntasQ3 = () => {
   const [showFinalResults, setFinalResults] = useState(false);
@@ -98,7 +98,7 @@ const PaginaPerguntasQ3 = () => {
         </div>
       )}
 
-<Footer/>
+
     </div>
   );
 };
