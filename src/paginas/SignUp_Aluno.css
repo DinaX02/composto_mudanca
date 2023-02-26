@@ -125,25 +125,81 @@ input[type='password'], select{
 
 }
 
+.titleAbout {
+    font-size: 4em;
+    margin: 2em 5em auto 1em;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+}
+
+.subtitleAbout {
+    color: white;
+    font-size: 2em;
+    margin: 10em 5em auto 2em;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+}
+
+.headerAbout {
+    color: #3d5e34;
+    position: relative;
+    display: block;
+    background-color: white;
+}
+
+.tituloAbout {
+    padding-top: 2.5em;
+    margin-left: 1.5em;
+}
+
+.colorGreen {
+    color: #3d5e34;
+    margin-left: 2em;
+    margin-right: 30em;
+}
+
+.fotoAbout {
+    margin-left: 38em;
+    margin-right: 0;
+    border-radius: 10%;
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+}
+
 .creators p {
     font-weight: lighter !important;
 }
 
 .creators button {
-    width: 48vh;
-    height: 45vh;
+
     border-radius: 50%;
     background-color: transparent;
 
 }
 
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
 .creators button img {
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    height: 200px;
 }
 
 .infos img {
     margin: 2em;
+}
+
+.flexyRow {
+    display: flex;;
+    flex-direction: column;
 }
 
 .infos p {
@@ -174,23 +230,41 @@ input[type='password'], select{
     margin-bottom: 0;
   }
 
-  .h3about {
-      font-size: xx-large;
-      text-align: center;
-      margin-bottom: 0em;
-      color: #4D7542;
-  }
-
-.espacofooterabout{
-  margin-bottom: 5em;
+.h3about {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 0em;
+    color: #4D7542;
 }
 
-.h1about{
-  margin-top: 1em;
-  margin-bottom: 1em;
+.espacofooterabout {
+    margin-bottom: 5em;
 }
 
-.imgabout{
+.descricaoCriadores:last-child {
+    font-size: 0.6em;
+    color: #3d5e34;
+    padding-top: 1em;
+}
+
+.descricaoCriadores:first-child {
+    font-size: 0.6em;
+    color: #3d5e34;
+    padding-top: 1em;
+
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.h1about {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.imgabout {
     border-radius: 15px;
 }
 

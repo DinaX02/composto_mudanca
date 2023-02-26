@@ -11,12 +11,12 @@ const Navbar = ()=> {
                 </a> <span id='titulo'>Composto de Mudança</span>
             </span>
             <div className={`nav-items ${isOpen && "open"}`}>
-                <a href="/about">About us</a>
-               
-                <a href="/signup">Log In</a>
+                <a href="/about">Quem Somos</a>
 
+                <a href="/signup">Iniciar Sessão</a>
+                <a>Registar</a>
             </div>
-            <div className={`nav-toggle ${isOpen && "open"}`} onClick={()=>setIsOpen(!isOpen)}>
+            <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
                 <div className="bar"></div>
             </div>
         </div>
