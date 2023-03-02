@@ -3,7 +3,7 @@ import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "../components/Header/Header.css";
 import "./SignUp_Aluno.css";
-import Testemunhos from "../components/Testemunhos/testemunhos";
+
 const About = () => {
   return (
     <div>

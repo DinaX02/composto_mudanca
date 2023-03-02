@@ -1,5 +1,6 @@
 .conteudohomepage {
     text-align: center;
+    overflow-x: hidden !important;
 }
 
 h1 {
@@ -7,6 +8,7 @@ h1 {
     color: #4D7542;
 
 }
+
 
 .buttonMala {
     color: white;
