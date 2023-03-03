@@ -3,6 +3,7 @@ import './Tutorial.css'
 import dataSlider from './dataSlider';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 export default function Tutorial(){
 
@@ -17,7 +18,7 @@ export default function Tutorial(){
     <div>
  <Navbar/>
 <div className='btnvoltarfundo'>
-    <a href='/tracker'><button className="voltartutorial">Voltar</button></a>
+    <Link to='/tracker'><button className="voltartutorial">Voltar</button></Link>
     </div> 
     <div className="divtutorial">
         <h1 className="titulotutorial">Como Depositar os teus resíduos</h1>

@@ -146,3 +146,235 @@ div.flex-parent-element div{
     padding:0;
     margin:0;
   }
+
+  .btn_lg_screens{
+    text-align: left !important;
+    display: block !important;
+}
+
+.espaco_antes_btn{
+  display: block !important;
+margin-bottom: 2em;
+}
+
+.cor_verde{
+    color: #A3DD8E;
+}
+
+.div_texto_feeed{
+width: 50% !important;
+
+}
+
+.espaco_top{
+text-align: left;
+margin-left:0 !important;
+color: white !important;
+margin-bottom: 2em;
+}
+
+
+.espaco_novo{
+margin-left: 3em;
+margin-top: 3em;
+}
+
+.btn_feeeed{
+margin: auto;
+background-color:#AFE6C3;
+border-radius: 20px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+color: #4D7542;
+cursor: pointer;
+display: inline-block;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
+}
+
+
+.btn_feeeed:hover {
+background-color:  #A3DD8E  ;
+transform: scale(1.05);}
+
+.icons_feed{
+display: flex;
+flex-direction: column !important;
+justify-content: space-between;
+justify-content: space-around;
+margin-left: 3em;
+
+}
+
+.img_feed{
+    width: 100%;
+    height: auto;
+    
+}
+.seta{
+    /*display: flex;
+    flex-direction: row;
+    width: 100vh !important;*/
+    display: none !important;
+    margin: auto;
+    text-align: center;
+    /*justify-content: space-around;
+    align-items: center;
+    background: #4D7542 !important;*/
+}
+
+.seta_ajuste{
+    padding-top: 1em;
+    width: 3em;
+    height: auto;
+}
+
+
+.textos_icons_center{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h3_icons{
+  margin-left: 1em;
+  display: block !important;
+  font-weight: 500;
+  color: white !important;
+  margin-bottom: 1em;
+}
+
+.feed_geral{
+  overflow-y: hidden !important;
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    background: #4D7542;
+    overflow-x: hidden !important;
+}
+
+.space_iconss{
+    margin-bottom: 1em;
+}
+
+.img_feeed{
+    width: 50% !important;
+    margin: auto;
+    text-align: center;
+}
+
+.imgMenufeed{
+background-color: white;
+padding: 0.6em;
+border-radius: 20px;
+width: 5em;
+}
+
+.seta_feed{
+    width: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 599px){
+
+  .espaco_antes_btn{
+display: none !important;
+  }
+  .espaco_top{
+    text-align: center;
+    }
+    
+  /*  .space_iconss{
+        margin-right: 0.5em;
+    }*/
+
+    .h3_icons{
+        display: none !important;
+    }
+    .btn_lg_screens{
+        display: none !important;
+    }
+
+.seta{
+    display: block !important;
+}
+    .icons_feed{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        justify-content: space-around;
+        margin: auto;
+        text-align: center;
+        }
+
+        .feed_geral{
+            display: flex;
+            height: 107vh;
+            flex-direction: column;
+            overflow-x: hidden !important;
+            overflow-y: hidden !important;
+        }
+
+        .texto_icons{
+            margin: auto;
+            text-align: center;
+        }
+        .img_feeed{
+            width: 100% !important;
+            margin: auto;
+            text-align: center;
+        }
+
+        .div_texto_feeed{
+            width: 100% !important;
+            }
+
+            .espaco_novo{
+                margin-left: 1em;
+            }
+        
+    }
+
+
+
+@media (max-width: 851px){
+    .feed_geral{
+
+        height: 104vh;
+
+    }
+
+    .h3_icons{
+        display: none !important;
+    }
+
+    .btn_feeeed{
+        margin-top: 1em;
+    }
+    }
+
+    @media (max-width: 991px){
+      .feed_geral{
+  
+          height: 108vh;
+      }
+      }
+        
+      

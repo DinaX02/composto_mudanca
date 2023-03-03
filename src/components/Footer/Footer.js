@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="espacofooter">
@@ -9,10 +10,10 @@ const Footer = () => {
                 <p className="footerh2"></p>
             </div>
             <ul className='footerItems'>
-                <li><a href='/about'>About us</a></li>
-                <li><a href='/'>Home Page</a></li>
-                <li><a href='https://github.com/DinaX02/composto_mudanca' target='_blank'>Github Project</a></li>
-                <li><a href='/signupaluno' target='_blank'>Sign up</a></li>
+                <li><Link to='/about'>About us</Link></li>
+                <li><Link to='/'>Home Page</Link></li>
+                <li><Link to='https://github.com/DinaX02/composto_mudanca' target='_blank'>Github Project</Link></li>
+                <li><Link to='/signup' target='_blank'>Sign up</Link></li>
             </ul>
 
             <div className='logosFooter'>

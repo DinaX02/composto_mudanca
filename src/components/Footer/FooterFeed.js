@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
                     <p className="footerh2"></p>
                 </div>
                 <p className='footerItems'>
-                    <a href='#topo' className='css'>Voltar para o topo</a>
+                    <Link to='#topo' className='css'>Voltar para o topo</Link>
                 </p>
 
                 <div className='logosFooter'>

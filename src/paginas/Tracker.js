@@ -19,9 +19,9 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
       <div>
           <NavbarSignedIn/>
           <div>
-              <a href="/feed">
+              <Link to="/feed">
                   <button id="gotonavtop" className="voltar"> Voltar</button>
-              </a>
+              </Link>
           </div>
         <div className="trackeralinharcentro">
           <h1 className="titulostracker">Tracker</h1>
@@ -46,10 +46,10 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
             <p className="reduzirespacoppp ptracker">
               {" "}
               Selecione a sua Localização
-              <a className="hiperlitracker" href="/mapalocalizacao">
+              <Link className="hiperlitracker" to="/mapalocalizacao">
                 {" "}
                 Aqui
-              </a>
+              </Link>
             </p>
             <br></br>
             <input className="nomeeuipainput"

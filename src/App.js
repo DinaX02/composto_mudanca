@@ -7,7 +7,7 @@ import SignInAluno from "./paginas/SignIn_Aluno";
 import Tutorial from "./paginas/Tutorial";
 import Homepage from "./paginas/Homepage";
 import Feed from "./paginas/Feed";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Tracker from "./paginas/Tracker";
 import Mapp from "./paginas/Testemap";
 import localizacao from "./paginas/localizacao.json";
@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
@@ -178,7 +178,7 @@ function App() {
           />} />
 
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

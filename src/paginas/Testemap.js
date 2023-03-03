@@ -3,6 +3,7 @@ import mapboxgl, { Marker } from "mapbox-gl";
 import localizacaoteste from "./localizacaoteste.json";
 import "./Tutorial.css";
 import NavbarSignedIn from "../components/Navbar/NavbarSignedIn";
+import { Link } from "react-router-dom";
 const localizacaoEscolas = localizacaoteste;
 
 console.log(localizacaoteste[0].coordinates);
@@ -94,9 +95,9 @@ class Mapp extends React.Component {
         <br></br>
         <div className="espacotoploc">
           <div className=" btnvoltarlocationMAPAAA">
-            <a href="/tracker">
+            <Link to="/tracker">
               <button className="voltartutorial">Voltar</button>
-            </a>
+            </Link>
           </div>
           <h1 className="corloc">Selecione a sua localização</h1>
         </div>

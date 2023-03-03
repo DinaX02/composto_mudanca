@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
@@ -8,12 +9,12 @@ const Header = () => {
       <h7>A tua solução para compostagem comunitária</h7>
       <h3 className="espacoh3">Começe como...</h3>
 
-      <a href="/signupprofessor">
+      <Link to="/signupprofessor">
         <button className="btnHeader btnHomePage" type="button">Professor</button>
-      </a>
-      <a href="/signupaluno">
+      </Link>
+      <Link to="/signupaluno">
         <button className="btnHeader btnHomePage espacobtns" type="button">Aluno</button>
-      </a>
+      </Link>
 
     </div>
       <div className="spacer layerHeader"></div>
