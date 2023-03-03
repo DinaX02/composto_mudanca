@@ -34,9 +34,9 @@ const SignUpAluno = () => {
       <p className="textaligninputs corbranca">
         Já tens conta?
         <strong>
-          <a className="corbranca" href="/signinaluno">
+          <Link className="corbranca" to="/signinaluno">
             Inicie sessão aqui
-          </a>
+          </Link>
         </strong>
       </p>
       <div className="textaligninputs divESp">

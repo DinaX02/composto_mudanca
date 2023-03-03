@@ -13,6 +13,7 @@ import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
 import "react-datepicker/dist/react-datepicker.css"
 import FooterFeed from "../components/Footer/FooterFeed";
+import { Link } from "react-router-dom";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
@@ -170,9 +171,9 @@ const Feed = ({
             </p>
           </div>
         </div>
-        <a href="/tracker">
+        <Link to="/tracker">
           <button>Regista a tua mais recente atividade</button>
-        </a>
+        </Link>
       </div>
       <span id="GoToLearn" />
       <LearnMore />

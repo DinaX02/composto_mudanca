@@ -3,6 +3,7 @@ import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "../components/Header/Header.css";
 import "./SignUp_Aluno.css";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div>
@@ -49,9 +50,9 @@ const About = () => {
               <img className="imgaboutuscreadores" src={require("./dinis.png")}/>
             </button>
             <p>
-              <a href="https://github.com/DinaX02" target="_blank">
+              <Link to="https://github.com/DinaX02" target="_blank">
                 Dinis Antunes
-              </a>
+              </Link>
             </p>
           </div>
 
@@ -60,9 +61,9 @@ const About = () => {
               <img className="imgaboutuscreadores" src={require("./sofia.png")}/>
             </button>
             <p>
-              <a href="https://github.com/sbvog" target="_blank">
+              <Link to="https://github.com/sbvog" target="_blank">
                 Sofia Bermudez
-              </a>
+              </Link>
             </p>
           </div>
 
