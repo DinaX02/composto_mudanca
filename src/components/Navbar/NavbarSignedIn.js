@@ -10,7 +10,7 @@ const NavbarSignedIn = () => {
         <div className="NavbarSignedIn">
 
             <div className='avatar imgPerfil'>
-                <a href='/perfil'> <img src={`https://avatars.dicebear.com/api/big-smile/9.svg`}/> </a>
+                <Link to='/perfil'> <img src={`https://avatars.dicebear.com/api/big-smile/9.svg`}/> </Link>
             </div>
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Menu.css";
 
 const Menu = () => {
@@ -9,7 +10,7 @@ const Menu = () => {
         <div className="espaco_novo">
         <h1 className="espaco_top">Bem Vindo ao<br></br>Composto de Mudança!!</h1></div>
         <div className="icons_feed">
-        <div className="textos_icons_center"> <a href="/tracker"><img className="imgMenufeed space_iconss" src={require("./Compostor_Tracker_Copy.png")}/></a><p className="h3_icons">Deposita o teu composto</p></div>
+        <div className="textos_icons_center"> <Link to="/tracker"><img className="imgMenufeed space_iconss" src={require("./Compostor_Tracker_Copy.png")}/></Link><p className="h3_icons">Deposita o teu composto</p></div>
         <div className="textos_icons_center"><a href="#GoToLearn"><img className="imgMenufeed space_iconss" src={require("./icons8-repository-96.png")}/></a><p className="h3_icons">Testa os teus conhecimentos</p></div>
         <div className="textos_icons_center"><a href="#GoToTurnos"><img className="imgMenufeed space_iconss" src={require("./icons8-calendar-96.png")}/></a><p className="h3_icons">Planeia a tua ativade</p></div>
 <div className="espaco_antes_btn"></div>
