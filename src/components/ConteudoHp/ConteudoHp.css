@@ -21,6 +21,7 @@ h1 {
 
 }
 
+
 .splide {
     padding: 20px 0;
 }
@@ -118,7 +119,8 @@ section {
 }
 
 .img2 {
-    max-width: 278px;
+    padding-left: 1em;
+    max-width: 300px;
     /* position: absolute;*/
     margin: auto;
     text-align: center;
@@ -136,7 +138,7 @@ section {
     display: flex;
     height: auto;
     justify-content: space-between;
-    margin: 1em auto 0 auto;
+    margin: 4em auto 0 auto;
     align-items: center;
     width: 100%;
 }
@@ -218,7 +220,9 @@ section {
 
 @media only screen and (max-width: 800px) {
     .texto1, select {
-        margin-right: 0;
+        padding: 2.5em;
+        border-radius: 100px;
+        margin: 2.5em;
     }
 
 }
@@ -226,6 +230,9 @@ section {
 @media only screen and (max-width: 800px) {
     .texto2, select {
         width: 100%;
+        border-radius: 100px;
+        margin: auto;
+
     }
 
 }
@@ -233,6 +240,7 @@ section {
 @media only screen and (max-width: 800px) {
     .p, select {
         padding: 3%;
+
         background-color: #E9F5E5;
         border-radius: 0px 100px 100px 0px;
     }
@@ -241,7 +249,8 @@ section {
 
 @media only screen and (max-width: 800px) {
     .espaaacoemcimahp, select {
-        text-align: left;
+        text-align: center;
+
         margin-left: 0;
     }
 
@@ -249,6 +258,7 @@ section {
 
 @media only screen and (max-width: 800px) {
     .espaaacoemcimahp.p2, select {
+        text-align: center;
         padding-left: 1em;
         margin-left: 0;
     }
@@ -258,7 +268,6 @@ section {
 @media only screen and (max-width: 800px) {
     .p.p2, select {
         margin-left: 1em;
-        padding-right: 3em;
     }
 
 }
@@ -266,7 +275,7 @@ section {
 @media only screen and (max-width: 800px) {
     .p.p.p2, select {
 
-        margin-right: 3em;
+        margin-right: 1em;
     }
 
 }

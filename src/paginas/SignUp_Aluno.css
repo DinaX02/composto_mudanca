@@ -1,8 +1,31 @@
+.about {
+
+    overflow-x: hidden;
+}
+
+.trueRow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fundoVerde {
+    background-color: #c0e4b4;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
 .fundosign {
     background: #4D7542;
     height: 100vh;
 }
 
+.estatisticaProblem {
+    text-align: center;
+    padding: 2em;
+}
 
 #titulo {
     margin: auto 0 auto 0;
@@ -18,10 +41,11 @@
 
 .textaligninputs {
     text-align: center;
-background: #4D7542;
+    background: #4D7542;
 }
-.escolherAva p{
-font-size: medium;
+
+.escolherAva p {
+    font-size: medium;
 
 }
 
@@ -33,24 +57,23 @@ font-size: medium;
     font-size: 40px;
 }
 
-.espacoparainPuts{
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-a{
-    text-decoration:none;
-    color:#3d5e34;
-}
-.corbranca{
-    color: white;
+.espacoparainPuts {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.btnsignup{
+.corbranca a {
+    text-decoration: none;
+    color: #3d5e34;
+}
+
+
+.btnsignup {
     margin-top: 4em;
     margin-bottom: 3em;
 }
 
-.btnHsignup{
+.btnHsignup {
     padding: 0.5rem 1rem;
     color: #4D7542;
     background: #BEE1B2;
@@ -66,6 +89,7 @@ a{
 .escolahcidade{
     color: #BEE1B2;
 
+
 }
 
 .divescolhacid{
@@ -80,7 +104,7 @@ input[type='text'],input[type='email'],  select{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
 input[type='password'], select{
     width: 60%;
@@ -92,8 +116,8 @@ input[type='password'], select{
     box-sizing: border-box;
 }
 
-  @media only screen and (max-width: 600px){
-    input[type=text],input[type='email'],input[type='password'],  select{
+@media only screen and (max-width: 600px) {
+    input[type=text], input[type='email'], input[type='password'], select {
         width: 80%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -101,11 +125,11 @@ input[type='password'], select{
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
-      }
-  }
+    }
+}
 
-  @media only screen and (max-width: 320px){
-    input[type="text"],input[type="email"], input[type="submit"], select{
+@media only screen and (max-width: 320px) {
+    input[type="text"], input[type="email"], input[type="submit"], select {
         width: 90%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -113,16 +137,64 @@ input[type='password'], select{
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
-      }
-  }
+    }
+}
 
 .creators {
     margin: 1em;
     text-align: center;
     font-size: 2em;
     color: #3d5e34 !important;
+    background-color: whitesmoke;
 
 
+}
+
+.titleAbout {
+    font-size: 4em;
+    margin: 2em 5em auto 1em;
+    text-align: left;
+}
+
+.subtitleAbout {
+    color: white;
+    font-size: 2em;
+    margin: 1em 2em auto 2em;
+    text-align: left;
+}
+
+
+
+.headerAbout {
+    display: flex;
+    color: #3d5e34;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.tituloAbout {
+    padding-top: 2.5em;
+    margin-left: 1.5em;
+}
+
+.colorGreen {
+    color: #3d5e34;
+    margin-left: 2em;
+    margin-right: 11em;
+}
+
+.fotoAbout {
+    margin-right: 0;
+    border-radius: 10%;
+    text-align: right;
+    margin-left: auto;
+}
+
+#pieChart {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 .creators p {
@@ -130,25 +202,40 @@ input[type='password'], select{
 }
 
 .creators button {
-    width: 48vh;
-    height: 45vh;
+
     border-radius: 50%;
     background-color: transparent;
 
 }
 
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
 .creators button img {
-    width: 100%;
-    height: 100%;
+    width: 10em;
+    height: 10em;
 }
 
 .infos img {
     margin: 2em;
 }
 
+.flexyRow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3em;
+
+}
+
 .infos p {
-    width: 70%;
-    color: white;
+    color: #bee1b2;
     font-size: medium;
 }
 
@@ -157,41 +244,65 @@ input[type='password'], select{
     color: #3d5e34;
 
 }
-  .divESp {
+
+#round1, #round2 {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.divESp {
     /*border-radius: 5px;*/
     background-color: #4D7542;
     padding: 20px;
-  }
+}
 
 
-  .localizacaobtn{
+.localizacaobtn {
     width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
-  }
+}
 
-  .footeralt{
+.footeralt {
     padding-bottom: 0;
     margin-bottom: 0;
-  }
-
-  .h3about {
-      font-size: xx-large;
-      text-align: center;
-      margin-bottom: 0em;
-      color: #4D7542;
-  }
-
-.espacofooterabout{
-  margin-bottom: 5em;
 }
 
-.h1about{
-  margin-top: 1em;
-  margin-bottom: 1em;
+.h3about {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 0em;
+    color: #4D7542;
 }
 
-.imgabout{
+.espacofooterabout {
+    margin-bottom: 5em;
+}
+
+.descricaoCriadores:last-child {
+    font-size: 0.6em;
+    color: #4D7542;
+    padding-top: 1em;
+}
+
+.descricaoCriadores:first-child {
+    font-size: 0.6em;
+    color: #3d5e34;
+    padding-top: 1em;
+
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.h1about {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.imgabout {
     border-radius: 15px;
 }
 
@@ -199,21 +310,16 @@ input[type='password'], select{
     .imgabout{
         width: 70%;
     }
-    }
+}
 
-    .novobgcololorperfil{
-        background: white !important;
-    }
+.novobgcololorperfil {
+    background: white !important;
+}
 @media  (max-width: 400px) {
     .imgabout{
 
         width: 90%;
     }
-    }
-
-.imgaboutuscreadores{
-max-width: 80%;
-max-height: 80%;
 }
 
 
@@ -222,27 +328,55 @@ max-height: 80%;
 
 
 }
-#refresh{
-    margin:15px;
-}
-.textoclean{
-  text-align: justify !important;
-  margin-right: 1em;
+
+#refresh {
+    margin: 15px;
 }
 
-.containerrrdiv{
+.textoclean {
+    text-align: justify !important;
+    margin-right: 1em;
+}
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-align-content: center !important;
-margin: auto;
+.containerrrdiv {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center !important;
+    margin: auto;
 
 }
 
 .criadores {
+    padding-top: 7em;
+    color: white !important;
+    background-color: whitesmoke;
+    padding-bottom: 10em;
+}
+
+.alignCenter {
+    text-align: center !important;
+}
+
+.butaum {
+    text-align: left !important;
+    margin-left: 2.5em;
     margin-bottom: 3em;
+}
+
+.padding {
+    padding: 3em 7em 2em 7em;
+}
+
+.paddingStyle2 {
+    padding: 1em 15em 1em 1em;
+    margin-left: 1.5em;
+}
+
+.marginStyle2 {
+    margin: 3em 2em 1em 1.5em !important;
 }
 
 .CompSumUp {
@@ -253,10 +387,144 @@ margin: auto;
 
 @media only screen and (max-width: 800px) {
     .containerrrdiv, select {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .fundoVerde, select {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .containerrrdiv, select {
         flex-direction: column;
     }
 }
 
-.transparentP{
+@media only screen and (max-width: 800px) {
+    .fotoAbout, select {
+        max-width: 100%;
+        width: 60em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .trueRow, select {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .criadores, select {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .colorGreen, select {
+        margin-right: 1em;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .padding, select {
+        padding-top: 5em 0em 0em 0em !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .subtitleAbout, select {
+        margin: 1em 1em 1em 3em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .trueRow h5, select {
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .estatisticaProblem, select {
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .paddingStyle3, select {
+        padding: 0em;
+        border-radius: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .padding, select {
+        padding: 5em 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .padding, select {
+        padding: 5em 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .padding, select {
+        font-size: 2em;
+        margin: 1em 1em 1em 1em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .subtitleAbout, select {
+        font-size: 1em;
+        margin: 1em 1em 1em 2em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .colorGreen, select {
+        font-size: 1em;
+        margin-left: 0;
+        padding: 3em;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .flexyRow h5, select {
+        font-size: 2.5em;
+        padding: 3em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .titleAbout, select {
+        margin: 1em;
+        padding: 0 !important;
+    }
+}
+
+
+.transparentP {
     color: transparent;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexyRow h5 {
+    text-align: left !important;
+}
+
+.flexyRow h1 {
+    text-align: left !important;
+
 }
