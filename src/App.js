@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
