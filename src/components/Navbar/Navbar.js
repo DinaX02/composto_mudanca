@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from '../Navbar/logo_composto_mudanca-8.png'
+import { Link } from "react-router-dom";
 import './Navbar.css'
 const Navbar = ()=> {
 
@@ -7,13 +8,13 @@ const Navbar = ()=> {
     return(
         <div className="Navbar">
             <span className="nav-logo">
-                <a href="/"><img className="logo" src={logo}/>
-                </a> <span id='titulo'>Composto de Mudança</span>
+                <Link to="/"><img className="logo" src={logo}/>
+                </Link> <span id='titulo'>Composto de Mudança</span>
             </span>
             <div className={`nav-items ${isOpen && "open"}`}>
-                <a href="/about">Quem Somos</a>
+                <Link to={"/about"}>Quem Somos </Link>
 
-                <a href="/signup">Iniciar Sessão</a>
+                <Link to={"/signup"}>Iniciar Sessão</Link>
             </div>
             <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
                 <div className="bar"></div>
