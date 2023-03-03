@@ -361,7 +361,9 @@ input[type='password'], select{
 }
 
 .butaum {
-    margin: 0 0 10em 0em;
+    text-align: left !important;
+    margin-left: 2.5em;
+    margin-bottom: 3em;
 }
 
 .padding {

@@ -47,18 +47,14 @@ const About = () => {
                         comunitária em duas escolas secundárias da António Granjo e
                         Fernão de Magalhães.
                     </p>
+
+
+                        <a href='https://www.altotamegaemrevista.pt/news/5352' target='_blank'>
+
+                            <button className='btnHsignup alignLeft butaum'>Ler mais</button>
+                        </a>
+
                         <Momentos/>
-
-
-                        <div className='flexyRow'>
-
-
-                            <a href='https://www.altotamegaemrevista.pt/news/5352' target='_blank'>
-
-                                <button className='btnHsignup alignCenter butaum '>Ler mais</button>
-                            </a>
-
-                        </div>
 
 
                     </div>
