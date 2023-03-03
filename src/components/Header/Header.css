@@ -27,7 +27,10 @@
   background-image: url('./layered_Header_newagain.svg');
 } 
 
-
+.corbranca{
+    color: white !important;
+    margin-bottom: 0.8em;
+}
 .spacer{
     aspect-ratio: 960/100;
     width: 100%;
