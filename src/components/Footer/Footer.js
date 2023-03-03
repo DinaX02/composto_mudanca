@@ -12,7 +12,7 @@ const Footer = () => {
                 <li><a href='/about'>About us</a></li>
                 <li><a href='/'>Home Page</a></li>
                 <li><a href='https://github.com/DinaX02/composto_mudanca' target='_blank'>Github Project</a></li>
-                <li><a href='/signup' target='_blank'>Sign up</a></li>
+                <li><a href='/signupaluno' target='_blank'>Sign up</a></li>
             </ul>
 
             <div className='logosFooter'>

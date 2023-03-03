@@ -13,8 +13,8 @@ const Navbar = ()=> {
             <div className={`nav-items ${isOpen && "open"}`}>
                 <a href="/about">Quem Somos</a>
 
-                <a href="/signup">Iniciar Sessão</a>
-                <a>Registar</a>
+                <a href="/signinaluno">Iniciar Sessão</a>
+                <a href='/signupaluno'>Registar</a>
             </div>
             <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
                 <div className="bar"></div>
