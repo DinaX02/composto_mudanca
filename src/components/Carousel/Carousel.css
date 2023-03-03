@@ -1,8 +1,8 @@
 #carouselComponent {
     width: 100%;
-    max-width: 100em;
+    max-width: 900px;
     margin: 0 auto;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,15 +15,15 @@
 
 .item {
     min-height: 200px;
-    min-width: 400px;
+    min-width: 300px;
     padding: 14px;
 }
 
 
 .item img {
-    height: 65%;
-    width: 90%;
-    border-radius: 12px;
+    height: 60%;
+    width: 100%;
+    border-radius: 5px;
     pointer-events: none;
 }
 

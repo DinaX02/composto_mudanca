@@ -18,6 +18,10 @@ button a:hover {
   font-weight: bold;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 
 
 /*.App {

@@ -17,12 +17,19 @@
     align-content: space-between;
 }
 
+.fundo_hero_about{
+    height: 90vh !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
 .fundosign {
     background: #4D7542;
     height: 121vh;
 }
 
 .estatisticaProblem {
+
     text-align: center;
     padding: 2em;
 }
@@ -152,7 +159,7 @@ input[type='password'], select{
 
 .titleAbout {
     font-size: 4em;
-    margin: 2em 5em auto 1em;
+    margin: 0.8em 4em auto 0.8em;
     text-align: left;
 }
 
@@ -174,7 +181,7 @@ input[type='password'], select{
 }
 
 .tituloAbout {
-    padding-top: 2.5em;
+   /* padding-top: 2.5em;*/
     margin-left: 1.5em;
 }
 
@@ -186,9 +193,14 @@ input[type='password'], select{
 
 .fotoAbout {
     margin-right: 0;
-    border-radius: 10%;
+    border-radius: 20px;
     text-align: right;
     margin-left: auto;
+   
+}
+
+.img2aboutt{
+    margin-right: 2em !important;
 }
 
 #pieChart {
@@ -319,6 +331,10 @@ input[type='password'], select{
     .imgabout{
 
         width: 90%;
+    }
+
+    .container{
+        flex-direction: row;
     }
 }
 
@@ -494,10 +510,14 @@ input[type='password'], select{
     }
 }
 
+.corTitlegrafico{
+color: #3d5e34 !important;
+}
+
 
 @media only screen and (max-width: 800px) {
     .flexyRow h5, select {
-        font-size: 2.5em;
+        font-size: 1.5em;
         padding: 3em;
     }
 }
@@ -527,4 +547,90 @@ input[type='password'], select{
 .flexyRow h1 {
     text-align: left !important;
 
+}
+
+
+.grafico_geral{
+    height: 65vh;
+margin-top: 3em;
+}
+
+.div_graficoss{
+    width: 100%;
+    width: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.alinhar_grf{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+align-content: center;
+margin-right: 1em !important;
+
+}
+
+
+
+.alinhar_grf2{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.texto_graficos{
+    margin-top: 2em !important;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1em !important;
+    padding: 1em;
+}
+
+.img_graficos{
+    margin: auto;
+    text-align: center;
+}
+
+.ajustarTituloCompostagem{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.link_grafico{
+    color: black !important;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.espaco_div_link{
+    margin-top: 1em;
+    background-color: #BEE1B2 !important;
+}
+
+
+@media (max-width: 851px){
+    .div_graficoss{
+        width: auto;
+        flex-direction: column !important;
+
+    } 
+
+    .grafico_geral{
+        height: auto !important;
+    margin-top: 3em;
+    overflow: hidden;
+    }
+
+    .alinhar_grf{
+
+    margin-right: 0em !important;
+    
+    }
 }
