@@ -7,7 +7,7 @@ const Header = () => {
     <div className="Headerfundo">
       <h1 className='corbranca'>Conecta a tua comunidade escolar à compostagem</h1>
       <h7>A tua solução para compostagem comunitária</h7>
-      <h3 className="espacoh3">Começe como...</h3>
+      <h3 className="espacoh3">Comece como...</h3>
 
       <Link to="/signupprofessor">
         <button className="btnHeader btnHomePage" type="button">Professor</button>

@@ -105,7 +105,7 @@ class Mapp extends React.Component {
         <div
           className="enquadarcentromapa"
           ref={(el) => (this.mapContainer = el)}
-          style={{ width: "60%", height: "80vh" }}
+          style={{ width: "70%", height: "80vh" }}
         ></div>
       </div>
     );

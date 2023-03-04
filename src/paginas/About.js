@@ -33,6 +33,7 @@ const About = () => {
             <br />
             <div className="trueRow ">
               <div className="flexyRow">
+                <div>
                 <h1 className="tituloAbout">O que é o Composto de Mudança?</h1>
 
                 <h5 className=" colorGreen lighter">
@@ -41,6 +42,7 @@ const About = () => {
                   comunidade pedagógica que se aventure em compostagem
                   comunitária.
                 </h5>
+                </div>
               </div>
 
               <img
@@ -49,7 +51,11 @@ const About = () => {
                 width="50%"
               />
             </div>
-            <h1 className="alignLeft marginStyle2">Origens</h1>{" "}
+            <div className="linha_espacinho">
+            <hr className="linha_abouttt"></hr>
+            </div>
+<div className="origens_div">
+            <h1 className="alinhar_origens">Origens</h1>{" "}
             <p className="  colorGreen paddingStyle2  paragrafowidth">
               {" "}
               Este projeto nasceu de um concurso de medidas sustentáveis
@@ -57,13 +63,15 @@ const About = () => {
               projetos vencedores foram alunos de secundário da cidade de Chaves
               que desenvolveram um projeto de compostagem comunitária em duas
               escolas secundárias da António Granjo e Fernão de Magalhães.
-            </p>
-            <a
+
+              <a
               href="https://www.altotamegaemrevista.pt/news/5352"
               target="_blank"
-            >
-              <button className="btnHsignup alignLeft butaum">Ler mais</button>
-            </a>
+            ><p className="ler_mais_origens">Ler mais<span><img className="seeta_ler_maisss" src={require("./seta_ler_mais.png")}/></span></p></a>
+
+
+            </p>
+            </div>
             <Momentos />
           </div>
         </div>

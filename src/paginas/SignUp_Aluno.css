@@ -164,7 +164,7 @@ input[type='password'], select{
 }
 
 .subtitleAbout {
-    color: white;
+    color: #4D7542;
     font-size: 2em;
     margin: 1em 2em auto 2em;
     text-align: left;
@@ -183,19 +183,23 @@ input[type='password'], select{
 .tituloAbout {
    /* padding-top: 2.5em;*/
     margin-left: 1.5em;
+    margin-bottom: 2em !important;
 }
 
 .colorGreen {
     color: #3d5e34;
     margin-left: 2em;
-    margin-right: 11em;
+    margin-right: 5em;
 }
 
 .fotoAbout {
+    width: 50%;
+    height: 60%;
     margin-right: 0;
     border-radius: 20px;
     text-align: right;
-    margin-left: auto;
+    margin: auto;
+    text-align: center;
    
 }
 
@@ -242,7 +246,7 @@ input[type='password'], select{
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding-bottom: 3em;
+    /*padding-bottom: 3em;*/
 
 }
 
@@ -304,8 +308,14 @@ input[type='password'], select{
 
 }
 
+
+.origens_div{
+    margin: auto;
+max-width: 900px !important;
+
+}
 .lighter {
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .h1about {
@@ -322,6 +332,8 @@ input[type='password'], select{
     .imgabout{
         width: 70%;
     }
+
+
 }
 
 .novobgcololorperfil {
@@ -336,6 +348,11 @@ input[type='password'], select{
     .container{
         flex-direction: row;
     }
+
+    .seeta_ler_maisss{
+        width: 3% !important;
+    }
+    
 }
 
 
@@ -382,17 +399,37 @@ input[type='password'], select{
     margin-bottom: 3em;
 }
 
+.seeta_ler_maisss{
+    width: 1%;
+    margin-left: 0.3em;
+}
+
 .padding {
     padding: 3em 7em 2em 7em;
 }
 
 .paddingStyle2 {
-    padding: 1em 15em 1em 1em;
+    padding: 1em 3em 1em 0em;
     margin-left: 1.5em;
 }
 
+.ler_mais_origens{
+    margin-top: 2em;
+    font-size: 1.2em;   
+    font-weight: 500;
+text-decoration: underline 2px #4D7542;
+color: #3d5e34 !important;
+margin-bottom: 2em !important;
+}
+
+.alinhar_origens{
+    margin: auto;
+    text-align: center;
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
 .marginStyle2 {
-    margin: 3em 2em 1em 1.5em !important;
+    margin: 3em 2em 1em 1em !important;
 }
 
 .CompSumUp {
@@ -404,6 +441,10 @@ input[type='password'], select{
 @media only screen and (max-width: 800px) {
     .containerrrdiv, select {
         flex-direction: row;
+    }
+
+    .tituloAbout{
+     margin-bottom: 0em !important;   
     }
 }
 
@@ -417,6 +458,11 @@ input[type='password'], select{
     .containerrrdiv, select {
         flex-direction: column;
     }
+
+    .seeta_ler_maisss{
+        width: 2%;
+    }
+    
 }
 
 @media only screen and (max-width: 800px) {
@@ -551,7 +597,7 @@ color: #3d5e34 !important;
 
 
 .grafico_geral{
-    height: 65vh;
+    height: auto !important;
 margin-top: 3em;
 }
 
@@ -564,6 +610,21 @@ margin-top: 3em;
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+.linha_espacinho{
+margin-top: 7em !important;
+}
+
+
+.linha_abouttt{
+    height:2px;
+    border-width:0;
+    width: 80%;
+    margin: auto;
+    color: #495d43 !important;
+    background-color: #495d43;
+    border-radius: 5px;
 }
 
 .alinhar_grf{
