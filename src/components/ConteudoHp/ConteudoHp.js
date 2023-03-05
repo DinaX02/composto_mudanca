@@ -51,7 +51,7 @@ const ConteudoHp = () => {
         <section className="sectionajuste">
           <div className="texto1">
             <h1 className="espaaacoemcimahp">Compostagem Comunitária</h1>
-            <p className="p">
+            <p className="p p_texto_1_sm">
               A compostagem comunitária é aquela feita por pequenas comunidades,
               as quais se organizam e partilham a responsabilidade na realização
               da compostagem. Através da nossa aplicação, nunca foi tão fácil

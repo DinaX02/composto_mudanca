@@ -154,6 +154,24 @@ section {
 }
 
 
+
+@media (max-width: 400px) {
+
+.p{
+    margin: auto !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top:1em !important ;
+}
+
+.img2{
+    padding-left: 0em !important;
+    max-width: 276px !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+}
+
 .espaaacoemcimahp {
     margin-left: 1.5em;
     margin-right: 2em;
@@ -222,7 +240,7 @@ section {
     .texto1, select {
         padding: 2.5em;
         border-radius: 100px;
-        margin: 2.5em;
+        margin: 2em;
     }
 
 }
@@ -232,7 +250,15 @@ section {
         width: 100%;
         border-radius: 100px;
         margin: auto;
+        padding-left: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
 
+    }
+
+    .espaaacoemcimahp {
+        margin: auto;
+        text-align: center;
     }
 
 }
