@@ -4,7 +4,8 @@ Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
 ## NOTA:
 
-O Projeto encontra-se no Environments (github-pages), mas os clicks nos inputs encontram-se com um problema.
+O Projeto encontra-se no Environments (github-pages), mas os clicks nos inputs não se econtram funcionais, tanto na parte do Bem Vindo (Create) como no Registo de Atividade (Tracker).
+
 Para Usufruir do Projeto 100% funcional e com as mais recentes alterações faça o Download do ZIP diretamente do repositório do GitHub
 
 
