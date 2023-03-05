@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
-##NOTA:
+## NOTA:
 
 O Projeto encontra-se no Environments (github-pages), mas os clicks nos inputs encontram-se com um problema.
 Para Usufruir do Projeto 100% funcional faça o Download do ZIP diretamente do repositório do GitHub
