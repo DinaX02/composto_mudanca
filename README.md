@@ -4,11 +4,11 @@ Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
 ## NOTA:
 
-O Projeto encontra-se no Environments (github-pages), mas os clicks nos inputs não se econtram funcionais, tanto na parte do Bem Vindo, após a realização do Registo (Create) como no Registo de Atividade (Tracker).
+O Projeto encontra-se no Environments (github-pages), mas existe um problema nos inputs que o utilizador tem que preencher, redirecionando o mesmo para a hompeage. O problema encontra-se tanto na parte do Bem Vindo (após a realização do Registo) onde se recomenda clicar diretamento no botão entrar no feed, como no Registo de Atividade (Tracker).
 
 Link: https://dinax02.github.io/composto_mudanca/
 
-Para Usufruir do Projeto 100% funcional e com as mais recentes alterações faça o Download do ZIP diretamente do repositório do GitHub
+Para Usufruir do Projeto 100% funcional e com as mais recentes alterações faça o Download do ZIP diretamente do repositório do GitHub.
 
 
 ## Available Scripts
