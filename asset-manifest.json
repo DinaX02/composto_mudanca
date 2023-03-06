@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/composto_mudanca/static/css/main.3b2ce65b.css",
-    "main.js": "/composto_mudanca/static/js/main.88a782c4.js",
+    "main.css": "/composto_mudanca/static/css/main.8c0cc951.css",
+    "main.js": "/composto_mudanca/static/js/main.3ff77de8.js",
     "static/js/787.45d0a88d.chunk.js": "/composto_mudanca/static/js/787.45d0a88d.chunk.js",
     "static/media/pexels-katerina-holmes-5905510.jpg": "/composto_mudanca/static/media/pexels-katerina-holmes-5905510.9717ddcefd7fdc68f5ad.jpg",
     "static/media/sofia.png": "/composto_mudanca/static/media/sofia.0504fade3312d5804b34.png",
@@ -42,12 +42,12 @@
     "static/media/Artboard 1.svg": "/composto_mudanca/static/media/Artboard 1.03099f8c94756b0072f2.svg",
     "index.html": "/composto_mudanca/index.html",
     "static/media/wave_antes_img_hp.svg": "/composto_mudanca/static/media/wave_antes_img_hp.15892b3dc556f9105c3b.svg",
-    "main.3b2ce65b.css.map": "/composto_mudanca/static/css/main.3b2ce65b.css.map",
-    "main.88a782c4.js.map": "/composto_mudanca/static/js/main.88a782c4.js.map",
+    "main.8c0cc951.css.map": "/composto_mudanca/static/css/main.8c0cc951.css.map",
+    "main.3ff77de8.js.map": "/composto_mudanca/static/js/main.3ff77de8.js.map",
     "787.45d0a88d.chunk.js.map": "/composto_mudanca/static/js/787.45d0a88d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b2ce65b.css",
-    "static/js/main.88a782c4.js"
+    "static/css/main.8c0cc951.css",
+    "static/js/main.3ff77de8.js"
   ]
 }
