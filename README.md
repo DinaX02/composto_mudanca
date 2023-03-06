@@ -6,6 +6,8 @@ Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
 O Projeto encontra-se no Environments (github-pages), mas os clicks nos inputs não se econtram funcionais, tanto na parte do Bem Vindo, após a realização do Registo (Create) como no Registo de Atividade (Tracker).
 
+Link: https://dinax02.github.io/composto_mudanca/
+
 Para Usufruir do Projeto 100% funcional e com as mais recentes alterações faça o Download do ZIP diretamente do repositório do GitHub
 
 
