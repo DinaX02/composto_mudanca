@@ -2,6 +2,17 @@
 
 Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
+## NOTA:
+
+O Projeto encontra-se no Environments (github-pages), mas existe um problema nos inputs que o utilizador tem que preencher, redirecionando o mesmo para a hompeage. O problema encontra-se tanto na parte do Bem Vindo (após a realização do Registo) onde se recomenda clicar diretamento no botão entrar no feed para poder prosseguir, como no Registo de Atividade (Tracker).
+
+O grupo decidiu manter o github-pages ativo, mesmo que o bug apenas ocorra nesse Environment para quem quiser dar uma vista geral no projeto.
+
+Link: https://dinax02.github.io/composto_mudanca/
+
+Para Usufruir do Projeto 100% funcional e com as mais recentes alterações faça o Download do ZIP diretamente do repositório do GitHub.
+
+
 ## Available Scripts
 
 No diretório do projeto, pode-se inserir no terminal ou linha de comandos:
