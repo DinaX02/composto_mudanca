@@ -14,6 +14,26 @@
 
 }
 
+
+.ajustee_btn{
+color: black !important;
+}
+
+
+.btn_sign_out_border{
+    text-decoration: none !important;
+    padding: 0.6em;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black !important;
+    font-weight: 400;
+}
+
+.btn_sign_out_border:hover{
+    background-color: #AFE6C3;
+}
+
+
 .nav-logo {
     display: flex;
 }

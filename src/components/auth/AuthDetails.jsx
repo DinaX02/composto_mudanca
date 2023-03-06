@@ -24,8 +24,8 @@ const AuthDetails = () => {
     }
     return(
         <div>{authUser ? <> <p>{``}</p>
-            <button onClick={userSignOut}><a href='/'>Sign Out</a></button>
-        </> : <p>Signed out </p>}</div>
+            <button className='btn_sign_out_border' onClick={userSignOut}><a className='ajustee_btn' href='/'>Sign Out</a></button>
+        </> : <p className='btn_sign_out_border'> Sign Out </p>}</div>
     )
 
 }

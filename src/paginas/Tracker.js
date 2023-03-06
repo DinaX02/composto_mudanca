@@ -39,7 +39,7 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
           </div>
           <div className="trackeralinharcentro">
             <p id="LocationText" className="ptracker">
-              Location:<span id="Currentlocation"> {localizacaoinput}</span>
+              Location:<span className="hiperlitracker" id="Currentlocation"> {localizacaoinput}</span>
             </p>
             <br></br>
             <br></br>
@@ -124,10 +124,10 @@ const Tracker = ({dataBreveD, setDataBreveD,dataSelected, setDataSelected,dataFo
             <div className="frasesobretutorialTracker">
               <p className="espacosubmeter ptracker">
                 Não tens a certeza se podes colocar um tipo de resíduo
-                <a className="hiperlitracker" href="/tutorial">
+                <Link  to="/tutorial"><span className="hiperlitracker">
                   {" "}
                   Clique aqui{" "}
-                </a>{" "}
+                </span>{" "}</Link>
                 para ver um rápido tutorial
               </p>
             </div>

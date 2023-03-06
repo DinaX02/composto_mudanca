@@ -195,7 +195,12 @@ section {
         margin: auto;
         width: 90%;
     }
+
+    .p{
+        margin-right: 0 !important;
+    }
 }
+
 
 
 .texto1 {

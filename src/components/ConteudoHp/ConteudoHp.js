@@ -68,7 +68,7 @@ const ConteudoHp = () => {
           <div className="titulo_img_wavy">
             <h1 className="cor_titulo_img_wavy">Começa hoje</h1>
           </div>
-         <Link to={"/signup"}><button className="btn_img_wavy">Sign up</button></Link> 
+         <Link to={"/signupaluno"}><button className="btn_img_wavy">Sign up</button></Link> 
         </div>
         
       </div>

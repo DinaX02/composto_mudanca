@@ -13,7 +13,7 @@ const Footer = () => {
                 <li><Link to='/about'>About us</Link></li>
                 <li><Link to='/'>Home Page</Link></li>
                 <li><Link to='https://github.com/DinaX02/composto_mudanca' target='_blank'>Github Project</Link></li>
-                <li><Link to='/signup' target='_blank'>Sign up</Link></li>
+                <li><Link to='/signupaluno' target='_blank'>Sign up</Link></li>
             </ul>
 
             <div className='logosFooter'>

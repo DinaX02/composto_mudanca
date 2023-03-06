@@ -115,6 +115,11 @@
         transition: all .45s ease-in-out;
     }
 
+    .btn_sign_out_border{
+        text-decoration: none !important;
+        background-color: whitesmoke;
+        border-radius: 50%;
+    }
     .nav-toggle > .bar::before{
         width: 25px;
         transform: translateY(-8px);
