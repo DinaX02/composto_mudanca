@@ -4,7 +4,7 @@ Este projeto foi desenvolvido por Dinis Antunes e Sofia Bermudez.
 
 ## NOTA:
 
-O Projeto encontra-se no Environments (github-pages), mas existe um problema nos inputs que o utilizador tem que preencher, redirecionando o mesmo para a hompeage. O problema encontra-se tanto na parte do Bem Vindo (após a realização do Registo) onde se recomenda clicar diretamento no botão entrar no feed para poder prosseguir, como no Registo de Atividade (Tracker).
+O Projeto encontra-se no Environments (github-pages), mas existe um problema nos inputs que o utilizador tem que preencher, redirecionando o mesmo para a homepage. O problema encontra-se tanto na parte do Bem Vindo (após a realização do Registo) onde se recomenda clicar diretamento no botão entrar no feed para poder prosseguir, como no Registo de Atividade (Tracker).
 
 O grupo decidiu manter o github-pages ativo, mesmo que o bug apenas ocorra nesse Environment para quem quiser dar uma vista geral no projeto.
 
